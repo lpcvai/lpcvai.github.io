@@ -1,0 +1,18 @@
+.intro_container
+{
+  /* padding: 64px; */
+  margin-top: 8vh;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 2vh; */
+}
+
+.title
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+

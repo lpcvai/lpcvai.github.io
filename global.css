@@ -1,0 +1,40 @@
+*
+{
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+  background: linear-gradient(180deg, #000000, #243324);
+  margin: 0;
+  width: 100vw;
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.nav_bar
+{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background: black;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(239, 235, 235, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+@keyframes smooth-appear {
+  to{
+    bottom: 20px;
+    opacity:1;
+  }
+}
