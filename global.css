@@ -32,6 +32,38 @@ html{
   z-index: 2;
 }
 
+.nav_button {
+  /* display: inline-block; */
+  padding: 7px 12px;
+  font-size: 14px;
+  /* color: white; */
+  /* background: white; */
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.nav_button:hover {
+  /* color: #fff; */
+  /* background: linear-gradient(135deg, #00BFFF, #6A5ACD); */
+  transform: scale(1.05);
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.3);
+  background: white;
+  color: black;
+}
+
+@media screen and (max-width: 600px){
+  .nav_button
+  {
+    font-size: 10px;
+  }
+}
+
 @keyframes smooth-appear {
   to{
     bottom: 20px;
