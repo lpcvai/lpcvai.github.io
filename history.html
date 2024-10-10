@@ -71,6 +71,32 @@
       </div>
     </section>
 
+    <section class="w3-container load_in">
+      <div class="title w3-center w3-padding-large">
+          <h1>Leaderboard History Viewer</h1>
+      </div>
+
+      <!-- Dropdown to select a CSV file -->
+      <div class="w3-container w3-padding-large">
+          <label for="csv-select" class="w3-text">Choose a CSV file:</label>
+          <select id="csv-select" class="w3-select w3-border">
+              <option value="static/leaderboard/Leaderboard History - 2023 qualifying scores.csv">2023 Qualifying Scores</option>
+              <option value="static/leaderboard/Leaderboard History - 2023 non-qualifying scores.csv">2023 Non-Qualifying Scores</option>
+              <option value="static/leaderboard/Leaderboard History - 2021 Video qualifying scores.csv">2021 Video Qualifying Scores</option>
+              <option value="static/leaderboard/Leaderboard History - 2021 Video non qualifying.csv">2021 Video Non-Qualifying</option>
+              <option value="static/leaderboard/Leaderboard History - 2021 FPGA Qual.csv">2021 FPGA Qual</option>
+              <option value="static/leaderboard/Leaderboard History - 2021 FPGA Non Qualifying.csv">2021 FPGA Non-Qualifying</option>
+              <option value="static/leaderboard/Leaderboard History - 2020 VID Qualifying.csv">2020 VID Qualifying</option>
+              <option value="static/leaderboard/Leaderboard History - 2020 VID Non Qualifying.csv">2020 VID Non-Qualifying</option>
+              <option value="static/leaderboard/Leaderboard History - 2020 FPGA Qualifying.csv">2020 FPGA Qualifying</option>
+              <option value="static/leaderboard/Leaderboard History - 2020 FPGA Non Qualifying.csv">2020 FPGA Non-Qualifying</option>
+          </select>
+      </div>
+
+      <!-- Table container for displaying CSV data -->
+      <div id="table-container" class="w3-container w3-padding-large">Loading data...</div>
+    </section>
+
     <script src="history.js"></script>
   </body>
 
