@@ -21,34 +21,57 @@
 
     <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="history.css">
 
   </head>
 
   <body>
 
     <!-- Navigation (Stays on Top) -->
-    <div class="nav_bar">
-      <!-- <nav class="nav"> -->
-      <a href="index.html" class="nav_button">2025LPCV</a>
-      <a href="testHomePage.html" class="nav_button">Home</a>
-      <!-- <a href="#about" class="w3-bar-item w3-button">About</a> -->
-      <div class="nav_button">
-        <a href="history.html" style="text-decoration:none;">History</a>
+    <div class="nav_container">
+      <div class="nav_bar">
+        <!-- <nav class="nav"> -->
+        <a href="index.html" class="nav_button">2025LPCV</a>
+        <a href="testHomePage.html" class="nav_button">Home</a>
+        <!-- <a href="#about" class="w3-bar-item w3-button">About</a> -->
+        <div class="nav_button">
+          <a href="history.html" style="text-decoration:none;">History</a>
 
+        </div>
+        <a href="publications.html" class="nav_button">Publications</a>
+        <a href="#contact" class="nav_button">Contact</a>
+
+        <!-- </nav> -->
       </div>
-      <a href="publications.html" class="nav_button">Publications</a>
-      <a href="#contact" class="nav_button">Contact</a>
-
-      <!-- </nav> -->
     </div>
 
     <section class="load_in">
 
       <div class="title">
-        P
+        Public Leaderboard
+      </div>
+      <div class="subtitle">
+        NOTE: for a solution to be qualified for an award it has to have greater
+        accuracy and less average time than the sample-solution
+      </div>
+      <div class="subtitle">
+        All Submissions between 11/01/2023 and 12/01/2023 are for an in class
+        competition hosted at Purdue, and not a part of the actual competition
       </div>
     </section>
 
+    <section>
+      <div class="title">
+        Does Not Meet Award Criteria
+      </div>
+      <div class="subtitle">
+        NOTE the solutions listed here have greater time than the 2023 sample
+        solution, lower accuracy, or both and are therefore not qualified for an
+        award
+      </div>
+    </section>
+
+    <script src="history.js"></script>
   </body>
 
 </html>
