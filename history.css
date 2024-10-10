@@ -19,3 +19,27 @@ body
 {
   margin: 20px;
 }
+
+.w3-table {
+  background-color: inherit;
+  color: inherit; 
+  border: none; 
+}
+
+.w3-table th, .w3-table td {
+  background-color: inherit; 
+  color: inherit; 
+  border: none; 
+}
+
+.w3-select {
+  background-color: inherit; 
+  color: inherit; 
+  border: 1px solid #ddd; 
+  padding: 10px;
+}
+
+.w3-select option {
+  background-color: inherit; 
+  color: inherit; 
+}

@@ -30,7 +30,7 @@ function loadCSV(filePath) {
 function displayCSV(data) {
   const rows = data.split('\n');
   let tableHTML = '<table class="w3-table w3-bordered w3-striped w3-hoverable">';
-
+ 
   rows.forEach((row, index) => {
       const cols = row.split(',');
       tableHTML += '<tr>';
