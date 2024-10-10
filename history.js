@@ -29,7 +29,7 @@ function loadCSV(filePath) {
 // Function to convert CSV text to HTML table
 function displayCSV(data) {
   const rows = data.split('\n');
-  let tableHTML = '<table class="w3-table w3-bordered w3-striped w3-hoverable">';
+  let tableHTML = '<table class="w3-table w3-bordered">';
  
   rows.forEach((row, index) => {
       const cols = row.split(',');
