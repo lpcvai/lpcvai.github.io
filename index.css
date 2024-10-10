@@ -10,9 +10,9 @@
 .pulsing-circle {
   width: 30vw;
   height: 30vw;
-  background-color: #243324; /* Bright green */
+  background-color: #213b21; /* Bright green */
   border-radius: 50%;
-  animation: pulse 1.5s infinite;
+  animation: pulse 2s infinite;
   display: flex;
   justify-content: center;
   align-items: center;
