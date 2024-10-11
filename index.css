@@ -3,13 +3,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .pulsing-circle {
-  width: 30vw;
-  height: 30vw;
+  width: 32vw;
+  height: 32vw;
   background-color: #213b21; /* Bright green */
   border-radius: 50%;
   animation: pulse 2s infinite;
@@ -43,7 +43,7 @@
 
 .title
 {
-  font-size: x-large;
+  font-size: xx-large;
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -57,7 +57,7 @@
 
 .pulse_text
 {
-  font-size: xx-large;
+  font-size: 1.7em;
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
