@@ -1,3 +1,24 @@
+.nav_container
+{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_bar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+
 .pulse-container
 {
   width: 100%;
