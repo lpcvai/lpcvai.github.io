@@ -11,6 +11,11 @@ html{
   /* height: fit-content; */
   min-height: 100vh;
 }
+.info
+{
+  align-items: center;
+  justify-content:center;
+}
 
 .nav_bar
 {
