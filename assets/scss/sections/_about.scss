@@ -1,0 +1,72 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about {
+  .content {
+    .who-we-are {
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        padding-bottom: 10px;
+      }
+
+      i {
+        font-size: 1.25rem;
+        margin-right: 4px;
+        color: var(--accent-color);
+      }
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .read-more {
+      background: var(--accent-color);
+      color: var(--contrast-color);
+      font-family: var(--heading-font);
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 12px 24px;
+      border-radius: 5px;
+      transition: 0.3s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      i {
+        font-size: 18px;
+        margin-left: 5px;
+        line-height: 0;
+        transition: 0.3s;
+      }
+
+      &:hover {
+        background: color-mix(in srgb, var(--accent-color), transparent 20%);
+        padding-right: 19px;
+
+        i {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .about-images img {
+    border-radius: 10px;
+  }
+}

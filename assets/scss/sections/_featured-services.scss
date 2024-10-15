@@ -1,0 +1,66 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Featured Services Section
+--------------------------------------------------------------*/
+.featured-services {
+  padding: 40px 0 10px 0;
+
+  .service-item {
+    position: relative;
+    height: 100%;
+    margin-bottom: 30px;
+
+    .icon {
+      margin-right: 20px;
+
+      i {
+        color: var(--accent-color);
+        font-size: 40px;
+        line-height: 0;
+        transition: 0.3s;
+      }
+    }
+
+    &:hover .icon {
+      i {
+        color: var(--accent-color);
+      }
+    }
+
+    .title {
+      color: var(--heading-color);
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    .description {
+      font-size: 15px;
+      color: color-mix(in srgb, var(--default-color), transparent 30%);
+      margin-bottom: 10px;
+    }
+
+    .readmore {
+      display: flex;
+      align-items: center;
+      color: color-mix(in srgb, var(--default-color), transparent 50%);
+      transition: 0.3s;
+      font-weight: 700;
+      font-size: 14px;
+
+      i {
+        margin-left: 8px;
+      }
+    }
+
+    &:hover {
+
+      .title,
+      .readmore,
+      .icon i {
+        color: var(--accent-color);
+      }
+    }
+  }
+}

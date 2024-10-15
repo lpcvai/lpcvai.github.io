@@ -1,0 +1,80 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact {
+  .info-item {
+    i {
+      font-size: 20px;
+      color: var(--accent-color);
+      font-size: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 20px 0;
+    }
+
+    p {
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    @media (min-width: 992px) {
+      &.info-item-borders {
+        border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+        border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+      }
+    }
+  }
+
+  .php-email-form {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+
+    @media (max-width: 575px) {
+      padding: 20px;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+      font-size: 14px;
+      padding: 10px 15px;
+      box-shadow: none;
+      border-radius: 0;
+      color: var(--default-color);
+      background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+      border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+
+      &:focus {
+        border-color: var(--accent-color);
+      }
+
+      &::placeholder {
+        color: color-mix(in srgb, var(--default-color), transparent 70%);
+      }
+    }
+
+    button[type="submit"] {
+      color: var(--contrast-color);
+      background: var(--accent-color);
+      border: 0;
+      padding: 10px 30px;
+      transition: 0.4s;
+      border-radius: 50px;
+
+      &:hover {
+        background: color-mix(in srgb, var(--accent-color), transparent 20%);
+      }
+    }
+  }
+}

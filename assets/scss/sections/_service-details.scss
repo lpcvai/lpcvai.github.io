@@ -1,0 +1,68 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Service Details Section
+--------------------------------------------------------------*/
+.service-details {
+  .services-list {
+    background-color: var(--surface-color);
+    padding: 10px 30px;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    margin-bottom: 20px;
+
+    a {
+      display: block;
+      line-height: 1;
+      padding: 8px 0 8px 15px;
+      border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
+      margin: 20px 0;
+      color: color-mix(in srgb, var(--default-color), transparent 20%);
+      transition: 0.3s;
+
+      &.active {
+        color: var(--heading-color);
+        font-weight: 700;
+        border-color: var(--accent-color);
+      }
+
+      &:hover {
+        border-color: var(--accent-color);
+      }
+    }
+  }
+
+  .services-img {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+
+    li {
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    i {
+      font-size: 20px;
+      margin-right: 8px;
+      color: var(--accent-color);
+    }
+  }
+}
