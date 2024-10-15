@@ -1,166 +1,562 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta
-      content="low power, computer vision, LPCVC, LPIRC, Low-Power Computer Vision Challenge"
-      name="keywords">
-    <meta
-      content="The Low Power Computer Vision workshop will discuss the state of the art of low-power computer vision, challenges in creating efficient vision solutions, and benchmarks and metrics to evaluate progress and success."
-      name="description">
-    <title>Low-Power Computer Vision Challenge</title>
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - BizPage Bootstrap Template</title>
+    <meta name="description" content>
+    <meta name="keywords" content>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: BizPage
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
   </head>
 
-  <body>
-    <!-- Navigation (Stays on Top) -->
-    <div class="w3-top">
+  <body class="index-page">
 
-      <div class="w3-bar w3-black w3-card">
-        <a href="testHomePage.html"
-          class="w3-bar-item w3-button w3-padding-large ">Home</a>
-        <a href="index.html"
-          class="w3-bar-item w3-button w3-padding-large ">LPCVC2025</a>
-        <a href="scoreboard.html"
-          class="w3-bar-item w3-button w3-padding-large ">Scoreboard</a>
-        <a href="history.html"
-          class="w3-bar-item w3-button w3-padding-large ">History</a>
-        <a href="publications.html"
-          class="w3-bar-item w3-button w3-padding-large">Publications</a>
-        <a href="#contact"
-          class="w3-bar-item w3-button w3-padding-large ">Contact</a>
-      </div>
-    </div>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <section class="intro_section">
-      <div class="intro_container">
-        <h1 class="title">2025 IEEE Low-Power Computer Vision Challenge</h1>
-        <!--- <img src="static/img/brain.png" class="centered_image" alt="Brain Circuit Image"> -->
-        <!--- We do not now who owns the copyright of this figure. Yung-Hsiang Lu --->
-        <h2 class="title" href="#one">Track List</h2>
-        <div
-          style="display: flex; justify-content: space-around; padding: 20px;"
-          id="list">
-          <a class="circle">
-            <div class="subtitle">
-              Image classification for different lighting conditions and
-              styles
-            </div>
-          </a>
-          <a class="circle">
-            <div class="subtitle">
-              Open vocabulary segmentation
-            </div>
-          </a>
-          <a class="circle">
-            <div class="subtitle">
-              Single image depth estimation
-            </div>
-          </a>
-          <!-- <ol>
-            <li> Image classification for different lighting conditions and
-              styles
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">LPCV</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+            <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://google.com">Introduction</a></li>
+                <li><a href="#">Track 1</a></li>
+                <li><a href="#">Track 2</a></li>
+                <li><a href="#">Track 3</a></li>
+              </ul>
             </li>
-            <li> Open vocabulary segmentation </li>
-            <li> Single image depth estimation </li>
-          </ol> -->
-        </div>
-      </div>
-    </section>
-    <!-- <div class="title_container"> --->
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-    <!-- The first Track: Image classification for different lighting conditions and styles -->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px"
-      id="one">
-      <h2 class="w3-wide">Image classification for different lighting conditions
-        and styles</h2>
-      <p class="w3-opacity"><i>Track One</i></p>
-      <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="w3-row w3-padding-32">
-        <div class="info">
-          <p>link document</p>
-          <p>Sumbissions link</p>
-        </div>
       </div>
-    </div>
+    </header>
 
-    <!-- Track two: Open vocabulary segmentation -->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px"
-      id="two">
-      <h2 class="w3-wide">Open vocabulary segmentation</h2>
-      <p class="w3-opacity"><i>Track Two</i></p>
-      <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="w3-row w3-padding-32">
-        <div class="info">
-          <p>link document</p>
-          <p>Sumbissions link</p>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <div id="hero-carousel" class="carousel slide carousel-fade"
+          data-bs-ride="carousel" data-bs-interval="5000">
+
+          <div class="carousel-item active">
+            <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt>
+            <div class="carousel-container">
+              <h2>2025 IEEE Low-Power Computer Vision Challenge</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt>
+            <div class="carousel-container">
+              <h2>Track One: Image classification for different lighting
+                conditions and styles</h2>
+              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+                Temporibus autem quibusdam et aut officiis debitis aut.</p>
+              <a href="#featured-services" class="btn-get-started">Get
+                Started</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt>
+            <div class="carousel-container">
+              <h2>Track Two: Open vocabulary segmentation</h2>
+              <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+              <a href="#featured-services" class="btn-get-started">Get
+                Started</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt>
+            <div class="carousel-container">
+              <h2>Track Three: Single image depth estimation</h2>
+              <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                amet, consectetur, adipisci velit, sed quia non numquam eius
+                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+              <a href="#featured-services" class="btn-get-started">Get
+                Started</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <a class="carousel-control-prev" href="#hero-carousel" role="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"></span>
+          </a>
+
+          <a class="carousel-control-next" href="#hero-carousel" role="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"></span>
+          </a>
+
+          <ol class="carousel-indicators"></ol>
+
         </div>
-      </div>
-    </div>
 
-    <!-- Track Three: Single image depth estimation -->
-    <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"
-      id="three">
-      <h2 class="w3-wide">Single image depth estimation</h2>
-      <p class="w3-opacity"><i>Track Three</i></p>
-      <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="w3-row w3-padding-32">
-        <div class="info">
-          <p>link document</p>
-          <p>Sumbissions link</p>
+      </section><!-- /Hero Section -->
+
+      <!-- About LPCVC Section (With Video Below Cards) -->
+      <section id="about-lpcvc" class="py-5 bg-light">
+        <div class="container">
+          <!-- Title and Subtitle -->
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="fw-bold">ABOUT LPCVC</h2>
+            <p class="text-muted fst-italic">The Low-Power Computer Vision
+              Challenge is an annual competition started in 2015.</p>
+          </div>
+
+          <!-- Card Section -->
+          <div class="row text-center mb-5">
+            <!-- Card 1: Motivation -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card bg-white border-0 shadow-lg">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <i class="bi bi-eye-fill"
+                      style="font-size: 3rem; color: #28a745;"></i>
+                  </div>
+                  <h5 class="card-title fw-bold">Motivation</h5>
+                  <p class="card-text">Computer vision technologies have made
+                    impressive progress in recent years, but often at the
+                    expense of increasingly complex models needing more and more
+                    computational and storage resources.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Our Aim -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card bg-white border-0 shadow-lg">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <i class="bi bi-list-task"
+                      style="font-size: 3rem; color: #28a745;"></i>
+                  </div>
+                  <h5 class="card-title fw-bold">Our Aim</h5>
+                  <p class="card-text">This workshop aims to improve the energy
+                    efficiency of computer vision for running on systems with
+                    stringent resource constraints.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Our Plan -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card bg-white border-0 shadow-lg">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <i class="bi bi-speedometer2"
+                      style="font-size: 3rem; color: #28a745;"></i>
+                  </div>
+                  <h5 class="card-title fw-bold">Our Plan</h5>
+                  <p class="card-text">This workshop will discuss the state of
+                    the art of low-power computer vision, challenges in creating
+                    efficient vision solutions, benchmarks, and metrics to
+                    evaluate progress and success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Section Below Cards -->
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!-- YouTube Video Embed -->
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/KqKOkLb8SOo"
+                  title="2020 Low-Power Computer Vision Promotion"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- Footer -->
-    <footer
-      class="w3-container w3-padding-64 w3-center w3-xlarge">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-      <p class="w3-medium">Powered by LPCV & Designed by <a
-          href="https://bootstrapmade.com/"
-          target="_blank">BootstrapMade</a></p>
-      <p>Maintained by <a href="https://yhlu.net/" target="_blank">Yung-hsiang
-          Lu</a></p>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Gallery</h2>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+          <div class="isotope-layout" data-default-filter="*"
+            data-layout="masonry" data-sort="original-order">
+
+            <!-- Portfolio Filters -->
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up"
+              data-aos-delay="100">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-2015">2015</li>
+              <li data-filter=".filter-2016">2016</li>
+              <li data-filter=".filter-2017">2017</li>
+              <li data-filter=".filter-2018">2018</li>
+              <li data-filter=".filter-2019">2019</li>
+            </ul>
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up"
+              data-aos-delay="200">
+              <!-- 2015 Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2015">
+                <img src="assets/img/portfolio/1151395.png" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Power Meter</h4>
+                  <p>2015</p>
+                  <a href="assets/img/portfolio/1151395.png" title="2015 1"
+                    data-gallery="portfolio-gallery-2015"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2015">
+                <img src="assets/img/portfolio/4887078.png" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Winners</h4>
+                  <p>2015</p>
+                  <a href="assets/img/portfolio/4887078.png" title="2015 2"
+                    data-gallery="portfolio-gallery-2015"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2015">
+                <img src="assets/img/portfolio/9122780.png" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Workshop</h4>
+                  <p>2015</p>
+                  <a href="assets/img/portfolio/9122780.png" title="2015 3"
+                    data-gallery="portfolio-gallery-2015"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <!-- 2016 Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2016">
+                <img src="assets/img/portfolio/13315756.jpg" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Winners</h4>
+                  <p>2016</p>
+                  <a href="assets/img/portfolio/13315756.jpg" title="2016 1"
+                    data-gallery="portfolio-gallery-2016"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <!-- 2017 Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2017">
+                <img src="assets/img/portfolio/20180620_143537.jpg"
+                  class="img-fluid" alt>
+                <div class="portfolio-info">
+                  <h4>Workshop</h4>
+                  <p>2017</p>
+                  <a href="assets/img/portfolio/20180620_143537.jpg"
+                    title="2017 1" data-gallery="portfolio-gallery-2017"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2017">
+                <img src="assets/img/portfolio/DSC_3693.JPG" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Team</h4>
+                  <p>2017</p>
+                  <a href="assets/img/portfolio/DSC_3693.JPG" title="2017 2"
+                    data-gallery="portfolio-gallery-2017"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2017">
+                <img src="assets/img/portfolio/DSC_3843.JPG" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Winner</h4>
+                  <p>2017</p>
+                  <a href="assets/img/portfolio/DSC_3843.JPG" title="2017 3"
+                    data-gallery="portfolio-gallery-2017"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <!-- 2018 Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2018">
+                <img src="assets/img/portfolio/DSC_3591.JPG" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Track 1 Winners</h4>
+                  <p>2018</p>
+                  <a href="assets/img/portfolio/DSC_3591.JPG" title="2018 1"
+                    data-gallery="portfolio-gallery-2018"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2018">
+                <img src="assets/img/portfolio/lpirc-2018-attendees03.jpg"
+                  class="img-fluid" alt>
+                <div class="portfolio-info">
+                  <h4>Workshop</h4>
+                  <p>2018</p>
+                  <a href="assets/img/portfolio/lpirc-2018-attendees03.jpg"
+                    title="2018 2" data-gallery="portfolio-gallery-2018"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2018">
+                <img src="assets/img/portfolio/track2-3.jpg" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Track 2&3 Winner</h4>
+                  <p>2018</p>
+                  <a href="assets/img/portfolio/track2-3.jpg" title="2018 3"
+                    data-gallery="portfolio-gallery-2018"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <!-- 2019 Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2019">
+                <img src="assets/img/portfolio/IMG_9524.jpg" class="img-fluid"
+                  alt>
+                <div class="portfolio-info">
+                  <h4>Winner</h4>
+                  <p>2019</p>
+                  <a href="assets/img/portfolio/IMG_9524.jpg" title="2019 1"
+                    data-gallery="portfolio-gallery-2019"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2019">
+                <img src="assets/img/portfolio/P_20190617_133111_p.jpg"
+                  class="img-fluid" alt>
+                <div class="portfolio-info">
+                  <h4>Workshop</h4>
+                  <p>2019</p>
+                  <a href="assets/img/portfolio/P_20190617_133111_p.jpg"
+                    title="2019 2" data-gallery="portfolio-gallery-2019"
+                    class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="index.html" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Footer Section -->
+      <footer id="footer" class="footer bg-dark text-light py-3">
+        <div class="container text-center">
+          <p class="mb-0">© Copyright <strong>LPVC</strong>. All Rights
+            Reserved</p>
+          <p class="mb-0">Designed by <a href="https://bootstrapmade.com/"
+              class="text-success">BootstrapMade</a> Maintained by <span
+              class="text-success">Ron Natarajan and Basil Khwaja</span></p>
+        </div>
+
+      </section><!-- /Gallery Section -->
+
+      <!-- New Section for Image Below the Gallery -->
+      <div class="container text-center mt-5">
+        <img src="assets/img/sponsors/sponsors.png" alt="Sponsors"
+          class="img-fluid" style="max-width: 100%;">
+      </div>
+
+      <!-- Contact Us Section -->
+      <section id="contact-us" class="py-5 bg-light">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">CONTACT US</h2>
+          </div>
+
+          <!-- Contact Info Row -->
+          <div class="row text-center">
+            <!-- Address -->
+            <div class="col-md-4">
+              <div class="contact-box">
+                <i class="bi bi-geo-alt"
+                  style="font-size: 2.5rem; color: #28a745;"></i>
+                <h5 class="mt-3">ADDRESS</h5>
+                <p>
+                  Yung-Hsiang Lu <br>
+                  School of Electrical and Computer Engineering <br>
+                  Electrical Engineering Building <br>
+                  465 Northwestern Ave <br>
+                  West Lafayette, IN 47907-2035
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="col-md-4">
+              <div class="contact-box">
+                <i class="bi bi-telephone"
+                  style="font-size: 2.5rem; color: #28a745;"></i>
+                <h5 class="mt-3">PHONE NUMBER</h5>
+                <p>+1 765 494-2668</p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-4">
+              <div class="contact-box">
+                <i class="bi bi-envelope"
+                  style="font-size: 2.5rem; color: #28a745;"></i>
+                <h5 class="mt-3">EMAIL</h5>
+                <p>lowpowervision@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer bg-dark text-light py-3">
+      <div class="container text-center">
+        <p class="mb-0">© Copyright <strong>LPVC</strong>. All Rights
+          Reserved</p>
+        <p class="mb-0">Designed by <a href="https://bootstrapmade.com/"
+            class="text-success">BootstrapMade</a> Maintained by <span
+            class="text-success">Ron Natarajan and Basil Khwaja</span></p>
+      </div>
     </footer>
 
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
   </body>
+
 </html>
