@@ -20,7 +20,7 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <!-- <link rel="stylesheet" href="index.css"> -->
-    <link rel="stylesheet" href="global.css">
+    <!-- <link rel="stylesheet" href="global.css"> -->
     <link rel="stylesheet" href="history.css">
 
   </head>
@@ -28,23 +28,23 @@
   <body>
 
     <!-- Navigation (Stays on Top) -->
-    <div class="nav_container">
-      <div class="nav_bar">
-        <!-- <nav class="nav"> -->
-        <a href="index.html" class="nav_button">2025LPCV</a>
-        <a href="testHomePage.html" class="nav_button">Home</a>
-        <!-- <a href="#about" class="w3-bar-item w3-button">About</a> -->
-        <div class="nav_button">
-          <a href="history.html" style="text-decoration:none;">History</a>
+    <div class="w3-top">
 
-        </div>
-        <a href="publications.html" class="nav_button">Publications</a>
-        <a href="#contact" class="nav_button">Contact</a>
-
-        <!-- </nav> -->
+      <div class="w3-bar w3-black w3-card">
+        <a href="testHomePage.html"
+          class="w3-bar-item w3-button w3-padding-large ">Home</a>
+        <a href="index.html"
+          class="w3-bar-item w3-button w3-padding-large ">LPCVC2025</a>
+        <a href="scoreboard.html"
+          class="w3-bar-item w3-button w3-padding-large ">Scoreboard</a>
+        <a href="history.html"
+          class="w3-bar-item w3-button w3-padding-large ">History</a>
+        <a href="publications.html"
+          class="w3-bar-item w3-button w3-padding-large">Publications</a>
+        <a href="contact.html"
+          class="w3-bar-item w3-button w3-padding-large ">Contact</a>
       </div>
     </div>
-
     <section class="load_in">
 
       <div class="title">
@@ -60,7 +60,51 @@
       </div>
     </section>
 
-    <section>
+    <section class="w3-container load_in">
+
+      <!-- Dropdown for Competition Leaderboards -->
+      <div class="w3-container w3-padding-large">
+        <label for="csv-select" class="w3-text">Choose a competition:</label>
+        <select id="csv-select" class="w3-select w3-border">
+          <option
+            value="static/leaderboard/Leaderboard History - 2023 qualifying scores.csv">2023
+            Qualifying Scores</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2023 non-qualifying scores.csv">2023
+            Non-Qualifying Scores</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2021 Video qualifying scores.csv">2021
+            Video Qualifying Scores</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2021 Video non qualifying.csv">2021
+            Video Non-Qualifying</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2021 FPGA Qual.csv">2021
+            FPGA Qual</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2021 FPGA Non Qualifying.csv">2021
+            FPGA Non-Qualifying</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2020 VID Qualifying.csv">2020
+            VID Qualifying</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2020 VID Non Qualifying.csv">2020
+            VID Non-Qualifying</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2020 FPGA Qualifying.csv">2020
+            FPGA Qualifying</option>
+          <option
+            value="static/leaderboard/Leaderboard History - 2020 FPGA Non Qualifying.csv">2020
+            FPGA Non-Qualifying</option>
+        </select>
+      </div>
+
+      <!-- Table container for displaying CSV data -->
+      <div id="table-container" class="w3-container w3-padding-large">Loading
+        data...</div>
+    </section>
+
+    <section style="margin-bottom: 10%;">
       <div class="title">
         Does Not Meet Award Criteria
       </div>
@@ -69,29 +113,6 @@
         solution, lower accuracy, or both and are therefore not qualified for an
         award
       </div>
-    </section>
-
-    <section class="w3-container load_in">
-
-      <!-- Dropdown for Competition Leaderboards -->
-      <div class="w3-container w3-padding-large">
-          <label for="csv-select" class="w3-text">Choose a competition:</label>
-          <select id="csv-select" class="w3-select w3-border">
-              <option value="static/leaderboard/Leaderboard History - 2023 qualifying scores.csv">2023 Qualifying Scores</option>
-              <option value="static/leaderboard/Leaderboard History - 2023 non-qualifying scores.csv">2023 Non-Qualifying Scores</option>
-              <option value="static/leaderboard/Leaderboard History - 2021 Video qualifying scores.csv">2021 Video Qualifying Scores</option>
-              <option value="static/leaderboard/Leaderboard History - 2021 Video non qualifying.csv">2021 Video Non-Qualifying</option>
-              <option value="static/leaderboard/Leaderboard History - 2021 FPGA Qual.csv">2021 FPGA Qual</option>
-              <option value="static/leaderboard/Leaderboard History - 2021 FPGA Non Qualifying.csv">2021 FPGA Non-Qualifying</option>
-              <option value="static/leaderboard/Leaderboard History - 2020 VID Qualifying.csv">2020 VID Qualifying</option>
-              <option value="static/leaderboard/Leaderboard History - 2020 VID Non Qualifying.csv">2020 VID Non-Qualifying</option>
-              <option value="static/leaderboard/Leaderboard History - 2020 FPGA Qualifying.csv">2020 FPGA Qualifying</option>
-              <option value="static/leaderboard/Leaderboard History - 2020 FPGA Non Qualifying.csv">2020 FPGA Non-Qualifying</option>
-          </select>
-      </div>
-
-      <!-- Table container for displaying CSV data -->
-      <div id="table-container" class="w3-container w3-padding-large">Loading data...</div>
     </section>
 
     <script src="history.js"></script>
