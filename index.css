@@ -2,15 +2,40 @@ Change background color to white and text color to black
 body {
   background-color: white; /* Change the page background to white */
   color: black; /* Set the default text color to black */
+  margin: 0 auto;
 }
 
-.load_in {
-  padding-top: 20px;
-  margin-top: 120px; /* Add space between the navbar and the content */
+.subtitle
+{
+  color: rgba(80, 55, 55, 0.774);
+  /* margin-bottom: 5px; */
+  text-align: center;
+  /* width: 80%; */
+  font-size: 14px;
+}
+
+.intro_section
+{
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+}
+
+.intro_container
+{
+  width: 100%;
+}
+
+.circle
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .centered_image {
@@ -23,8 +48,6 @@ body {
 
 
 .title {
-  margin-top: 100px;
-  padding-top: 20px;
   font-size: 2.5vw; /* Adjust font size for the main title */
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;

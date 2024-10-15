@@ -17,9 +17,9 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #ffffff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
+  border: 2px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
   z-index: -1;
   /* padding: 25px; */
@@ -34,7 +34,7 @@
 
 .mb-3
 {
-  color: black;
+  color: rgb(0, 0, 0);
   margin-bottom: 1rem !important;
 }
 
