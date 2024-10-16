@@ -22,6 +22,7 @@ function displayCSV(data) {
       
       // Add <th> for header row, <td> for data rows
       cols.forEach(col => {
+          col = col.trim()
           tableHTML += index === 0 ? `<th>${col}</th>` : `<td>${col}</td>`;
       });
 
