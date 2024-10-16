@@ -32,11 +32,11 @@ function displayCSV(data) {
   tableHTML += '</table>';
   document.getElementById('table-container').innerHTML = tableHTML;
 
-  $('#leaderboard').DataTable({
-    paging: false,
-    searching: false,  
-    order: []
-  });
+  // $('#leaderboard').DataTable({
+  //   paging: false,
+  //   searching: false,  
+  //   order: []
+  // });
 }
 
 // Event listener for dropdown selection
