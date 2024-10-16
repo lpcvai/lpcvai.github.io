@@ -10,10 +10,9 @@
 {
   color: rgb(175, 175, 175);
   margin-bottom: 5px;
-  text-align: center;
-  /* width: 80%; */
-  
+  text-align: center;  
 }
+
 
 .w3-table {
   width: 100%;
@@ -24,7 +23,7 @@
 }
 
 .w3-table th {
-  background-color: white;  /* White header */
+  background-color: white;  
   font-weight: bold;
   padding: 8px;
   border: 1px solid #ddd;
@@ -36,16 +35,21 @@
 }
 
 .w3-table tr:nth-child(even) {
-  background-color: #f2f2f2;  /* Light grey for even rows */
+  background-color: #f2f2f2;
 }
 
 .w3-table tr:nth-child(odd) {
-  background-color: white;  /* White for odd rows */
+  background-color: white; 
 }
 
-.w3-table tr:hover {
-  background-color: #f1f1f1;  /* Slight hover effect */
+.w3-table tr:nth-child(even):hover {
+  background-color: #d9d9d9; 
 }
+
+.w3-table tr:nth-child(odd):hover {
+  background-color: #e6e6e6;  
+}
+
 
 .w3-select {
   background-color: inherit; 
