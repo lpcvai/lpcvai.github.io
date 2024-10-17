@@ -8,16 +8,18 @@
     <title>Index - BizPage Bootstrap Template</title>
     <meta name="description" content>
     <meta name="keywords" content>
-    
+
     <!-- DataTables CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css"
+      href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
 
     <!-- jQuery (needed for DataTables) -->
-    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8"
+      src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
     <!-- DataTables JS -->
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
-
+    <script type="text/javascript" charset="utf8"
+      src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -69,12 +71,12 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown"><a href="#"><span>History</span>
                 <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="history.html">Leaderboard</a></li>
+                <li><a href="history.html" class="active">Leaderboard</a></li>
                 <li><a href="past_workshops.html">Past Workshops</a></li>
               </ul>
             </li>
@@ -97,9 +99,9 @@
 
     <main class="main">
 
-      <section class="section-title ">
+      <div data-aos="fade-up" style="margin-top: 5%;">
         <div class="container-fluid">
-          <h2 class>
+          <h2 class="title">
             Public Leaderboard
           </h2>
           <p class="subtitle">
@@ -114,33 +116,39 @@
             competition
           </p>
         </div>
-      </section>
+      </div>
 
-      <section class>
-        <div class="container-fluid center">
-          <div class="w3-container">
-            Dropdown for Competition Leaderboards
-          </div>
-          <form class="w3-container">
-            <label for="csv-select" class="text-muted">Choose a competition:</label>
-            <select id="csv-select" class="content">
-                <option value="2023_Segmentation">2023 Segmentation Track</option>
-                <option value="2021_Video">2021 Video Track</option>
-                <option value="2021_FPGA">2021 FPGA Track</option>
-                <option value="2020_VID">2020 VID Track</option>
-                <option value="2020_FPGA">2020 FPGA Track</option>
-            </select>
+      <div class="container-fluid center" data-aos="fade-up">
+        <div class="w3-container title">
+          Dropdown for Competition Leaderboards
+        </div>
+        <form class="w3-container subtitle">
+          <label for="csv-select" class="text-muted">Choose a
+            competition:</label>
+          <select id="csv-select" class="select">
+            <option value="2023_Segmentation">2023 Segmentation Track</option>
+            <option value="2021_Video">2021 Video Track</option>
+            <option value="2021_FPGA">2021 FPGA Track</option>
+            <option value="2020_VID">2020 VID Track</option>
+            <option value="2020_FPGA">2020 FPGA Track</option>
+          </select>
         </form>
-        
+
         <div id="tables-container" class="w3-container w3-padding-large">
           <h3>Qualifying Scores</h3>
-          <div id="qualifying-table-container" class="w3-container w3-padding-large">Loading qualifying data...</div>
-          
+          <div id="qualifying-table-container"
+            class="w3-container w3-padding-large">Loading qualifying
+            data...</div>
+
           <h3>Non-Qualifying Scores</h3>
-          <div id="nonqualifying-table-container" class="w3-container w3-padding-large">Loading non-qualifying data...</div>
+          <div id="nonqualifying-table-container"
+            class="w3-container w3-padding-large">Loading non-qualifying
+            data...</div>
 
           <h3>Team Best Scores</h3>
-          <div id="bestscores-table-container" class="w3-container w3-padding-large">Loading best score data...</div>
+          <div id="bestscores-table-container"
+            class="w3-container w3-padding-large">Loading best score
+            data...</div>
         </div>
 
       </section>
@@ -150,8 +158,10 @@
           Does Not Meet Award Criteria
         </h1>
         <p class="subtitle">
-          NOTE the solutions listed here have greater time than the 2023 sample
-          solution, lower accuracy, or both and are therefore not qualified for
+          NOTE the solutions listed here have greater time than the 2023
+          sample
+          solution, lower accuracy, or both and are therefore not qualified
+          for
           an
           award
         </p>
@@ -184,7 +194,8 @@
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script
+      src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
