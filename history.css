@@ -10,22 +10,44 @@
 {
   color: rgb(175, 175, 175);
   margin-bottom: 5px;
-  text-align: center;
-  /* width: 80%; */
-  
+  text-align: center;  
 }
 
 
 .w3-table {
-  background-color: inherit;
-  color: inherit; 
-  border: none; 
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+  text-align: center;
 }
 
-.w3-table th, .w3-table td {
-  background-color: inherit; 
-  color: inherit; 
-  border: none; 
+.w3-table th {
+  background-color: white;  
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.w3-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.w3-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.w3-table tr:nth-child(odd) {
+  background-color: white; 
+}
+
+.w3-table tr:nth-child(even):hover {
+  background-color: #d9d9d9; 
+}
+
+.w3-table tr:nth-child(odd):hover {
+  background-color: #e6e6e6;  
 }
 
 

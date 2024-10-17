@@ -8,6 +8,16 @@
     <title>Index - BizPage Bootstrap Template</title>
     <meta name="description" content>
     <meta name="keywords" content>
+    
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+
+    <!-- jQuery (needed for DataTables) -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -69,7 +79,6 @@
               </ul>
             </li>
             <li><a href="publications.html">Publications</a></li>
-            <li><a href="#contact-us">Contact</a></li>
             <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
@@ -112,45 +121,26 @@
           <div class="w3-container">
             Dropdown for Competition Leaderboards
           </div>
-          <form class="w3-container ">
-            <label for="csv-select" class="text-muted">Choose a
-              competition:</label>
+          <form class="w3-container">
+            <label for="csv-select" class="text-muted">Choose a competition:</label>
             <select id="csv-select" class="content">
-              <option
-                value="static/leaderboard/Leaderboard History - 2023 qualifying scores.csv">2023
-                Qualifying Scores</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2023 non-qualifying scores.csv">2023
-                Non-Qualifying Scores</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 Video qualifying scores.csv">2021
-                Video Qualifying Scores</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 Video non qualifying.csv">2021
-                Video Non-Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 FPGA Qual.csv">2021
-                FPGA Qual</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 FPGA Non Qualifying.csv">2021
-                FPGA Non-Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 VID Qualifying.csv">2020
-                VID Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 VID Non Qualifying.csv">2020
-                VID Non-Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 FPGA Qualifying.csv">2020
-                FPGA Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 FPGA Non Qualifying.csv">2020
-                FPGA Non-Qualifying</option>
+                <option value="2023_Segmentation">2023 Segmentation Track</option>
+                <option value="2021_Video">2021 Video Track</option>
+                <option value="2021_FPGA">2021 FPGA Track</option>
+                <option value="2020_VID">2020 VID Track</option>
+                <option value="2020_FPGA">2020 FPGA Track</option>
             </select>
-          </form>
-          <div id="table-container"
-            class="w3-container w3-padding-large">Loading
-            data...</div>
+        </form>
+        
+        <div id="tables-container" class="w3-container w3-padding-large">
+          <h3>Qualifying Scores</h3>
+          <div id="qualifying-table-container" class="w3-container w3-padding-large">Loading qualifying data...</div>
+          
+          <h3>Non-Qualifying Scores</h3>
+          <div id="nonqualifying-table-container" class="w3-container w3-padding-large">Loading non-qualifying data...</div>
+
+          <h3>Team Best Scores</h3>
+          <div id="bestscores-table-container" class="w3-container w3-padding-large">Loading best score data...</div>
         </div>
 
       </section>
