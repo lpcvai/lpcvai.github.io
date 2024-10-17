@@ -48,7 +48,7 @@
 
     <!-- Navigation (Stays on Top) -->
     <header id="header"
-      class="header d-flex align-items-center fixed-top  bg-dark">
+      class="header d-flex align-items-center fixed-top bg-dark">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -60,9 +60,16 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="publications.html" class="active">Publications</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="dropdown"><a href="#"><span>History</span>
+                <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="history.html">Leaderboard</a></li>
+                <li><a href="past_workshops.html">Past Workshops</a></li>
+              </ul>
+            </li>
+            <li><a href="publications.html">Publications</a></li>
             <li><a href="#contact-us">Contact</a></li>
             <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
