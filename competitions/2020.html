@@ -1,22 +1,137 @@
-{% extends 'competitions/base.html' %}
-{% load static %}
-{% block cardbody %}
-<h1 style="text-align:center; border-bottom:1px dotted;">2020 IEEE Low-Power Computer Vision Challenge</h1>
-<!--Begin Content-->
-<div class="card" style="height:fit-content">
-    <div class="card-body"style="height:fit-content">
-        <!--The 2020 LPCVC has three tracks: 
-        <ul>
-        <li>Recognizing English letters in video taken by an unmanned aerial vehicle (also called drone) using PyTorch Mobile</li>
-        <li>Recognizing objects in images using Field Programming Gate Array (FPGA)</li>
-        <li>Recognizing objects in images using TensorFlow, also called On-Device Visual Intelligence Challenge (OVIC)</li>
-        </ul>-->
-        <h2>LPCVC 2020 Overview</h2>
-        <p>The 2020 CVPR Workshop of Low-Power Computer Vision Challenge was succesfully hosted on <strong>15 June 2020 in Seattle, USA</strong>.
-          This workshop featured the winners of the past Low-Power Image Recognition Challenges, invited speakers from academia and industry, as well as presentations of accepted papers.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-          <p style="text-align:center;"><a href="http://cvpr2020.thecvf.com/"><img src="https://rebootingcomputing.ieee.org/images/files/images/cvpr-2020.jpg" style="max-width:100%" alt="Seattle, Washington, USA" width="450" height="300"></a></p>
-          <p style="text-align:center;"><a href="http://cvpr2020.thecvf.com/">cvpr2020.thecvf.com</a></p>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>2020 Competition</title>
+    <meta name="description" content>
+    <meta name="keywords" content>
+
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: BizPage
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="starter-page-page">
+
+    <header id="header"
+      class="header d-flex align-items-center fixed-top bg-dark ">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+        <a href="../index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">LPCV</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown"><a href="#"><span>History</span>
+                <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="../history.html">Leaderboard</a></li>
+                <li><a href="../past_workshops.html" class="active">Past
+                    Workshops</a></li>
+              </ul>
+            </li>
+            <li><a href="../publications.html">Publications</a></li>
+
+            <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://google.com">Introduction</a></li>
+                <li><a href="#">Track 1</a></li>
+                <li><a href="#">Track 2</a></li>
+                <li><a href="#">Track 3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- Starter Section Section -->
+      <div style="margin-top: 12%;">
+        <div class="container" data-aos="fade-up">
+
+          <form id="filter" style="display: flex; justify-content: center;">
+            <h3>
+              <abbr
+                title="Low-Power Computer Vision Challenge">LPCVC</abbr>&nbsp;
+
+              <select name="contest"
+                onchange='location.replace(document.forms.filter.contest.value+".html");'>
+                <!-- <select name="contest" id> -->
+                <option
+                  value="2023">2023</option><option
+                  value="2022">2022</option><option
+                  value="2021" >2021</option><option
+                  value="2020" selected>2020</option><option
+                  value="2019">2019</option><option
+                  value="2018">2018</option><option
+                  value="2017">2017</option><option
+                  value="2016">2016</option><option
+                  value="2015">2015</option>
+              </select>
+            </h3>
+          </form>
+
+        </div>
+      </div>
+
+      <div data-aos="fade-up" class="card" style="margin: 5%; padding: 5%;">
+        <h1 style="text-align:center; border-bottom:1px dotted;">2020 IEEE Low-Power Computer Vision Challenge</h1>
+        <!--Begin Content-->
+        <div class="card" style="height:fit-content">
+            <div class="card-body"style="height:fit-content">
+            <!--The 2020 LPCVC has three tracks: 
+            <ul>
+            <li>Recognizing English letters in video taken by an unmanned aerial vehicle (also called drone) using PyTorch Mobile</li>
+            <li>Recognizing objects in images using Field Programming Gate Array (FPGA)</li>
+            <li>Recognizing objects in images using TensorFlow, also called On-Device Visual Intelligence Challenge (OVIC)</li>
+            </ul>-->
+            <h2>LPCVC 2020 Overview</h2>
+            <p>The 2020 CVPR Workshop of Low-Power Computer Vision Challenge was succesfully hosted on <strong>15 June 2020 in Seattle, USA</strong>.
+              This workshop featured the winners of the past Low-Power Image Recognition Challenges, invited speakers from academia and industry, as well as presentations of accepted papers.</p>
+
+            <p style="text-align:center;"><a href="http://cvpr2020.thecvf.com/"><img src="https://rebootingcomputing.ieee.org/images/files/images/cvpr-2020.jpg" style="max-width:100%" alt="Seattle, Washington, USA" width="450" height="300"></a></p>
+            <p style="text-align:center;"><a href="http://cvpr2020.thecvf.com/">cvpr2020.thecvf.com</a></p>
 
           <p>The LPCVC featured 3 tracks sponsored by Facebook, Xilinx, and Google was be hosted online from <b>7/1/2020 to 7/31/2020</b>. 
           More details are posted below. Please join the online discussion forum 
@@ -72,7 +187,7 @@
           the answer should be “B056 ELEVATOR CONTROL ELEVATOR PERSONNEL ONLY”. If the question is “CONFERENCE”, 
           the answer should be “122”. The solutions are case insensitive. The solutions must use PyTorch running on Raspberry Pi 3B+. 
         </p>
-        <img src="{% static 'img/conf.png' %}" style="max-width: 50%; max-height: 50%;"> <img src="{% static 'img/resArea.png' %}" style="max-width: 50%; max-height: 50%;">
+        <!-- <img src="{% static 'img/conf.png' %}" style="max-width: 50%; max-height: 50%;"> <img src="{% static 'img/resArea.png' %}" style="max-width: 50%; max-height: 50%;"> -->
         <br><br>
         <p>Eleven teams submitted 84 solutions to this track. The winners of this tracks are:</p>
         <table class="table table-bordered">
@@ -397,7 +512,7 @@
           Sponsors Section
           ============================-->
           <h3>Sponsors</h3>
-          <center><div class="sponsors-images">
+          <!-- <center><div class="sponsors-images">
             <a href="https://pytorch.org/"><img class="img-responsive-80 img-fluid sponsors-logo" src="{% static 'img/sponsors/PyTorch.png' %}" alt="PyTorch"></a>
             <a href="https://www.xilinx.com/"><img class="img-responsive-80 sponsors-logo" src="{% static 'img/sponsors/xilinx_logo.svg' %}" alt="Xilinx"></a>
             <a href="https://about.google/"><img class="img-responsive-80 sponsors-logo" src="{% static 'img/sponsors/google_logo.jpeg' %}" alt="Google"></a>
@@ -410,7 +525,7 @@
             <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1925713"><img class="img-responsive-80 sponsors-logo" src="{% static 'img/sponsors/nsf_logo.jpeg' %}" alt="NSF"></a>
             <a href="https://www.mediatek.com/"><img class="img-responsive-80 sponsors-logo"src="{% static 'img/sponsors/mediatek.png' %}" alt="Mediatek" style=""></a>
             <a href="http://www.emc.com.tw/emc/tw/"><img class="img-responsive-80 sponsors-logo" src="{% static 'img/sponsors/elanlogo.jpeg' %}" alt="Elan Microelectronics" style=""></a>
-          </div></center>
+          </div></center> -->
           <!--==========================
           Program Recrodings
           ===========================-->
@@ -501,7 +616,49 @@
                 <p class="mb-3">A: You should sign the agreement form when submitting your solution to any track. Each account only needs to sign it once. The agreement form is a legal binding document, so please read it carefully.</p></li><li>Q: How can we register as a team?
                 <p class="mb-3">A: One team only needs one registered account. You can indicate your team members when signing the agreement form.</p></li><li>Q: How can I register for a specific track?
                 <p class="mb-3">A: Registered accounts are not limited to attend any track. Accounts will be considered as participating a track when submitting a solution.</p></li></ol>
-    </div>
-</div>
-<div class="clearfix"></div></div></article>
-{% endblock %}
+          </div>
+      </div>
+      <div class="clearfix"></div></div></article>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer bg-dark text-light py-3">
+      <div class="container text-center">
+        <p class="mb-0">© Copyright <strong>LPVC</strong>. All Rights
+          Reserved</p>
+        <p class="mb-0">Designed by <a href="https://bootstrapmade.com/"
+            class="text-success">BootstrapMade</a> Maintained by <span
+            class="text-success">Ron Natarajan and Basil Khwaja</span></p>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script
+      src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script
+      src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script
+      src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script
+      src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
+
+  </body>
+
+</html>
+
