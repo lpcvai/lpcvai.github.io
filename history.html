@@ -115,45 +115,23 @@
           <div class="w3-container">
             Dropdown for Competition Leaderboards
           </div>
-          <form class="w3-container ">
-            <label for="csv-select" class="text-muted">Choose a
-              competition:</label>
+          <form class="w3-container">
+            <label for="csv-select" class="text-muted">Choose a competition:</label>
             <select id="csv-select" class="content">
-              <option
-                value="static/leaderboard/Leaderboard History - 2023 qualifying scores.csv">2023
-                Qualifying Scores</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2023 non-qualifying scores.csv">2023
-                Non-Qualifying Scores</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 Video qualifying scores.csv">2021
-                Video Qualifying Scores</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 Video non qualifying.csv">2021
-                Video Non-Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 FPGA Qual.csv">2021
-                FPGA Qual</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2021 FPGA Non Qualifying.csv">2021
-                FPGA Non-Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 VID Qualifying.csv">2020
-                VID Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 VID Non Qualifying.csv">2020
-                VID Non-Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 FPGA Qualifying.csv">2020
-                FPGA Qualifying</option>
-              <option
-                value="static/leaderboard/Leaderboard History - 2020 FPGA Non Qualifying.csv">2020
-                FPGA Non-Qualifying</option>
+                <option value="2023_Segmentation">2023 Segmentation Track</option>
+                <option value="2021_Video">2021 Video Track</option>
+                <option value="2021_FPGA">2021 FPGA Track</option>
+                <option value="2020_VID">2020 VID Track</option>
+                <option value="2020_FPGA">2020 FPGA Track</option>
             </select>
-          </form>
-          <div id="table-container"
-            class="w3-container w3-padding-large">Loading
-            data...</div>
+        </form>
+        
+        <div id="tables-container" class="w3-container w3-padding-large">
+          <h3>Qualifying Scores</h3>
+          <div id="qualifying-table-container" class="w3-container w3-padding-large">Loading qualifying data...</div>
+          
+          <h3>Non-Qualifying Scores</h3>
+          <div id="nonqualifying-table-container" class="w3-container w3-padding-large">Loading non-qualifying data...</div>
         </div>
 
       </section>
