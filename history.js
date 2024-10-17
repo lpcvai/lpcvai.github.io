@@ -52,7 +52,7 @@ function loadCSV(filePath, containerId) {
 // Function to convert CSV text to HTML table and display in specified container
 function displayCSV(data, containerId) {
   const rows = data.split('\n');
-  let tableHTML = '<table class="w3-table w3-bordered display">';
+  let tableHTML = '<table id="leaderboard" class="w3-table w3-bordered display">';
 
   rows.forEach((row, index) => {
       const cols = row.split(',');
@@ -69,6 +69,14 @@ function displayCSV(data, containerId) {
 
   tableHTML += '</table>';
   document.getElementById(containerId).innerHTML = tableHTML;
+
+
+  $('#leaderboard' + containerId).DataTable({
+    paging: true,
+    searching: true,
+    ordering: true, 
+    order: [] 
+  });
 }
 
 // Event listener for dropdown selection
