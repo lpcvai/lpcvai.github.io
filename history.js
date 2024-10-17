@@ -7,22 +7,27 @@ function loadCompetitionData(track) {
       case "2023_Segmentation":
           qualifyingPath = "static/leaderboard/Leaderboard History - 2023 Qualifying.csv";
           nonQualifyingPath = "static/leaderboard/Leaderboard History - 2023 Qualifying*.csv";
+          bestScoresPath = "static/leaderboard/Leaderboard History - 2023 Qualifying-.csv";
           break;
       case "2021_Video":
           qualifyingPath = "static/leaderboard/Leaderboard History - 2021 Video Qualifying.csv";
           nonQualifyingPath = "static/leaderboard/Leaderboard History - 2021 Video Qualifying*.csv";
+          bestScoresPath = "static/leaderboard/Leaderboard History - 2021 Video Qualifying-.csv";
           break;
       case "2021_FPGA":
           qualifyingPath = "static/leaderboard/Leaderboard History - 2021 FPGA Qualifying.csv";
           nonQualifyingPath = "static/leaderboard/Leaderboard History - 2021 FPGA Qualifying*.csv";
+          bestScoresPath = "static/leaderboard/Leaderboard History - 2021 FPGA Qualifying-.csv";
           break;
       case "2020_VID":
           qualifyingPath = "static/leaderboard/Leaderboard History - 2020 VID Qualifying.csv";
           nonQualifyingPath = "static/leaderboard/Leaderboard History - 2020 VID Qualifying*.csv";
+          bestScoresPath = "static/leaderboard/Leaderboard History - 2020 VID Qualifying-.csv";
           break;
       case "2020_FPGA":
           qualifyingPath = "static/leaderboard/Leaderboard History - 2020 FPGA Qualifying.csv";
           nonQualifyingPath = "static/leaderboard/Leaderboard History - 2020 FPGA Qualifying*.csv";
+          bestScoresPath = "static/leaderboard/Leaderboard History - 2020 FPGA Qualifying-.csv";
           break;
       default:
           console.error("Invalid track selected");
@@ -34,6 +39,9 @@ function loadCompetitionData(track) {
 
   // Load and display non-qualifying data
   loadCSV(nonQualifyingPath, 'nonqualifying-table-container');
+
+  // Load and display team best score data
+  loadCSV(bestScoresPath, 'bestscores-table-container');
 }
 
 // Function to load CSV and display as a table
