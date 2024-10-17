@@ -1,23 +1,38 @@
 .title
 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 2rem;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   text-align: center;
 }
 
 .subtitle
 {
   color: rgb(175, 175, 175);
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   text-align: center;  
 }
 
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  appearance: none; /* Remove default dropdown arrow for modern browsers */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
 
 .w3-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
+  /* margin: 20px 0; */
   font-size: 14px;
   text-align: center;
 }
@@ -55,7 +70,7 @@
   background-color: inherit; 
   color: white; 
   border: 1px solid #ddd; 
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .w3-select option {
