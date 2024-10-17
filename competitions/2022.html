@@ -20,15 +20,17 @@
       rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: BizPage
@@ -46,7 +48,7 @@
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="../index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1 class="sitename">LPCV</h1>
@@ -54,17 +56,17 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="dropdown"><a href="#"><span>History</span>
                 <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="history.html">Leaderboard</a></li>
-                <li><a href="past_workshops.html" class="active">Past
+                <li><a href="../history.html">Leaderboard</a></li>
+                <li><a href="../past_workshops.html" class="active">Past
                     Workshops</a></li>
               </ul>
             </li>
-            <li><a href="publications.html">Publications</a></li>
+            <li><a href="../publications.html">Publications</a></li>
 
             <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -85,16 +87,7 @@
     <main class="main">
 
       <!-- Starter Section Section -->
-      <div id="starter-section" class="starter-section"
-        style="margin-top:10%;">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Past Workshops</h2>
-        </div>
-
-      </div>
-
-      <div class>
+      <div style="margin-top: 12%;">
         <div class="container" data-aos="fade-up">
 
           <form id="filter" style="display: flex; justify-content: center;">
@@ -103,11 +96,11 @@
                 title="Low-Power Computer Vision Challenge">LPCVC</abbr>&nbsp;
 
               <select name="contest"
-                onchange='location.replace("competitions/"+document.forms.filter.contest.value+".html");'>
+                onchange='location.replace(document.forms.filter.contest.value+".html");'>
                 <!-- <select name="contest" id> -->
                 <option
-                  value="2023" selected>2023</option><option
-                  value="2022">2022</option><option
+                  value="2023">2023</option><option
+                  value="2022" selected>2022</option><option
                   value="2021">2021</option><option
                   value="2020">2020</option><option
                   value="2019">2019</option><option
@@ -120,6 +113,65 @@
           </form>
 
         </div>
+      </div>
+
+      <div data-aos="fade-up" class="card" style="margin: 5%; padding: 5%;">
+        <h2>2022 Low Power Computer Vision Challenge Overview</h2>
+        <p>
+          Since 2015, the IEEE Low Power Computer Vision Challenges have
+          attracted
+          top
+          researchers worldwide showing their solutions that can achieve high
+          accuracy
+          with low energy consumption.
+        </p>
+
+        <p>
+          Computer Vision research has given little consideration to speed or
+          computation time, and even less to constraints such as power/energy,
+          memory
+          footprint and model size.
+        </p>
+        <p>
+          Nevertheless, addressing all of these metrics is essential if advances
+          in
+          Computer Vision are going to be widely available on mobile and AR/VR
+          devices.
+        </p>
+        <p>
+          This
+          <a href="https://sites.google.com/view/ecv2022"
+            target="_blank">workshop
+          </a>
+          focused on efficient deep learning algorithms, models, and systems for
+          computer vision.
+        </p>
+        <h2>2022 Unmanned Aerial Vehicle(UAV) Chase Challenge Overview</h2>
+        <p>
+          In the 2022 UAV Chase Challenge, competitors used computer vision and
+          machine
+          learning to develop solutions for object tracking. Complete solutions
+          included
+          not only an object detection model, but also a complete control system
+          to
+          pilot a drone. Qualifying solutions were tested on an actual drone in
+          Purdue's
+          Unmanned Aerial Systems test facility.
+        </p>
+        <p>
+          More information can be found on the
+          <a href="https://ri4rover.org/" target="_blank">ri4rover website</a>.
+        </p>
+        <p>
+          Join us on <a href="https://lpcvc.slack.com/">Slack </a> for more
+          updates
+          about future competitions.
+        </p>
+
+        <hr />
+        <!--==========================
+        Organizers Section
+      ============================-->
       </div>
 
     </main>
@@ -144,18 +196,19 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script
-      src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script
+      src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 
   </body>
 

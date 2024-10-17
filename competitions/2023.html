@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Starter Page - BizPage Bootstrap Template</title>
+    <meta name="description" content>
+    <meta name="keywords" content>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: BizPage
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="starter-page-page">
+
+    <header id="header"
+      class="header d-flex align-items-center fixed-top bg-dark ">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+        <a href="../index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">LPCV</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown"><a href="#"><span>History</span>
+                <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="../history.html">Leaderboard</a></li>
+                <li><a href="../past_workshops.html" class="active">Past
+                    Workshops</a></li>
+              </ul>
+            </li>
+            <li><a href="../publications.html">Publications</a></li>
+
+            <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://google.com">Introduction</a></li>
+                <li><a href="#">Track 1</a></li>
+                <li><a href="#">Track 2</a></li>
+                <li><a href="#">Track 3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- Starter Section Section -->
+      <div style="margin-top: 12%;">
+        <div class="container" data-aos="fade-up">
+
+          <form id="filter" style="display: flex; justify-content: center;">
+            <h3>
+              <abbr
+                title="Low-Power Computer Vision Challenge">LPCVC</abbr>&nbsp;
+
+              <select name="contest"
+                onchange='location.replace(document.forms.filter.contest.value+".html");'>
+                <!-- <select name="contest" id> -->
+                <option
+                  value="2023" selected>2023</option><option
+                  value="2022">2022</option><option
+                  value="2021">2021</option><option
+                  value="2020">2020</option><option
+                  value="2019">2019</option><option
+                  value="2018">2018</option><option
+                  value="2017">2017</option><option
+                  value="2016">2016</option><option
+                  value="2015">2015</option>
+              </select>
+            </h3>
+          </form>
+
+        </div>
+      </div>
+
+      <div data-aos="fade-up" class="card" style="margin: 5%; padding: 5%;">
+        <h2>2023 LPCVC Overview</h2>
+        <p>For the last eight years, the IEEE Low Power Computer Vision
+          Challenges has
+          been attracting an increasing number of
+          top researchers worldwide to show their
+          solutions that can achieve high accuracy with low energy consumption.
+          The 2023
+          Low-Power Computer Vision Challenge
+          (2023 LPCVC) was hosted online and featured a single track designed by
+          ACM Sigda and IEEE CEDA.
+        </p>
+        <p>The task was semantic segmentation of UAV-view disaster scenes(a)
+          into
+          different regions associated with semantic
+          categories related to disasters (b). The dataset consisted of 1,720
+          512x512
+          resolution images with 1,120 images
+          released to participants as training and validation data and 600
+          images were
+          kept private for testing. The models had
+          to segment these images into a 512x512 prediction map. There were 14
+          different
+          semantic categories. The model was
+          tested on a Jetson Nano 2GB Developer Kit (power mode 5W).
+        </p>
+        <p>
+          The challenge was be open for submission from
+          <b>2023/07/01-2023/08/04</b>, as
+          it was extended by four days due to
+          a power outage on 07/10, which caused the server to crash. Winners
+          will
+          present their solutions
+          during the Embedded Systems Week, which will be held between September
+          17-22,
+          2023.
+          <!--More details are posted below.-->
+          Please join the online discussion forum on the <a
+            href="https://lpcvc.slack.com/join/shared_invite/enQtOTQzMzA5OTg0NzA0LTY4YjY2YmI2NmM0YTBhMTk1NmEwZjI4NTAxYTEyZTkyZmE4ZWVhZWQ0Y2NkOGFhZmY4NzI0YjU4OGUzMWUwNjE">Slack</a>.
+        </p>
+        <p>*The participant agreement for the LPCVC 2023 contest can be found <a
+            href="../../static/2023LPCVCAgreement.pdf">here</a>.</p>
+        <hr>
+        <!--==========================
+    Winner Announcement Section
+============================-->
+        <h2>2023 LPCVC Winners Announcement</h2>
+        <p>The 2023 IEEE Low-Power Computer Vision Challenge (LPCVC) concluded
+          successfully on 2023/08/04, after over a month of
+          competition; 117 teams submitted 679 solutions to the competition, out
+          of
+          which 60 teams and 201 solutions
+          outperformed the sample solution: On-Device Disaster Scene
+          Parsing.</p>
+
+        <p>The winners of the On-Device Disaster Scene Parsing track are:
+          <ol>
+            <li><b>ModelTC - Score: 75.608, Accuracy: 0.51162, Time: 6.8
+                ms.</b><br> The
+              team
+              members are Yiru Wang, Xin Jin, Zhiwei Dong, Yifan Pu, Yongqiang
+              Yao, Bo Li, Ruihao Gong, Haoran Wang, Xianglong Liu, Gao Huang,
+              and Wei
+              Wu. The first four made equal
+              contributions, and Ruihao Gong was the project leader.</li><br>
+            <li><b>AidgetRock - Score: 36.972, Accuracy: 0.55421, Time: 15
+                ms.</b><br>
+              The team members are Zifu Wan, Xinwang Chen, Ning Liu, Ziyi Zhang,
+              Dongping Liu, Ruijie Shan, Zhengping Che, Fachao Zhang, Xiaofeng
+              Mou, and
+              Jian Tang. The project leader was Ning
+              Liu.</li><br>
+            <li><b>ENOT - Score: 8.974, Accuracy: 0.60089, Time: 67
+                ms.</b><br>The team
+              members are Alexander Goncharenko, Max Chuprov, Andrey
+              Sherbin, Sergey Alyamkin, and Ivan Malofeev.</li><br>
+            <!--<li>Honorable Mentions: The spring team from Zhejiang University,  University of Sydney, Beihang University. The team members are Yucheng Wang, Weitao Feng,  Jiahao Hu, Yongqiang Yao, Ruihao Gong, Shuo Wu, Qi Zhang, Yusong Wang, Yan Ren, Liang Liu, Yanfei Wang, Fengwei Yu.</li>-->
+          </ol>
+        </p>
+        <hr>
+        <h2>Competition Progression</h2>
+        <p>
+          Below is displayed the progression of the submissions over the course
+          of the
+          competition. As mentioned above, there
+          was a power outage on 07/10, causing the lack of data points around
+          those
+          dates.<br><br>
+          <div style="display: flex;">
+            <img src="/static/img/2023Progression/Score_progression.png"
+              alt="Score Progression"
+              style="width:30%; height: auto; margin-bottom: 20px; margin-right: 5%; border: 1px solid black;">
+            <img src="/static/img/2023Progression/Accuracy_progression.png"
+              alt="Accuracy Progression"
+              style="width:30%; height: auto; margin-bottom: 20px; margin-right: 5%; border: 1px solid black;">
+            <img src="/static/img/2023Progression/Speed_progression.png"
+              alt="Time Progression"
+              style="width:30%; height: auto; margin-bottom: 20px; border: 1px solid black;">
+          </div>
+        </p>
+        <!--
+  <p><a href="{% url '2021ICCV/program' %}">ICCV workshop</a> (Low-Power Computer Vision) on October 11: </p>
+<iframe src="https://www.youtube.com/embed/6-ZPFQOAhoM" style="margin: 20px" height="320px" width="45%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Track Winners Presentation:</p>
+<iframe src="https://www.youtube.com/embed/HUsUO2AAFh8" style="margin: 20px" height="320px" width="45%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/5WeqeXMz5pI" style="margin: 20px" height="320px" width="45%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <hr>
+
+
+  <h2>Tracks</h2>
+  <p>
+    <strong>How to participate: </strong>
+    <a href="{% url 'login' %}">Login</a> on this website to participate in the following trakcs. A registered account is free to participate any tracks. Detailed instruction can be found on the corresponding information page.
+  </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-5">
+        <div class="row">
+          <h4 class="title">Online Track - UAV Video</h4>
+          <p class="description mb-2">
+            Track multiple moving objects in video captured by an unmanned aerial vehicle (UAV).
+          </p>
+          <a class="align-items-end " href="{% url '2021LPCVC/video-info' %}" target="_blank">More Info</a>
+        </div>
+      </div>
+      <div class="col-md-auto border-right"> </div>
+      <div class="col-5">
+        <h4 class="title">Online Track - Xilinx Sponsored Track</h4>
+        <p class="description mb-2">
+          More Information soon to come.
+        </p>
+        <a class="align-items-end " href="{% url '2021LPCVC/fpga-info' %}" target="_blank">More Info</a>
+        <a class="align-items-end " href="" target="_blank">More</a>
+      </div>
+    </div>
+  </div>
+-->
+        <!--==========================
+    Sponsors Section
+============================-->
+
+        <hr>
+        <h2>Sponsors</h2>
+        <center>
+          <div class="sponsors-images"><a href="https://www.sigda.org/"><img
+                class="img-responsive" height="150"
+                src="/static/img/sponsors/sigda_acm.jpg"
+                alt="Special Interest Group on Design Automation"></a>
+            <a href="https://ieee-ceda.org/"><img
+                class="img-responsive-80 sponsors-logo"
+                src="/static/img/sponsors/ceda_logo.png" alt="IEEE CEDA"></a>
+          </div>
+        </center>
+
+        <!--==========================
+    Organizers Section
+============================-->
+        <hr>
+        <h2>Organizers</h2>
+        <table border class="table table-hover table-striped table-bordered"
+          style="margin: 20px 0; align-content: center;">
+          <thead>
+            <tr>
+              <th width="20%;">Name</th>
+              <th width="56%;">Role and Organization</th>
+              <th width="24%;">Email</th>
+            </tr>
+          </thead>
+          <tbody style="margin-bottom: 0;">
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Benjamin Chase
+                    Boardley</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Student, Purdue
+                    University</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span
+                    class="c3 c50 c51">bboardle@purdue.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3">Ping Hu</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3">Student, Boston
+                    University</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3 c50">pinghu@bu.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3">Yung-Hsiang Lu</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3">Professor, Purdue
+                    University</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3 c55">yunglu@purdue.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Gowri Ramshankar</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Student, Purdue
+                    University</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span
+                    class="c3 c35">gramshan@purdue.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Kate Saenko</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Professor, Boston
+                    University</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3 c50">saenko@bu.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Nicholas Synovic</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Student, Loyola University
+                    Chicago</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3 c35">nsynovic@luc.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">George K.
+                    Thiruvathukal</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Professor, Loyola University
+                    Chicago</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3 c35">gkt@cs.luc.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Oscar Yanek</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Student, Loyola University
+                    Chicago</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3 c35">oyanek@luc.edu</span></p>
+              </td>
+            </tr>
+            <tr class="c7">
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Leo Chen</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0 c8">Student, Purdue
+                    University</span></p>
+              </td>
+              <td class="c14" colspan="1" rowspan="1">
+                <p class="c5"><span
+                    class="c3 c35">chen3900@purdue.edu</span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+
+      <!-- Footer Section -->
+      <footer id="footer" class="footer bg-dark text-light py-3">
+        <div class="container text-center">
+          <p class="mb-0">© Copyright <strong>LPVC</strong>. All Rights
+            Reserved</p>
+          <p class="mb-0">Designed by <a href="https://bootstrapmade.com/"
+              class="text-success">BootstrapMade</a> Maintained by <span
+              class="text-success">Ron Natarajan and Basil Khwaja</span></p>
+        </div>
+      </footer>
+
+      <!-- Scroll Top -->
+      <a href="#" id="scroll-top"
+        class="scroll-top d-flex align-items-center justify-content-center"><i
+          class="bi bi-arrow-up-short"></i></a>
+
+      <!-- Preloader -->
+      <div id="preloader"></div>
+
+      <!-- Vendor JS Files -->
+      <script
+        src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="../assets/vendor/php-email-form/validate.js"></script>
+      <script src="../assets/vendor/aos/aos.js"></script>
+      <script
+        src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script
+        src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+      <script
+        src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Main JS File -->
+      <script src="../assets/js/main.js"></script>
+
+    </body>
+
+  </html>

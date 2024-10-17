@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<main>
+  <section id="facts">
+    <div class="container">
+
+      <header class="section-header">
+        <form id="filter"><h3>
+            {% if year == 2022 %}
+            <abbr title="Low-Power Computer Vision Challenge">LPCVC</abbr>/<abbr
+              title="Unmanned Aerial Vehicle Chase Challenge">UAVCC</abbr>&nbsp;
+            {% elif year > 2019 %}
+
+            <abbr title="Low-Power Computer Vision Challenge">LPCVC</abbr>&nbsp;
+            {% elif year < 2019 %}
+            <abbr
+              title="Low Power Computer Image Recognition Challenge">LPIRC</abbr>&nbsp;
+            {% else %}
+            <abbr title="Low-Power Computer Vision Challenge">LPCVC</abbr>/<abbr
+              title="Low Power Computer Image Recognition Challenge">LPIRC</abbr>&nbsp;
+            {% endif %}
+            {% if noShowBar %}
+            {{ year }}
+            {% else %}
+            <select name="contest"
+              onchange='location.replace("/competitions/"+document.forms.filter.contest.value);'>
+              {% for id in competition_year_range %}
+              <option value="{{ id }}" {% if id == year %} selected{% endif
+                %}>{{ id }}</option>
+              {% endfor %}
+            </select>
+            {% endif %}
+          </h3></form>
+      </header>
+
+      {% block body %}
+      <div class="card"><div class="card-body">
+          {% block cardbody %}
+          {% endblock %}
+        </div></div>
+      {% endblock %}
+      <div style="padding-bottom:25px"></div>
+    </div>
+  </section><!-- #about -->
+</main>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{% static 'js/main_noIndex.js' %}"></script>
+{% endblock %}
