@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>2022 Competition</title>
+    <title>LPCV Track 1</title>
     <meta name="description" content>
     <meta name="keywords" content>
 
@@ -31,6 +31,7 @@
 
     <!-- Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/index.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: BizPage
@@ -41,10 +42,10 @@
   ======================================================== -->
   </head>
 
-  <body class="starter-page-page">
+  <body class="index-page">
 
     <header id="header"
-      class="header d-flex align-items-center fixed-top bg-dark ">
+      class="header d-flex align-items-center fixed-top bg-dark">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -56,25 +57,23 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html" class="active">Home</a></li>
             <li class="dropdown"><a href="#"><span>History</span>
                 <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="../history.html">Leaderboard</a></li>
-                <li><a href="../competitions/2023.html" class="active">Past
-                    Workshops</a></li>
+                <li><a href="../competitions/2023.html">Past Workshops</a></li>
               </ul>
             </li>
             <li><a href="../publications.html">Publications</a></li>
-
             <li class="dropdown"><a href="#"><span>LPCVC2025</span> <i
                   class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="../tracks/introduction.html">Introduction</a></li>
-                <li><a href="../tracks//track1.html">Track 1</a></li>
-                <li><a href="../tracks//track2.html">Track 2</a></li>
-                <li><a href="../tracks//track3.html">Track 3</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="track1.html">Track 1</a></li>
+                <li><a href="track2.html">Track 2</a></li>
+                <li><a href="track3.html">Track 3</a></li>
               </ul>
             </li>
           </ul>
@@ -84,95 +83,32 @@
       </div>
     </header>
 
-    <main class="main">
+    <main class="main" style="min-height: 100vh;">
 
       <!-- Starter Section Section -->
-      <div style="margin-top: 12%;">
-        <div class="container" data-aos="fade-up">
+      <section id="starter-section" class=" mt-4">
 
-          <form id="filter" style="display: flex; justify-content: center;">
-            <h3>
-              <abbr
-                title="Low-Power Computer Vision Challenge">LPCVC</abbr>&nbsp;
-
-              <select name="contest"
-                onchange='location.replace(document.forms.filter.contest.value+".html");'>
-                <!-- <select name="contest" id> -->
-                <option
-                  value="2023">2023</option><option
-                  value="2022" selected>2022</option><option
-                  value="2021">2021</option><option
-                  value="2020">2020</option><option
-                  value="2019">2019</option><option
-                  value="2018">2018</option><option
-                  value="2017">2017</option><option
-                  value="2016">2016</option><option
-                  value="2015">2015</option>
-              </select>
-            </h3>
-          </form>
-
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Track 1</h2>
+          <h3> Image classification for different lighting conditions and
+            styles</h3>
         </div>
-      </div>
 
-      <div data-aos="fade-up" class="card" style="margin: 5%; padding: 5%;">
-        <h2>2022 Low Power Computer Vision Challenge Overview</h2>
-        <p>
-          Since 2015, the IEEE Low Power Computer Vision Challenges have
-          attracted
-          top
-          researchers worldwide showing their solutions that can achieve high
-          accuracy
-          with low energy consumption.
-        </p>
+        <div class="container" data-aos="fade-up" style="text-align: center;">
+          <p>The participants will classify images in real-world situations,
+            where conditions are often unpredictable and uncertain. Each team
+            will receive 9,000 images, with 1,000 images for each class (a
+            combination of Indoor/Outdoor/Synthetic under low light, normal
+            light, and backlit conditions). The dataset will be based on COCO
+            object detection classes, which contain 80 different classes. The
+            score is defined as the ratio of accuracy and execution time. To
+            receive a score of a classified image, the computer program must
+            return the correct label of the object in the image.
+          </p>
+        </div>
 
-        <p>
-          Computer Vision research has given little consideration to speed or
-          computation time, and even less to constraints such as power/energy,
-          memory
-          footprint and model size.
-        </p>
-        <p>
-          Nevertheless, addressing all of these metrics is essential if advances
-          in
-          Computer Vision are going to be widely available on mobile and AR/VR
-          devices.
-        </p>
-        <p>
-          This
-          <a href="https://sites.google.com/view/ecv2022"
-            target="_blank">workshop
-          </a>
-          focused on efficient deep learning algorithms, models, and systems for
-          computer vision.
-        </p>
-        <h2>2022 Unmanned Aerial Vehicle(UAV) Chase Challenge Overview</h2>
-        <p>
-          In the 2022 UAV Chase Challenge, competitors used computer vision and
-          machine
-          learning to develop solutions for object tracking. Complete solutions
-          included
-          not only an object detection model, but also a complete control system
-          to
-          pilot a drone. Qualifying solutions were tested on an actual drone in
-          Purdue's
-          Unmanned Aerial Systems test facility.
-        </p>
-        <p>
-          More information can be found on the
-          <a href="https://ri4rover.org/" target="_blank">ri4rover website</a>.
-        </p>
-        <p>
-          Join us on <a href="https://lpcvc.slack.com/">Slack </a> for more
-          updates
-          about future competitions.
-        </p>
-
-        <hr />
-        <!--==========================
-        Organizers Section
-      ============================-->
-      </div>
+      </section>
 
     </main>
 
