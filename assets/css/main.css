@@ -72,21 +72,15 @@ a {
   transition: 0.3s;
 }
 
-a.t {
-  color: var(--default-color);
-  text-decoration: none;
-  transition: 0.3s;
-}
-
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
 
 a.t {
-  color: #333; /* Change this to your desired default color */
-  text-decoration: none; /* No underline by default */
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  color: var(--default-color);
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 a.t:hover {
