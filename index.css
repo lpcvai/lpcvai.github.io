@@ -146,3 +146,8 @@ body {
     height: auto; /* Allow iframe to resize on smaller screens */
   }
 }
+
+#hero {
+  background-color: white;
+  background-image: none; /* Removes any background image */
+}
