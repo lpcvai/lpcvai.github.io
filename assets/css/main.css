@@ -72,6 +72,12 @@ a {
   transition: 0.3s;
 }
 
+t {
+  color: var(--default-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
