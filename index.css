@@ -114,3 +114,40 @@ body {
     font-size: small; /* Adjust navbar button size for mobile */
   }
 }
+
+/* Flexbox for centering and responsive design */
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh; /* Full viewport height to ensure centering */
+}
+
+.iframe-container {
+  width: 75%; /* Make the form take up 75% of the available width */
+  display: flex;
+  justify-content: center;
+}
+
+.iframe-container iframe {
+  width: 100%; /* Allow iframe to fully take up container width */
+  height: 100vh; /* Dynamic height based on viewport size */
+  max-height: none;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .iframe-container {
+    width: 95%; /* Almost full-width on smaller screens */
+  }
+
+  .iframe-container iframe {
+    height: auto; /* Allow iframe to resize on smaller screens */
+  }
+}
+
+#hero {
+  background-color: white;
+  background-image: none; /* Removes any background image */
+}

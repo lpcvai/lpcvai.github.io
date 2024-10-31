@@ -77,6 +77,17 @@ a:hover {
   text-decoration: none;
 }
 
+a.t {
+  color: var(--default-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a.t:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -143,7 +154,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(0, 0, 0, 0);
+  --background-color: rgba(0, 0, 0);
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
