@@ -17,3 +17,25 @@
   min-height: auto;
 }
 
+.main
+{
+  background: url(/static/img/purdue-bg1.jpg) center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 0 0;
+  position: relative;
+  color: black;
+  z-index: 1;
+}
+
+.main::before
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.88);
+  z-index: -1;
+}
+
