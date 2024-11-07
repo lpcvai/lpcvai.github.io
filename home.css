@@ -3,6 +3,27 @@
   transform: scale(1.025);
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
-  
 }
+
+.landing
+{
+  background: url(/assets/img/purdue-landing.png) center top no-repeat fixed;
+  /* padding: 100px; */
+  position: relative;
+  color: black;
+  z-index: 1;
+}
+
+.landing::before
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.88);
+  z-index: -1;
+}
+
 
