@@ -30,7 +30,7 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
-
+    <link href="home.css" rel="stylesheet">
     <!-- =======================================================
   * Template Name: BizPage
   * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
@@ -86,29 +86,44 @@
       <section id="hero" class="hero section light-background">
         <div id="hero-carousel" class="carousel slide carousel-fade"
           data-bs-ride="carousel" data-bs-interval="5000">
-
           <div class="carousel-item active">
-            <div class="carousel-container">
-              <h2>
-                <a href="https://lpcvai.github.io/tracks/introduction.html" style="text-decoration: underline;">
+            <div class="carousel-container" >
+              <h2 style="width: 100%; text-align: center;">
+                <a style="text-align: center; text-decoration: none; width: 100%;" >
                   2025 IEEE Low-Power Computer Vision Challenge
                 </a>
               </h2>
-              <ul style="font-size: 1.7rem;">
-                <li>
-                  <a href="https://lpcvai.github.io/tracks/track1.html" class="t" style="text-decoration: underline;">
-                    Track 1: Image classification under various lighting conditions and formats
-                  </a>
+              <ul style="font-size: 1.7rem; display: flex; flex-direction: column; justify-content: space-around; align-items: center; height: 100%; width: 100%;">
+                <li class="card bg-white border-0 shadow-lg col-md-4 card-hover" style="height: fit-content; width: 100%;">
+                  <div class="card-body" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <a  class="card-title fw-bold" style="text-decoration: none;">
+                      Track 1 
+                    </a>
+                    <p class="card-text" style="text-align: center;"> 
+                      Image classification under various lighting conditions and formats
+                    </p>
+                  </div>
                 </li>
-                <li>
-                  <a href="https://lpcvai.github.io/tracks/track2.html" class="t" style="text-decoration: underline;">
-                    Track 2: Open-Vocabulary Segmentation with Text Prompt
+                
+                <li class="card bg-white border-0 shadow-lg col-md-4 card-hover" style="height: fit-content; width: 100%;">
+                  <div class="card-body" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                  <a  class="card-title fw-bold" style="text-decoration: none;">
+                    Track 2 
                   </a>
+                  <p class="card-text" style="text-align: center;">
+                    Open-Vocabulary Segmentation with Text Prompt
+                  </p>
+                </div>
                 </li>
-                <li>
-                  <a href="https://lpcvai.github.io/tracks/track3.html" class="t" style="text-decoration: underline;">
-                    Track 3: Monocular Depth Estimation
+                <li class="card bg-white border-0 shadow-lg col-md-4 card-hover" style="height: fit-content; width: 100%;">
+                  <div class="card-body" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                  <a  class="card-title fw-bold" style="text-decoration: none;">
+                    Track 3
                   </a>
+                  <p class="card-text" style="text-align: center;">
+                    Monocular Depth Estimation
+                  </p>
+                </div>
                 </li>
               </ul>
             </div>
@@ -124,7 +139,7 @@
           <!-- Title and Subtitle -->
           <div class="text-center mb-5" data-aos="fade-up">
             <h2 class="fw-bold">ABOUT LPCVC</h2>
-            <p class="text-muted fst-italic">The Low-Power Computer Vision
+            <p class="text-muted fst-italic">The Low-Power Computer Vision 
               Challenge is an annual competition started in 2015.</p>
           </div>
 
@@ -182,6 +197,11 @@
           </div>
 
           <!-- Video Section Below Cards -->
+          <!-- <div class="row">
+            <div class="col-lg-8 mx-auto"> -->
+              <!-- YouTube Video Embed -->
+              <!-- <div class="ratio ratio-16x9">
+
 	  <!--
           <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -192,8 +212,7 @@
                   allowfullscreen></iframe>
               </div>
             </div>
-          </div>
-	  -->	
+          </div> -->
         </div>
       </section>
 
@@ -444,9 +463,9 @@
       <!-- /Gallery Section -->
 
       <!-- New Section for Image Below the Gallery -->
-      <div class="container text-center mt-5">
+      <div >
         <img src="assets/img/sponsors/sponsors.png" alt="Sponsors"
-          class="img-fluid" style="max-width: 100%;">
+        style="max-width: 100%;" >
       </div>
 
       <!-- Contact Us Section -->

@@ -1,27 +1,8 @@
-.intro_container
+.card-hover:hover
 {
-  /* padding: 64px; */
-  margin-top: 8vh;
-  height: 20vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* padding-top: 2vh; */
-}
-
-.title
-{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: x-large;
-}
-
-.iframe-container
-{
-  /* position: relative; */
-  width: 100vw;
-  height: 56.2%;
-  /* overflow: hidden; */
-  /* margin: 10px; */
+  transform: scale(1.025);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  
 }
 
