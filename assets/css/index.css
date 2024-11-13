@@ -21,7 +21,7 @@
 {
   background: url(/static/img/purdue-bg1.jpg) center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 60px;
   position: relative;
   color: black;
   z-index: 1;
