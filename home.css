@@ -29,10 +29,12 @@
 
 .newsletter
 {
-  background: url(/assets/img/purdue-newsletter.png) center top no-repeat fixed;
+  background: url(/assets/img/purdue-newsletter.png) center no-repeat fixed;
+  background-size: cover;
   position: relative;
   color: black;
   z-index: 1;
+  
 }
 
 .newsletter::before
