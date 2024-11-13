@@ -1,6 +1,7 @@
 .card-hover:hover
 {
   transform: scale(1.025);
+  border-color: aquamarine;
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -25,5 +26,33 @@
   background: rgba(255, 255, 255, 0.88);
   z-index: -1;
 }
+
+.newsletter
+{
+  background: url(/assets/img/purdue-newsletter.png) center top no-repeat fixed;
+  position: relative;
+  color: black;
+  z-index: 1;
+}
+
+.newsletter::before
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.88);
+  z-index: -1;
+}
+
+.line{
+  width: 2px;
+  height: 12px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
 
 
