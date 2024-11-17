@@ -6,17 +6,35 @@
   cursor: pointer;
 }
 
-.landing
-{
-  background: url(/assets/img/purdue-landing.png) center top no-repeat fixed;
-  /* padding: 100px; */
+.landing {
   position: relative;
-  color: black;
-  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(/assets/img/hero-carousel/image-identification.png);
+  animation: slideshow 10s linear infinite;
+  animation-delay: -5s;
 }
 
-.landing::before
-{
+.landing::before,
+.landing::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(assets/img/hero-carousel/segmentation.png);
+  animation: slideshow 10s linear infinite;
+  /* z-index: -1; */
+}
+
+
+
+.overlay {
   content: '';
   position: absolute;
   left: 0;
@@ -24,7 +42,7 @@
   top: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.88);
-  z-index: -1;
+  z-index: 2;
 }
 
 .newsletter
