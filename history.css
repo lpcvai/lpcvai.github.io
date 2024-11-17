@@ -9,9 +9,44 @@
 
 .subtitle
 {
-  color: rgb(175, 175, 175);
+  color: rgb(0, 0, 0);
   /* margin-bottom: 5px; */
   text-align: center;  
+}
+
+/* Container for responsiveness */
+.leaderboard-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow-x: auto; /* Ensures table can scroll horizontally if needed */
+}
+
+/* Responsive table */
+.leaderboard-container table {
+  width: 100%; /* Table takes full width of container */
+  border-collapse: collapse;
+  font-size: 14px; /* Adjust font size */
+}
+
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.5rem; /* Adjust title font size */
+  }
+  .subtitle {
+    font-size: 0.9rem; /* Adjust subtitle font size */
+  }
+  .select {
+    font-size: 14px; /* Smaller font for dropdown */
+  }
+  .w3-table th, .w3-table td {
+    padding: 6px; /* Reduce padding for smaller screens */
+  }
 }
 
 .select {
