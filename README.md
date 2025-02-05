@@ -1,1 +1,0 @@
-Low Power Computer Vision

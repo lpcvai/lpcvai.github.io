@@ -1,9 +1,0 @@
-.constrained-container {
-  width: 80%; /* Make it responsive, adjust percentage as needed */
-  max-width: 900px; /* Constrain to a max width */
-  margin: 0 auto; /* Center the container */
-  padding: 20px; /* Optional: Add spacing inside the container */
-  background-color: #ffffff; /* Optional: Set a white background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
-  border-radius: 8px; /* Optional: Add rounded corners */
-}
