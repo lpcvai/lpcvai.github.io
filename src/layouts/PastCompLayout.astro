@@ -1,0 +1,71 @@
+---
+import Layout from "./Layout.astro";
+
+const { year } = Astro.props;
+
+let competitionName = [];
+if (year === 2022) {
+  competitionName = [
+    { title: "Low-Power Computer Vision Challenge", text: "LPCVC" },
+    { title: "Unmanned Aerial Vehicle Chase Challenge", text: "UAVCC" },
+  ];
+} else if (year > 2019) {
+  competitionName = [{ title: "Low-Power Computer Vision Challenge", text: "LPCVC" }];
+} else if (year < 2019) {
+  competitionName = [{ title: "Low Power Computer Image Recognition Challenge", text: "LPIRC" }];
+} else {
+  competitionName = [
+    { title: "Low-Power Computer Vision Challenge", text: "LPCVC" },
+    { title: "Low Power Computer Image Recognition Challenge", text: "LPIRC" },
+  ];
+}
+
+const years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+---
+<Layout>
+  <main>
+    <section id="facts">
+      <div class="container">
+        <header class="section-header">
+          <form id="filter">
+            <h3>
+              {competitionName.map(({ title, text }, index) => (
+                <>
+                  <abbr title={title}>{text}</abbr>
+                  {index < competitionName.length - 1 && '/'}
+                </>
+              ))}
+              &nbsp;
+                <select name="contest", id="contest-select">
+                  {years.map((id) => (
+                    <option value={id} selected={id === year}>
+                      {id}
+                    </option>
+                  ))}
+                </select>
+            </h3>
+          </form>
+        </header>
+
+        <div class="card">
+          <div class="card-body">
+            <slot />
+          </div>
+        </div>
+
+        <div style="padding-bottom: 25px"></div>
+      </div>
+    </section>
+    <script>
+        const select = document.getElementById("contest-select");
+      
+        select?.addEventListener("change", (e) => {
+            if (!e.target) return;
+
+            const year = (e.target as any).value;
+
+            location.replace(`/competitions/c${year}`)
+        })
+      </script>
+  </main>
+</Layout>

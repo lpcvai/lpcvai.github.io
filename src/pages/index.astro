@@ -1,0 +1,214 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout>
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="carousel-background">
+              <img src="img/bg.jpg" alt="" height="100%">
+            </div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>
+                  <a href="2025LPCVC/introduction">
+                    <u>2025 IEEE Low Power Computer Vision Challenge</u>
+                  </a>
+                </h2>
+                <h4 style="color:white;">Sponsored by</h4>
+				<img src="img/sponsors/Qualcomm.png" style="height: 10%; width: 10%; padding-bottom: 20px;">
+                <div class="row justify-content-center">
+                  {['Track 1', 'Track 2', 'Track 3'].map((track, index) => (
+                    <div
+                      class="col-md-4 m-3 wow fadeInUp"
+                      data-wow-delay="0.2s"
+                      style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));"
+                    >
+                      <h3 style="margin-top: 20px; color: #18d26e;">
+                        <a style="color:#18D26E" href={`2025LPCVC/track${index + 1}`}>{track}</a>
+                      </h3>
+                      <h4 style="color: white;">
+                        {index === 0
+                          ? 'Image classification under various lighting conditions and formats'
+                          : index === 1
+                          ? 'Open-Vocabulary Segmentation with Text Prompt'
+                          : 'Monocular Depth Estimation'}
+                      </h4>
+                    </div>
+                  ))}
+                </div>
+                <h3 style="margin-top: 20px; color: white;" class="wow fadeInUp" data-wow-delay="0.4s">
+                  Join <a href="https://aihub.qualcomm.com/community/slack">Qualcomm AI Hub Slack Workspace</a> for questions and updates!
+                </h3>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about">
+      <div class="container">
+        <header class="section-header">
+          <h3>About LPCVC</h3>
+          <p>The IEEE Low-Power Computer Vision Challenge is an annual competition started in 2015.</p>
+        </header>
+        <div class="row about-cols">
+          {[
+            {
+              title: 'Motivation',
+              description:
+                'Computer vision technologies have made impressive progress in recent years, but often at the expense of increasingly complex models needing more and more computational and storage resources.',
+              icon: 'ion-ios-eye-outline',
+            },
+            {
+              title: 'Our Aim',
+              description:
+                'This workshop aims to improve the energy efficiency of computer vision for running on systems with stringent resource constraints.',
+              icon: 'ion-ios-list-outline',
+            },
+            {
+              title: 'Our Plan',
+              description:
+                'This workshop will discuss the state of the art of low-power computer vision, challenges in creating efficient vision solutions, promising technologies, methods to acquire and label data, benchmarks, and metrics to evaluate progress and success.',
+              icon: 'ion-ios-speedometer-outline',
+            },
+          ].map((item, index) => (
+            <div class="col-md-4 wow fadeInUp" data-wow-delay={`${0.2 * index}s`}>
+              <div class="about-col" style="height:85%">
+                <div class="img">
+                  <hr>
+                  <div class="icon">
+                    <i class={item.icon}></i>
+                  </div>
+                </div>
+                <h2 class="title">
+                  <a href="#about">{item.title}</a>
+                </h2>
+                <p>{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <header class="section-header">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Stay connected with LPCVC for the latest updates and exclusive content.</p>
+        </header>
+        <div class="form-container">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeGumKUqNw6GGgwxbaOgFR8MvFHsND-A1JtlIV9nIZWGlX_bQ/viewform?embedded=true"
+            width="100%"
+            height="800"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+          >
+            Loading…
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+        <header class="section-header">
+          <h3>Past Sponsors</h3>
+        </header>
+        <center>
+          <div class="sponsors-images">
+            
+          <a href="https://www.mediatek.com/"><img class="img-responsive-80 sponsors-logo"
+            src="img/sponsors/mediatek.png" alt="Mediatek" style=""></a>
+
+          <a href="http://www.emc.com.tw/emc/tw/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/elanlogo.jpeg" alt="Elan Microelectronics" style=""></a>
+
+          <a href="https://www.sigda.org/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/sigda_acm.jpg" alt="Special Interest Group on Design Automation"></a>
+
+          <a href="https://ieee-cas.org/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/cas_logo.png" alt="IEEE CAS"></a>
+
+          <a href="https://www.computer.org/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/ieeeCS.jpg" alt="IEEE CAS"></a>
+
+          <a href="https://ieeecsc.org/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/Council-on-Superconductivity-logo.jpg" alt="IEEE CSC"></a>
+
+          <a href="https://ieee-ceda.org/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/ceda_logo.png" alt="IEEE CEDA"></a>
+          
+          <a href="https://sustainableict.ieee.org/"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/sustainableictlogo-1.png" alt="IEEE SustainbleICT"></a>
+
+          <a href="https://rebootingcomputing.ieee.org"><img class="img-responsive-80 sponsors-logo"
+              src="img/sponsors/ieee-rebooting-computing.png" alt="Rebooting Computing" style=""></a>
+
+          <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1925713"><img
+              class="img-responsive-80 sponsors-logo" src="img/sponsors/nsf_logo.jpeg" alt="NSF"></a>
+          </div>
+          <p>*Opinions expressed do not necessarily reflect the sponsors' views.</p>
+        </center>
+      </div>
+    </section>
+
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+        <div class="row contact-info d-flex justify-content-between">
+			<div class="col-md-3">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Address</h3>
+            <address>
+              Yung-Hsiang Lu<br>
+              School of Electrical and Computer Engineering<br>
+              Electrical Engineering Building<br>
+              465 Northwestern Ave<br>
+              West Lafayette, IN 47907-2035</address>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p><a href="tel:+17654942668">+1 765 494-2668</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:lowpowervision@gmail.com">lowpowervision@gmail.com</a></p>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="contact-github contact-email">
+            <i class="ion-social-github"></i>
+            <h3>Github</h3>
+            <p><a href="https://github.com/lpcvai">Click here for GitHub repository</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

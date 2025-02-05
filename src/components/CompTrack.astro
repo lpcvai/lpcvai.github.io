@@ -1,0 +1,24 @@
+---
+const {header, url} = Astro.props
+---
+<main>
+    <section id="facts">
+       <div class="container">
+  
+          <header class="section-header text-center" id="data">
+           <h3>2025 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
+           <h4 class="p-0"><strong>{header}</strong></h4>
+          </header>
+  
+  
+          <div class="card" style="width: 100%; margin: auto; padding: 0; height: 100vh; overflow: hidden;">
+            <iframe src={url}
+            style="border: none; height: 100vh"></iframe>
+
+          </div>
+       
+  
+           <div class="pb-4"></div>  <!-- add blank row -->
+        <!-- </div> -->
+    </section>
+  </main>
