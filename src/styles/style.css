@@ -140,7 +140,7 @@ h6 {
   /* position: fixed; */
   background-color: black;
   left: 0;
-  /* top: 0; */
+  top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
@@ -229,7 +229,6 @@ h6 {
   left: 0;
   right: 0;
 }
-
 #intro .carousel-background {
   width: 100vw;
   overflow: hidden;
@@ -244,6 +243,7 @@ h6 {
 
 #intro .carousel-content {
   text-align: center;
+  padding-bottom: 2%;
 }
 
 #intro h2 {
@@ -590,29 +590,12 @@ h6 {
   text-transform: none;
 }
 
-.nav-menu .menu-has-children ul {
-  margin: 0;
-  display: none; /* Hide submenu by default */
-  position: absolute;
-  top: 100%; /* Position submenu directly below parent */
-  z-index: 1000;
-  opacity: 0; /* Make submenu invisible */
-  transition: opacity 0.3s ease; /* Add a smooth transition */
-}
-
-.nav-menu .menu-has-children:hover > ul,
-.nav-menu .menu-has-children ul:hover {
-  display: block; /* Keep submenu open when hovering over submenu */
-  opacity: 1; /* Make submenu visible */
-  transition-delay: 0s; /* No delay when showing submenu */
+.nav-menu ul li:hover > a {
+  color: #18d26e;
 }
 
 .nav-menu ul ul {
   margin: 0;
-}
-
-.nav-menu li > ul {
-  transition: 0.8;
 }
 
 /* Mobile Nav Toggle */
@@ -745,17 +728,8 @@ Scoreboard
 # Sections
 --------------------------------------------------------------*/
 
-section {
-  scroll-behavior: smooth;
-}
-
 /* Sections Header
 --------------------------------*/
-
-.bg-image {
-  max-width: 100%;
-  max-height: 100%;
-}
 
 .section-header h3 {
   font-size: 32px;
@@ -980,7 +954,7 @@ section {
 /* Newsletter
 --------------------------------*/
 #newsletter {
-  background: url("../img/purdue-bg1.jpg") center top no-repeat;
+  background: url("/img/purdue-bg1.jpg") center top no-repeat;
   background-size: cover;
   padding: 80px 0;
   position: relative;
@@ -1077,7 +1051,7 @@ section {
 
 #call-to-action {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../img/purdue-bg1.jpg) fixed center center;
+    url("/img/purdue-bg1.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1195,7 +1169,7 @@ section {
 --------------------------------*/
 
 #facts {
-  background: url("../img/purdue-bg1.jpg") center top no-repeat fixed;
+  background: url("/img/purdue-bg1.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -1933,11 +1907,7 @@ section {
   }
 }
 
-@media (max-width: 1400px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-
+@media (max-width: 1500px) {
   #header #logo img {
     max-height: 40px;
     padding: 0;
@@ -1973,6 +1943,16 @@ section {
   #intro {
     padding: 0;
     margin: 0;
+  }
+}
+
+td {
+  padding-right: 2em;
+}
+
+@media (max-width: 1400px) {
+  .back-to-top {
+    bottom: 15px;
   }
 
   #nav-menu-container {

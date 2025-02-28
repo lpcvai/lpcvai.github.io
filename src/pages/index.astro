@@ -6,51 +6,62 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
   <section id="intro">
     <div class="intro-container">
-      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+  
         <ol class="carousel-indicators"></ol>
+  
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <div class="carousel-background">
-              <img src="img/bg.jpg" alt="" height="100%">
-            </div>
+            <div class="carousel-background"><img src="img/bg.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>
-                  <a href="2025LPCVC/introduction">
-                    <u>2025 IEEE Low Power Computer Vision Challenge</u>
-                  </a>
+                <h2><a href="2025LPCVC/introduction"><u>2025 IEEE Low Power Computer Vision Challenge</u></a>
                 </h2>
                 <h4 style="color:white;">Sponsored by</h4>
-				<img src="img/sponsors/Qualcomm.png" style="height: 10%; width: 10%; padding-bottom: 20px;">
-                <div class="row justify-content-center">
-                  {['Track 1', 'Track 2', 'Track 3'].map((track, index) => (
-                    <div
-                      class="col-md-4 m-3 wow fadeInUp"
-                      data-wow-delay="0.2s"
-                      style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));"
-                    >
-                      <h3 style="margin-top: 20px; color: #18d26e;">
-                        <a style="color:#18D26E" href={`2025LPCVC/track${index + 1}`}>{track}</a>
-                      </h3>
-                      <h4 style="color: white;">
-                        {index === 0
-                          ? 'Image classification under various lighting conditions and formats'
-                          : index === 1
-                          ? 'Open-Vocabulary Segmentation with Text Prompt'
-                          : 'Monocular Depth Estimation'}
-                      </h4>
-                    </div>
-                  ))}
+                <img src="img/sponsors/Qualcomm.png" style="height: 10%; width: 10%; padding-bottom: 20px;">
+  
+                  <br>
+                  <div class="row justify-content-center">
+                  <div class="col-md-4 m-3 wow fadeInUp" data-wow-delay="0.2s"
+                    style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));">
+                    <h3 style="margin-top: 20px; color: #18d26e;"><a href="2025LPCVC/track1">Track 1</a></h3>
+                    <h4 style="color: white;">Image classification under various lighting conditions and formats</h4>
+                  
+  
+                  </div>
+                  <div class="col-md-4 m-3 wow fadeInUp" data-wow-delay="0.2s"
+                    style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));">
+                    <h3 style="margin-top: 20px; color: #18d26e;"><a href="2025LPCVC/track2">Track 2</a></h3>
+                    <h4 style="color: white;">Open-Vocabulary Segmentation with Text Prompt</h4>
+  
+                  </div>
+                  <div class="col-md-4 m-3 wow fadeInUp" data-wow-delay="0.2s"
+                    style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));">
+                    <h3 style="margin-top: 20px; color: #18d26e;"><a href="2025LPCVC/track3">Track 3</a></h3>
+                    <h4 style="color: white;">Monocular Depth Estimation</h4>
+  
+                  </div>
+    
                 </div>
-                <h3 style="margin-top: 20px; color: white;" class="wow fadeInUp" data-wow-delay="0.4s">
+  
+                <h3 style="margin-middlel; color: white; margin-top: 20px" class="wow fadeInUp" data-wow-delay="0.4s">
+                  Submission window: <b>March 1, 2025 - April 1, 2025</b> 
+                </h3>
+                <h4 style="margin-middlel; color: white; margin-top: 20px" class="wow fadeInUp" data-wow-delay="0.4s">
+                  Register your team now
+                  <a href="https://forms.gle/VnhRptWkfdLn6vkw8" target="_blank" rel="noopener"><button type="button" class="btn btn-primary">Register</button></a>
+                
+                <h3 style="margin-middlel; color: white; margin-top: 20px" class="wow fadeInUp" data-wow-delay="0.4s">
                   Join <a href="https://aihub.qualcomm.com/community/slack">Qualcomm AI Hub Slack Workspace</a> for questions and updates!
                 </h3>
-                <hr>
               </div>
+              
             </div>
           </div>
+  
         </div>
       </div>
+      
     </div>
   </section>
 
