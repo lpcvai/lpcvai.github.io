@@ -1,5 +1,5 @@
 ---
-import Nav from "../components/Nav.astro";
+import Nav from "../components/Nav.tsx";
 import "../styles/bootstrap.min.css";
 import "../styles/style.css";
 import "../styles/animate.min.css";
@@ -31,7 +31,7 @@ import Footer from "../components/Footer.astro";
     />
   </head>
   <body>
-    <Nav />
+    <Nav client:load />
     <slot />
     <Footer />
   </body>
