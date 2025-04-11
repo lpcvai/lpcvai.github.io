@@ -234,8 +234,8 @@ h6 {
   overflow: hidden;
 }
 
-#intro .carousel-background .img {
-  max-width: 100%;
+#intro .carousel-background > img {
+  width: 100%;
   background-size: cover;
   display: block;
   /* background-image: url('img/purdue_airport.jpg'); */
