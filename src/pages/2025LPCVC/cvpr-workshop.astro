@@ -1,0 +1,139 @@
+---
+import TabNav from "../../components/cvpr2025/TabNav.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <TabNav currentPath={currentPath} />
+      <div class="container">
+        <article class="col-md-12">
+          <div class="container">
+            <header class="section-header text-center" id="data">
+              <h3>
+                8th Workshop on Efficient Deep Learning for Computer Vision
+              </h3>
+              <h4 class="p-0"><strong>Workshop at CVPR 2025</strong></h4>
+            </header>
+            <article class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    Recent advances in deep learning have provided significant
+                    improvements in the ability to understand visual content.
+                    Mainstream computer vision research often gives little
+                    consideration to computation time, resource requirements,
+                    and constraints such as energy consumption, memory footprint
+                    and model size, or carbon emission. As computer vision is
+                    increasingly deployed in resource-limited systems (such as
+                    mobile phones, wearable devices, Internet of Things,
+                    autonomous aerial vehicles), addressing all of these metrics
+                    becomes essential. In this year’s ECV workshop, the topics
+                    of interest include but are not limited to the following:
+                  </p>
+
+                  <h3>Topics:</h3>
+                  <ul>
+                    <li>Mobile Generative vs Discriminative models</li>
+                    <li>
+                      Augmented and Virtual Reality for computer vision, such as
+                      image and video synthesis, object tracking, object
+                      recognition, style transfer
+                    </li>
+                    <li>
+                      Integration of large language models (LLM) and computer
+                      vision, such as language-guided synthesis of images or
+                      videos; as well as image understanding via Vision-Language
+                      Models.
+                    </li>
+                    <li>
+                      Applications of computer vision running on mobile or
+                      wearable devices
+                    </li>
+                    <li>Training on mobile devices</li>
+                    <li>User experience of computer vision</li>
+                    <li>
+                      <b>Efficient Foundation Models</b>
+                      <ul>
+                        <li>
+                          Compact and efficient architectures for foundation
+                          models, such as Vision-Language Models, Generative
+                          Adversarial Networks (GANs), Autoregressive models,
+                          Denoising Diffusion Probabilistic Models (DDPMs) and
+                          Multi-Modal Language models.
+                        </li>
+                        <li>
+                          Efficient generative architecture search algorithms
+                          for generative model tasks (domain adaptation, style
+                          transfer,Latency-aware loss design for efficient model
+                          training)
+                        </li>
+                        <li>Tunable efficiency-accuracy tradeoffs</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <b
+                        >Efficient Neural Architecture, Compression,
+                        Quantization and Hardware Acceleration</b
+                      >
+                      <ul>
+                        <li>
+                          Compact and efficient neural network architecture
+                          design
+                        </li>
+                        <li>
+                          Efficient neural architecture search algorithms for
+                          different vision tasks (detection, segmentation,
+                          generative models, etc.)
+                        </li>
+                        <li>
+                          Hardware accelerators to support computer vision
+                        </li>
+                        <li>Hardware-software codesign for computer vision</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <b>Data-Efficient Learning</b>
+                      <ul>
+                        <li>
+                          Methods, algorithms, systems that improves data
+                          efficiency of deep learning
+                        </li>
+                        <li>
+                          Different learning modalities (e.g., supervised,
+                          self-supervised, reinforcement) that can improve
+                          efficiency for computer vision
+                        </li>
+                        <li>
+                          Zero-shot, few-shots learning, language-supervised
+                          learning
+                        </li>
+                        <li>
+                          Open-set recognition, detection, and segmentation
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <b>Efficient 3D models</b>
+                      <ul>
+                        <li>Efficient models for 3D understanding</li>
+                        <li>Efficient neural rendering</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+            <div style="padding-bottom: 25px"></div>
+            <!-- add blank row -->
+          </div>
+        </article>
+        <div style="padding-bottom: 25px"></div>
+      </div>
+    </section>
+  </main>
+  <script is:inline src="/js/main_noIndex.js"></script>
+</Layout>

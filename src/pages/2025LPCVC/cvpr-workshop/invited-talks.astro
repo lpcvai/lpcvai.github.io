@@ -1,0 +1,125 @@
+---
+import TabNav from "../../../components/cvpr2025/TabNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <TabNav currentPath={currentPath} />
+
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <h3>Invited Talks</h3>
+        </header>
+        <article class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h3>Speakers and Topics:</h3>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Organization</th>
+                      <th>Topic</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="/img/cvprspeakers/songhan.jpg"
+                          alt="Song Han"
+                          width="80"
+                          style="margin-right: 1em"
+                        />
+                        Song Han
+                      </td>
+                      <td style="vertical-align: middle">MIT</td>
+                      <td style="vertical-align: middle">
+                        Efficient Multi-modal LLM on the Edge
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="/img/cvprspeakers/xianmingliu.jpeg"
+                          alt="Xianming Liu"
+                          width="80"
+                          style="margin-right: 1em"
+                        />
+                        Xianming Liu
+                      </td>
+                      <td style="vertical-align: middle">Xpeng</td>
+                      <td style="vertical-align: middle">
+                        Scaling Up Autonomous Driving with Large Foundation
+                        Models
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="/img/cvprspeakers/mergen_nachin.jpeg"
+                          alt="Mergen Nachin"
+                          width="80"
+                          style="margin-right: 1em"
+                        />
+                        Mergen Nachin
+                      </td>
+                      <td style="vertical-align: middle">Meta</td>
+                      <td style="vertical-align: middle">
+                        Low power LLM Deployment at scale with PyTorch
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="/img/cvprspeakers/yandeng.jpeg"
+                          alt="Yan Deng"
+                          width="80"
+                          style="margin-right: 1em"
+                        />
+                        Yan Deng<br />
+                        <img
+                          src="/img/cvprspeakers/kelicheng.jpeg"
+                          alt="Keli Cheng"
+                          width="80"
+                          style="margin-right: 1em"
+                        />
+                        Keli Cheng
+                      </td>
+                      <td style="vertical-align: middle">Qualcomm</td>
+                      <td style="vertical-align: middle">
+                        Real-Time Photo-Realistic Gaussian Splatting Avatar on
+                        the Edge
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="/img/cvprspeakers/xiaolong.jpg"
+                          alt="Xiaolong Wang"
+                          width="80"
+                          style="margin-right: 1em"
+                        />
+                        Xiaolong Wang
+                      </td>
+                      <td style="vertical-align: middle">UC San Diego</td>
+                      <td style="vertical-align: middle">
+                        Efficient On Device LLMs for Robotics
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div style="padding-bottom: 25px"></div>
+      </div>
+    </section>
+  </main>
+</Layout>

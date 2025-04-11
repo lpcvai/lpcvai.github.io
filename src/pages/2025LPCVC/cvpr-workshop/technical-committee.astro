@@ -1,0 +1,129 @@
+---
+import TabNav from "../../../components/cvpr2025/TabNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <TabNav currentPath={currentPath} />
+
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <h3>Technical Program Committee</h3>
+        </header>
+        <article class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <div
+                style="
+                  display: flex;
+                  width: 100%;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Organization</th>
+                        <th>Email</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Bo Lang</td>
+                        <td>Lehigh University</td>
+                        <td>bol221@lehigh.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Zhen Yao</td>
+                        <td>Lehigh University</td>
+                        <td>zhy321@lehigh.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Zhihao Zheng</td>
+                        <td>Lehigh University</td>
+                        <td>zhzc21@lehigh.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Amirhossein Habibian</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>ahabibia@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Ashwin Murthy</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>ashwmurt@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Xiao Hu</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>hux@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Taotao Jing</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>tjing@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Xin Li</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>lxi@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Gaowen Liu</td>
+                        <td>Cisco Systems</td>
+                        <td>gaoliu@cisco.com</td>
+                      </tr>
+                      <tr>
+                        <td>Sifei Liu</td>
+                        <td>NVIDIA</td>
+                        <td>sifeil@NVIDIA.com</td>
+                      </tr>
+                      <tr>
+                        <td>Abhinav Goel</td>
+                        <td>NVIDIA</td>
+                        <td>abgoel@NVIDIA.com</td>
+                      </tr>
+                      <tr>
+                        <td>Jaeyoun Kim</td>
+                        <td>Google</td>
+                        <td>jaeyounkim@google.com</td>
+                      </tr>
+                      <tr>
+                        <td>Joe Spisak</td>
+                        <td>Meta</td>
+                        <td>jspisak@meta.com</td>
+                      </tr>
+                      <tr>
+                        <td>Bichen Wu</td>
+                        <td>Meta</td>
+                        <td>wbc@meta.com</td>
+                      </tr>
+                      <tr>
+                        <td>Luer Li</td>
+                        <td>Advin Biotech Inc</td>
+                        <td>lul006@ucsd.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Yamini Nimmagadda</td>
+                        <td>Intel</td>
+                        <td>yamini.nimmagadda@intel.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div style="padding-bottom: 25px"></div>
+      </div>
+    </section>
+  </main>
+</Layout>

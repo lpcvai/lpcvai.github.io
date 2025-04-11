@@ -1,0 +1,63 @@
+---
+const { currentPath } = Astro.props;
+---
+
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a
+        style="color: #000;"
+        class:list={[
+          "nav-link",
+          currentPath === "/2025LPCVC/cvpr-workshop" ? "active" : "",
+        ]}
+        href="/2025LPCVC/cvpr-workshop">Home</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        style="color: #000;"
+        class:list={[
+          "nav-link",
+          currentPath === "/2025LPCVC/cvpr-workshop/program" ? "active" : "",
+        ]}
+        href="/2025LPCVC/cvpr-workshop/program">Program</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        style="color: #000;"
+        class:list={[
+          "nav-link",
+          currentPath === "/2025LPCVC/cvpr-workshop/invited-talks"
+            ? "active"
+            : "",
+        ]}
+        href="/2025LPCVC/cvpr-workshop/invited-talks">Invited Talks</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        style="color: #000;"
+        class:list={[
+          "nav-link",
+          currentPath === "/2025LPCVC/cvpr-workshop/technical-committee"
+            ? "active"
+            : "",
+        ]}
+        href="/2025LPCVC/cvpr-workshop/technical-committee"
+        >Technical Program Committee</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        style="color: #000;"
+        class:list={[
+          "nav-link",
+          currentPath === "/2025LPCVC/cvpr-workshop/organizers" ? "active" : "",
+        ]}
+        href="/2025LPCVC/cvpr-workshop/organizers">Organizers</a
+      >
+    </li>
+  </ul>
+</div>

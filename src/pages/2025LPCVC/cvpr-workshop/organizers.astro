@@ -1,0 +1,95 @@
+---
+import TabNav from "../../../components/cvpr2025/TabNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <TabNav currentPath={currentPath} />
+
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <h3>Organizers</h3>
+        </header>
+        <article class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <div
+                style="
+                  display: flex;
+                  width: 100%;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Organization</th>
+                        <th>Email</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>(Primary contact) Shuai Zhang</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>shuazhan@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>George K. Thiruvathukal</td>
+                        <td>Loyola University Chicago</td>
+                        <td>gthiruvathukal@luc.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Yung-Hsiang Lu</td>
+                        <td>Purdue University</td>
+                        <td>yunglu@purdue.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Mooi Choo Chuah</td>
+                        <td>Lehigh University</td>
+                        <td>mcc7@lehigh.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Pavlo Molchanov</td>
+                        <td>NVIDIA</td>
+                        <td>pmolchanov@NVIDIA.com</td>
+                      </tr>
+                      <tr>
+                        <td>Hongxu (Danny) Yin</td>
+                        <td>NVIDIA</td>
+                        <td>dannyy@NVIDIA.com</td>
+                      </tr>
+                      <tr>
+                        <td>Ning Bi</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>nbi@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Krishna Sridhar</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>srsr@qti.qualcomm.com</td>
+                      </tr>
+                      <tr>
+                        <td>Fatih Porikli</td>
+                        <td>Qualcomm Technologies, Inc.</td>
+                        <td>fporikli@qti.qualcomm.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div style="padding-bottom: 25px"></div>
+      </div>
+    </section>
+  </main>
+  <script is:inline src="/js/main_noIndex.js"></script>
+</Layout>

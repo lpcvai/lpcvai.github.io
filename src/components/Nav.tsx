@@ -120,6 +120,9 @@ export default function Header() {
                   </li>
                   <li>
                     <a href="/2025LPCVC/monocular-depth">Track 3</a>
+                    <li>
+                      <a href="/2025LPCVC/cvpr-workshop">CVPR Workshop</a>
+                    </li>
                   </li>
                 </ul>
               </li>

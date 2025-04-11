@@ -1,0 +1,100 @@
+---
+import TabNav from "../../../components/cvpr2025/TabNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <TabNav currentPath={currentPath} />
+
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <h3>Workshop Program</h3>
+        </header>
+        <article class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h3>Workshop Schedule (8AM to noon on June 11th)</h3>
+              <div
+                style="
+                  display: flex;
+                  width: 100%;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Time</th>
+                        <th>Topic</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>08:00AM</td>
+                        <td>Welcome by Organizers</td>
+                      </tr>
+                      <tr>
+                        <td>08:05AM</td>
+                        <td>Song Han</td>
+                      </tr>
+                      <tr>
+                        <td>08:35AM</td>
+                        <td>Xianming Liu</td>
+                      </tr>
+                      <tr>
+                        <td>09:05AM</td>
+                        <td>Mergen Nachin</td>
+                      </tr>
+                      <tr>
+                        <td>09:35AM</td>
+                        <td>Yan Deng, Keli Cheng</td>
+                      </tr>
+                      <tr>
+                        <td>10:05AM</td>
+                        <td>Break</td>
+                      </tr>
+                      <tr>
+                        <td>10:20AM</td>
+                        <td>Xiaolong Wang</td>
+                      </tr>
+                      <tr>
+                        <td>10:50AM</td>
+                        <td>Presentations of Competition Winners</td>
+                      </tr>
+                      <tr>
+                        <td>10:50-11:00AM</td>
+                        <td
+                          >Introduction and summary talk from LPCVC organizers</td
+                        >
+                      </tr>
+                      <tr>
+                        <td>11:00-11:45AM</td>
+                        <td>Winners of Each Track (15 minutes per track)</td>
+                      </tr>
+                      <tr>
+                        <td>11:45AM</td>
+                        <td>Discussion and QA</td>
+                      </tr>
+                      <tr>
+                        <td>12:00PM</td>
+                        <td>Adjourn</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div style="padding-bottom: 25px"></div>
+      </div>
+    </section>
+  </main>
+  <script is:inline src="/js/main_noIndex.js"></script>
+</Layout>
