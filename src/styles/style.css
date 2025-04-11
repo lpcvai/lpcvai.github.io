@@ -187,12 +187,12 @@ h6 {
   background-size: cover;
   display: table;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 92px);
 }
 
 #intro .carousel-item {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 92px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
