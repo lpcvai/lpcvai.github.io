@@ -16,7 +16,7 @@ const embeddedUrl = `${url}?embedded=true`;
         <div style="display: flex; justify-content: center;">
           <!-- Center the iframe horizontally -->
           <iframe
-            src={`/api/${url}`}
+            src={`/api/gdoc_proxy/${url}`}
             onload="AdjustIframeHeightOnLoad()"
             style="border:none; width: 80%;"
             id="content"

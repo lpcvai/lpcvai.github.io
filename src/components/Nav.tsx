@@ -97,7 +97,12 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("lpcvc")}
                 onMouseLeave={() => handleMouseLeave("lpcvc")}
               >
-                <a href="/2025LPCVC/introduction">2025 LPCVC</a>
+                <a href="/2025LPCVC/introduction">
+                  2025 LPCVC{" "}
+                  <i
+                    className={`fa ${expandedMenus["lpcv"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+                  ></i>
+                </a>
                 <ul
                   style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}
                 >
@@ -124,7 +129,12 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("history")}
                 onMouseLeave={() => handleMouseLeave("history")}
               >
-                <a href="/competitions/c2023">History</a>
+                <a href="/competitions/c2023">
+                  History{" "}
+                  <i
+                    className={`fa ${expandedMenus["history"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+                  ></i>
+                </a>
                 <ul
                   style={{
                     display: expandedMenus["history"] ? "block" : "none",
