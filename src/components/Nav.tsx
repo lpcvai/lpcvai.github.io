@@ -1,17 +1,21 @@
 import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [isMobileNavActive, setIsMobileNavActive] = useState<boolean>(false);
+  const [isMobileNavActive, setIsMobileNavActive] = useState(false);
   const [expandedMenus, setExpandedMenus] = useState<Record<string, boolean>>(
     {},
   );
+  const [hoverTimeouts, setHoverTimeouts] = useState<
+    Record<string, ReturnType<typeof setTimeout> | null>
+  >({});
 
-  // Toggle mobile navigation
+  const isDesktop = () =>
+    typeof window !== "undefined" && window.innerWidth > 768;
+
   const toggleMobileNav = () => {
     setIsMobileNavActive((prev) => !prev);
   };
 
-  // Toggle submenu in mobile view
   const toggleSubmenu = (key: string) => {
     setExpandedMenus((prev) => ({
       ...prev,
@@ -19,13 +23,43 @@ export default function Header() {
     }));
   };
 
-  // Add or remove mobile nav class to <body>
+  const handleMouseEnter = (key: string) => {
+    if (!isDesktop()) return;
+
+    if (hoverTimeouts[key]) clearTimeout(hoverTimeouts[key]!);
+
+    setExpandedMenus((prev) => ({
+      ...prev,
+      [key]: true,
+    }));
+  };
+
+  const handleMouseLeave = (key: string) => {
+    if (!isDesktop()) return;
+
+    const timeout = setTimeout(() => {
+      setExpandedMenus((prev) => ({
+        ...prev,
+        [key]: false,
+      }));
+    }, 300);
+
+    setHoverTimeouts((prev) => ({
+      ...prev,
+      [key]: timeout,
+    }));
+  };
+
   useEffect(() => {
     if (isMobileNavActive) {
       document.body.classList.add("mobile-nav-active");
     } else {
       document.body.classList.remove("mobile-nav-active");
     }
+
+    return () => {
+      Object.values(hoverTimeouts).forEach((t) => t && clearTimeout(t));
+    };
   }, [isMobileNavActive]);
 
   return (
@@ -58,9 +92,15 @@ export default function Header() {
                 <a href="/">Home</a>
               </li>
 
-              <li className="menu-has-children">
+              <li
+                className="menu-has-children"
+                onMouseEnter={() => handleMouseEnter("lpcvc")}
+                onMouseLeave={() => handleMouseLeave("lpcvc")}
+              >
                 <a href="/2025LPCVC/introduction">2025 LPCVC</a>
-                <ul>
+                <ul
+                  style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}
+                >
                   <li>
                     <a href="/2025LPCVC/introduction">Introduction</a>
                   </li>
@@ -79,9 +119,17 @@ export default function Header() {
                 </ul>
               </li>
 
-              <li className="menu-has-children">
+              <li
+                className="menu-has-children"
+                onMouseEnter={() => handleMouseEnter("history")}
+                onMouseLeave={() => handleMouseLeave("history")}
+              >
                 <a href="/competitions/c2023">History</a>
-                <ul>
+                <ul
+                  style={{
+                    display: expandedMenus["history"] ? "block" : "none",
+                  }}
+                >
                   <li>
                     <a href="/competitions/c2023">Past Workshops</a>
                   </li>
@@ -96,7 +144,6 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Mobile Navigation – always rendered for proper styling */}
       <nav id="mobile-nav">
         <ul>
           <li>
@@ -107,14 +154,10 @@ export default function Header() {
           </li>
 
           <li
-            className={`menu-has-children ${
-              expandedMenus["lpcvc"] ? "menu-item-active" : ""
-            }`}
+            className={`menu-has-children ${expandedMenus["lpcvc"] ? "menu-item-active" : ""}`}
           >
             <i
-              className={`fa ${
-                expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"
-              }`}
+              className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
               onClick={() => toggleSubmenu("lpcvc")}
             ></i>
             <a href="/2025LPCVC/introduction">2025 LPCVC</a>
@@ -138,14 +181,10 @@ export default function Header() {
           </li>
 
           <li
-            className={`menu-has-children ${
-              expandedMenus["history"] ? "menu-item-active" : ""
-            }`}
+            className={`menu-has-children ${expandedMenus["history"] ? "menu-item-active" : ""}`}
           >
             <i
-              className={`fa ${
-                expandedMenus["history"] ? "fa-chevron-up" : "fa-chevron-down"
-              }`}
+              className={`fa ${expandedMenus["history"] ? "fa-chevron-up" : "fa-chevron-down"}`}
               onClick={() => toggleSubmenu("history")}
             ></i>
             <a href="/competitions/c2023">History</a>
@@ -164,7 +203,6 @@ export default function Header() {
         </ul>
       </nav>
 
-      {/* Mobile Navigation Overlay */}
       {isMobileNavActive && (
         <div id="mobile-body-overly" onClick={toggleMobileNav}></div>
       )}
