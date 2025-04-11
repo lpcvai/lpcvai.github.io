@@ -1,0 +1,59 @@
+commit 1236fba80e2791d647deb5f8735bb55d8250a456
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Fri Feb 28 14:04:23 2025 -0500
+
+    navbar
+    
+    Signed-off-by: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+
+commit e8fa97d4aa65663ea01301b9aa2339792e2cf991
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Fri Feb 28 14:03:45 2025 -0500
+
+    updates
+    
+    Signed-off-by: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+
+commit 5e81073194a19d48005623bb51790cecf17a41c5
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Fri Feb 7 12:25:41 2025 -0500
+
+    Create main.yml
+
+commit deb81d2f65869b1565544988be2779f5d28a10bd
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Fri Feb 7 12:24:38 2025 -0500
+
+    test
+    
+    Signed-off-by: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+
+commit 19bf4465a06c9502420c02c7791a34ba888184e5
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Wed Feb 5 13:14:08 2025 -0500
+
+    add node modules to gitignore
+
+commit 54032962481eff32215eaf0949d8e627f26c9448
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Wed Feb 5 13:13:06 2025 -0500
+
+    remove node modules
+
+commit a112f9669b3945a2ec3264ab4307a93b1bc30be0
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Wed Feb 5 13:11:52 2025 -0500
+
+    remove .DS_Store
+
+commit 83404edec0d8382f70f5e1f393ae53ae28156fc0
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Wed Feb 5 13:09:54 2025 -0500
+
+    new website
+
+commit f9e0226b5423cb2e5dba0915ec99a255da068c53
+Author: Vincent Zhao <59675522+VincentZhao12@users.noreply.github.com>
+Date:   Wed Feb 5 13:09:23 2025 -0500
+
+    new website

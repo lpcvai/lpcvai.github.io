@@ -1,24 +1,48 @@
 ---
-const {header, url} = Astro.props
----
-<main>
-    <section id="facts">
-       <div class="container">
-  
-          <header class="section-header text-center" id="data">
-           <h3>2025 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
-           <h4 class="p-0"><strong>{header}</strong></h4>
-          </header>
-  
-  
-          <div class="card" style="width: 100%; margin: auto; padding: 0; height: 100vh; overflow: hidden;">
-            <iframe src={url}
-            style="border: none; height: 100vh"></iframe>
+const { header, url } = Astro.props;
 
-          </div>
-       
-  
-           <div class="pb-4"></div>  <!-- add blank row -->
-        <!-- </div> -->
-    </section>
-  </main>
+const embeddedUrl = `${url}?embedded=true`;
+---
+
+<main>
+  <section id="facts">
+    <div class="container">
+      <header class="section-header text-center" id="data">
+        <h3>2025 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
+        <h4 class="p-0"><strong>{header}</strong></h4>
+      </header>
+
+      <div class="card">
+        <div style="display: flex; justify-content: center;">
+          <!-- Center the iframe horizontally -->
+          <iframe
+            src={`/api/${url}`}
+            onload="AdjustIframeHeightOnLoad()"
+            style="border:none; width: 80%;"
+            id="content"
+          >
+          </iframe>
+        </div>
+
+        <script type="text/javascript">
+          function AdjustIframeHeightOnLoad() {
+            document.getElementById("content").style.height =
+              50 +
+              document.getElementById("content").contentWindow.document.body
+                .scrollHeight +
+              "px";
+          }
+          function AdjustIframeHeight(i) {
+            document.getElementById("content").style.height =
+              50 + parseInt(i) + "px";
+          }
+          window.addEventListener("resize", AdjustIframeHeightOnLoad);
+        </script>
+      </div>
+
+      <div class="pb-4"></div>
+      <!-- add blank row -->
+      <!-- </div> -->
+    </div>
+  </section>
+</main>
