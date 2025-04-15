@@ -735,13 +735,13 @@ Scoreboard
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 32px;
+  font-size: 32px !important;
   color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .section-header h3::before {
