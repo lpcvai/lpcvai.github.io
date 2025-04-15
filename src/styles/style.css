@@ -137,8 +137,8 @@ h6 {
 #header {
   padding: 30px 0;
   height: 92px;
-  /* position: fixed; */
-  background-color: black;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.88);
   left: 0;
   top: 0;
   right: 0;
@@ -187,12 +187,13 @@ h6 {
   background-size: cover;
   display: table;
   width: 100%;
-  height: calc(100vh - 92px);
+  /* padding-top: 92px; */
+  height: calc(100vh);
 }
 
 #intro .carousel-item {
   width: 100%;
-  height: calc(100vh - 92px);
+  height: calc(100vh);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -228,6 +229,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  padding-top: 92px;
 }
 #intro .carousel-background {
   width: 100vw;
@@ -235,7 +237,8 @@ h6 {
 }
 
 #intro .carousel-background > img {
-  width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
   background-size: cover;
   display: block;
   /* background-image: url('img/purdue_airport.jpg'); */
@@ -766,7 +769,8 @@ Scoreboard
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  color: #333;
+  padding-top: 30px;
+  color: #333 !important;
 }
 
 /* Section with background
@@ -947,8 +951,9 @@ Scoreboard
   font-size: 14px;
   line-height: 24px;
   color: #333;
-  margin-bottom: 0;
-  padding: 0 20px 20px 20px;
+  margin: 0;
+  padding: 0 40px 40px 40px;
+  width: 100%;
 }
 
 /* Newsletter
