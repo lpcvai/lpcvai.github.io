@@ -111,6 +111,9 @@ export default function Header() {
                   </li>
                   {/* <li> <a href="/2025LPCVC/winners">Winners</a> </li> */}
                   <li>
+                    <a href="/2025LPCVC/leaderboard/track1">Leaderboard</a>
+                  </li>
+                  <li>
                     <a href="/2025LPCVC/image-classification">Track 1</a>
                   </li>
                   <li>
@@ -179,6 +182,9 @@ export default function Header() {
               {/* <li>
                 <a href="/2025LPCVC/winners">Winners</a>
               </li> */}
+              <li>
+                <a href="/2025LPCVC/leaderboard/track1">Leaderboard</a>
+              </li>
               <li>
                 <a href="/2025LPCVC/image-classification">Track 1</a>
               </li>
