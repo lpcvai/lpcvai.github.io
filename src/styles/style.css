@@ -1867,6 +1867,13 @@ Scoreboard
   color: #ddd;
 }
 
+.track-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1940,6 +1947,12 @@ Scoreboard
     padding: 0;
     margin: 0;
   }
+
+  #intro h5 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
   #intro li {
     font-size: 14px;
     padding: 0;
@@ -1998,6 +2011,12 @@ td {
   }
   #intro h4 {
     font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #intro h5 {
+    font-size: 8px;
     padding: 0;
     margin: 0;
   }
