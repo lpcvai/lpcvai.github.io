@@ -1868,10 +1868,10 @@ Scoreboard
 }
 
 .track-card {
-  padding: 2rem;
+  padding: 0.25vh;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.1rem;
 }
 
 /*--------------------------------------------------------------
