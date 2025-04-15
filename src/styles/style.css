@@ -231,6 +231,11 @@ h6 {
   right: 0;
   padding-top: 92px;
 }
+
+main {
+  margin-top: 92px;
+}
+
 #intro .carousel-background {
   width: 100vw;
   overflow: hidden;

@@ -110,7 +110,7 @@ export default function Header() {
                     <a href="/2025LPCVC/introduction">Introduction</a>
                   </li>
                   <li>
-                    <a href="/2025LPCVC/submission/track1">Model Submission</a>
+                    <a href="/2025LPCVC/winners">Winners</a>
                   </li>
                   <li>
                     <a href="/2025LPCVC/image-classification">Track 1</a>
@@ -179,7 +179,7 @@ export default function Header() {
                 <a href="/2025LPCVC/introduction">Introduction</a>
               </li>
               <li>
-                <a href="/2025LPCVC/submission/track1">Model Submission</a>
+                <a href="/2025LPCVC/winners">Winners</a>
               </li>
               <li>
                 <a href="/2025LPCVC/image-classification">Track 1</a>
