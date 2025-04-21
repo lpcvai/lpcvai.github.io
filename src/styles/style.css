@@ -187,7 +187,7 @@ h6 {
   background-size: cover;
   display: table;
   width: 100%;
-  /* padding-top: 92px; */
+  padding-top: 92px;
   height: calc(100vh);
 }
 
@@ -246,6 +246,10 @@ main {
   min-height: 100vh;
   background-size: cover;
   display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
   /* background-image: url('img/purdue_airport.jpg'); */
 }
 

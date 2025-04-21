@@ -109,7 +109,11 @@ export default function Header() {
                   <li>
                     <a href="/2025LPCVC/introduction">Introduction</a>
                   </li>
-                  {/* <li> <a href="/2025LPCVC/winners">Winners</a> </li> */}
+                  <li>
+                    {" "}
+                    <a href="/2025LPCVC/winners">Winners</a>{" "}
+                  </li>{" "}
+                  {/* <-- UNCOMMENTED */}
                   <li>
                     <a href="/2025LPCVC/leaderboard/track1">Leaderboard</a>
                   </li>
@@ -179,9 +183,9 @@ export default function Header() {
               <li>
                 <a href="/2025LPCVC/introduction">Introduction</a>
               </li>
-              {/* <li>
-                <a href="/2025LPCVC/winners">Winners</a>
-              </li> */}
+              <li>
+                <a href="/2025LPCVC/winners">Winners</a> {/* <-- UNCOMMENTED */}
+              </li>
               <li>
                 <a href="/2025LPCVC/leaderboard/track1">Leaderboard</a>
               </li>
