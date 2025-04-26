@@ -247,7 +247,7 @@ main {
   background-size: cover;
   display: block;
   position: absolute;
-  top: -92px;
+  top: 0;
   left: 0;
   z-index: -1;
   /* background-image: url('img/purdue_airport.jpg'); */
