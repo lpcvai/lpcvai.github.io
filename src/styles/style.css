@@ -239,6 +239,12 @@ main {
   overflow-x: hidden;
 }
 
+#intro {
+  max-width: 100%;
+  overflow-x: 0;
+  padding: 0;
+}
+
 #intro .carousel-background {
   width: 100vw;
   /* overflow: hidden;
@@ -261,7 +267,7 @@ main {
 
 #intro .carousel-content {
   text-align: center;
-  padding-bottom: 2%;
+  /* padding-bottom: 2%; */
 }
 
 #intro h2 {
