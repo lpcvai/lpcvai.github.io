@@ -16,6 +16,7 @@ body {
   overflow-anchor: none;
   transition: ease-in-out;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
