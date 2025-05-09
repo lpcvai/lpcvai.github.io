@@ -267,7 +267,7 @@ main {
 
 #intro .carousel-content {
   text-align: center;
-  /* padding-bottom: 2%; */
+  padding-top: 92px;
 }
 
 #intro h2 {
@@ -1943,7 +1943,7 @@ Scoreboard
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
   #header #logo img {
     max-height: 40px;
     padding: 0;
