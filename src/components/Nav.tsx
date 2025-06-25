@@ -137,7 +137,7 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("history")}
                 onMouseLeave={() => handleMouseLeave("history")}
               >
-                <a href="/competitions/c2023">
+                <a href="/competitions/c2025">
                   History{" "}
                   <i
                     className={`fa ${expandedMenus["history"] ? "fa-chevron-up" : "fa-chevron-down"}`}
@@ -149,7 +149,7 @@ export default function Header() {
                   }}
                 >
                   <li>
-                    <a href="/competitions/c2023">Past Workshops</a>
+                    <a href="/competitions/c2025">Past Workshops</a>
                   </li>
                 </ul>
               </li>
