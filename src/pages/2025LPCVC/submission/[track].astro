@@ -1,0 +1,72 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  return [
+    { params: { track: "track1" } },
+    { params: { track: "track2" } },
+    { params: { track: "track3" } },
+  ];
+}
+
+type TrackType = "track1" | "track2" | "track3";
+
+const { track } = Astro.params;
+const validTrack = (track || "track1") as TrackType;
+
+
+// Define iframe sources based on track
+const trackForms: Record<TrackType, string> = {
+  track1: "https://docs.google.com/forms/d/e/1FAIpQLSdtw4NQ4W5r1r-SLG_P87tFs1R5syAK8EWpXo9tK5IiHUzKqw/viewform?embedded=true",
+  track2: "https://docs.google.com/forms/d/e/1FAIpQLSe9Brw0Cy-thX4XTGKvo_IkSN0Vvnzbg2cpNrS5EH8aRfDdvw/viewform?embedded=true",
+  track3: "https://docs.google.com/forms/d/e/1FAIpQLSfkELitTZpxfWc7y47e5ZBDJbQibDIE0FWJedJ05IHzHy9s2w/viewform?embedded=true",
+};
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <div class="container">
+        <header class="section-header">
+          <form id="filter">
+            <h3>
+              Model Registration
+              <select name="contest" id="trackSelect">
+                <option value="track1" selected={track === "track1"}
+                  >Track 1</option
+                >
+                <option value="track2" selected={track === "track2"}
+                  >Track 2</option
+                >
+                <option value="track3" selected={track === "track3"}
+                  >Track 3</option
+                >
+              </select>
+            </h3>
+          </form>
+        </header>
+
+        <div class="card">
+          <iframe
+            src={trackForms[validTrack]}
+            style="border: none; height: 100vh"
+            id="content"
+          >
+            Loading…
+          </iframe>
+        </div>
+
+        <div style="padding-bottom:25px"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("trackSelect")?.addEventListener("change", (e) => {
+      if (!e || !e.target) return;
+      const target: any = e.target;
+      const selectedTrack = target.value;
+      window.location.replace(`/2025LPCVC/submission/${selectedTrack}`);
+    });
+  </script>
+</Layout>
