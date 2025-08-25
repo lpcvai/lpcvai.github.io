@@ -115,9 +115,6 @@ export default function Header() {
                   </li>{" "}
                   {/* <-- UNCOMMENTED */}
                   <li>
-                    <a href="/2025LPCVC/leaderboard_round2/track1">Leaderboard (Round 2)</a>
-                  </li>
-                  <li>
                     <a href="/2025LPCVC/leaderboard_round1/track1">Leaderboard (Round 1)</a>
                   </li>
                   <li>
@@ -188,9 +185,6 @@ export default function Header() {
               </li>
               <li>
                 <a href="/2025LPCVC/winners">Winners</a> {/* <-- UNCOMMENTED */}
-              </li>
-              <li>
-                <a href="/2025LPCVC/leaderboard_round1/track2">Leaderboard (Round 2)</a>
               </li>
               <li>
                 <a href="/2025LPCVC/leaderboard_round1/track1">Leaderboard (Round 1)</a>
