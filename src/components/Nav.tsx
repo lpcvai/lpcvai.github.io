@@ -110,9 +110,6 @@ export default function Header() {
                     <a href="/2025LPCVC/introduction">Introduction</a>
                   </li>
                   <li>
-                    <a href="/2025LPCVC/submission/track1">Model Submission</a>
-                  </li>
-                  <li>
                     {" "}
                     <a href="/2025LPCVC/winners">Winners</a>{" "}
                   </li>{" "}
@@ -188,9 +185,6 @@ export default function Header() {
             <ul style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}>
               <li>
                 <a href="/2025LPCVC/introduction">Introduction</a>
-              </li>
-              <li>
-                <a href="/2025LPCVC/submission/track1">Model Submission</a>
               </li>
               <li>
                 <a href="/2025LPCVC/winners">Winners</a> {/* <-- UNCOMMENTED */}
