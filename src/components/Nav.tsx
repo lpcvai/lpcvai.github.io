@@ -89,6 +89,9 @@ export default function Header() {
                 <a href="/#newsletter">Newsletter</a>
               </li>
               <li>
+                <a href="">Register (open soon)</a>
+              </li>
+              <li>
                 <a href="/">Home</a>
               </li>
 
@@ -97,8 +100,8 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("lpcvc")}
                 onMouseLeave={() => handleMouseLeave("lpcvc")}
               >
-                <a href="/2025LPCVC/introduction">
-                  2025 LPCVC{" "}
+                <a href="/2026LPCVC/introduction">
+                  2026 LPCVC{" "}
                   <i
                     className={`fa ${expandedMenus["lpcv"] ? "fa-chevron-up" : "fa-chevron-down"}`}
                   ></i>
@@ -107,27 +110,29 @@ export default function Header() {
                   style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}
                 >
                   <li>
-                    <a href="/2025LPCVC/introduction">Introduction</a>
+                    <a href="/2026LPCVC/introduction">Introduction</a>
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
-                    <a href="/2025LPCVC/winners">Winners</a>{" "}
-                  </li>{" "}
-                  {/* <-- UNCOMMENTED */}
+                    <a href="/2026LPCVC/winners">Winners</a>{" "}
+                  </li> */}
+                  {/* <li>
+                    <a>Track info to be released</a>
+                  </li> */}
                   <li>
-                    <a href="/2025LPCVC/leaderboard/track1">Leaderboard</a>
+                    <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
                   </li>
                   <li>
-                    <a href="/2025LPCVC/image-classification">Track 1</a>
+                    <a href="/2026LPCVC/image-text-retrieval">Track 1</a>
                   </li>
                   <li>
-                    <a href="/2025LPCVC/open-vocabulary">Track 2</a>
+                    <a href="/2026LPCVC/video-action">Track 2</a>
                   </li>
                   <li>
-                    <a href="/2025LPCVC/monocular-depth">Track 3</a>
+                    <a href="/2026LPCVC/forgery-detection">Track 3</a>
                   </li>
-                  <li>
-                    <a href="/2025LPCVC/cvpr-workshop">CVPR Workshop</a>
+                  {/* <li>
+                    <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
                   </li>
                 </ul>
               </li>
@@ -151,6 +156,9 @@ export default function Header() {
                   <li>
                     <a href="/competitions/c2025">Past Workshops</a>
                   </li>
+                  {/* <li>
+                    <a href="/2025LPCVC/introduction">Past Competition</a>
+                  </li> */}
                 </ul>
               </li>
 
@@ -178,29 +186,29 @@ export default function Header() {
               className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
               onClick={() => toggleSubmenu("lpcvc")}
             ></i>
-            <a href="/2025LPCVC/introduction">2025 LPCVC</a>
+            <a href="/2026LPCVC/introduction">2026 LPCVC</a>
             <ul style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}>
               <li>
-                <a href="/2025LPCVC/introduction">Introduction</a>
+                <a href="/2026LPCVC/introduction">Introduction</a>
+              </li>
+              {/* <li>
+                <a href="/2026LPCVC/winners">Winners</a>
+              </li> */}
+              <li>
+                <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
               </li>
               <li>
-                <a href="/2025LPCVC/winners">Winners</a> {/* <-- UNCOMMENTED */}
+                <a href="/2026LPCVC/image-text-retrieval">Track 1</a>
               </li>
               <li>
-                <a href="/2025LPCVC/leaderboard/track1">Leaderboard</a>
+                <a href="/2026LPCVC/video-action">Track 2</a>
               </li>
               <li>
-                <a href="/2025LPCVC/image-classification">Track 1</a>
+                <a href="/2026LPCVC/forgery-detection">Track 3</a>
               </li>
-              <li>
-                <a href="/2025LPCVC/open-vocabulary">Track 2</a>
-              </li>
-              <li>
-                <a href="/2025LPCVC/monocular-depth">Track 3</a>
-              </li>
-              <li>
-                <a href="/2025LPCVC/cvpr-workshop">CVPR Workshop</a>
-              </li>
+              {/* <li>
+                <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
+              </li> */}
             </ul>
           </li>
 

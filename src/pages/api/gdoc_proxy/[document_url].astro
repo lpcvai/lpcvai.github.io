@@ -1,11 +1,15 @@
 ---
 export async function getStaticPaths() {
   const docs = [
-    "1KHcvSp1x02j3OPh0X3jCv0P8znpXwNRSuLl1QP2rzwM",
-    "1hUMk0QNm86OSuGR5daMCSSdCh7DH9zs_oTLjM2oZm3s",
-    "19baAk9FiSO_QV58kc-x88ucckGYIUxcBqb4QJNsV06g",
-    "1ot_wzkCyXhGT_J5MfP3TbAXlWq9VYVgzHLO1FscZJg4",
-    "1I1rj74tx2Z84LbfP6Lw6vEJ0HBlJ4HOAaA3sMMBxKl0",
+    "2PACX-1vQZj_s7_oK39qsDBHVOMGRMVxB7jmZYmc2zDn-tvCAh5uU0uwJxGdDNxJ2Xl9tSd4b4Og3IGX7zTIG2",
+    "2PACX-1vQ2PgERUC80J2Wxo4NAuTK48nzcX5r0DEraVvYzDiM_qygKjktmonCCt4C6VnoA5rd3RELyT7Me3bG7",
+    "2PACX-1vSrvuX2vIVrbMhoXQtHNjmyFfNKNPS54Euob_a9twSGjb9o_RQjwtpBept5aaWdas4aAhd-SPvX-QHT",
+    "2PACX-1vTWF7hlEQnL6yRqQqCF2__RuVL2KkxlVX2kWvuSIaDMAS1IVoRtpkgfx6yZLuuAOysQ48n6z1hQ0dqN",
+    
+    "2PACX-1vSSH22507R_HrWo4XyK-MaLKmj1BlhdK5pOiBhsy1m5A57-bgPbOQNuC96IONmCyYG7EF1dxSGBWapd",
+    "2PACX-1vRrKUqDQ4uf9HO7QzoTlGQxpiJepiXYZoYbTVonjmQlct1Gmv4uaFtrOev11Fi7pwzQtHPWvPWj2WyV",
+    "2PACX-1vTys2Wrvcc8PHzqq9vkSi4FnXg_0Yb4Nf0_3bQdpMtXJmvQo0r1-NGl7EZTc1RffXzyuQqS4s5hcAVM",
+    "2PACX-1vSui3lN7JBCSnqVVWX0TrnbLfeVZASwZvndLJtOIgez-STWWDQ9_GnL25LF8WZCbDmWfkdhkYCZW49E",
   ];
 
   return docs.map((doc) => ({
@@ -15,7 +19,7 @@ export async function getStaticPaths() {
 
 const { document_url } = Astro.params;
 const googleDocsUrl =
-  "https://docs.google.com/document/d/" + document_url + "/pub?embedded=true";
+  "https://docs.google.com/document/d/e/" + document_url + "/pub?embedded=true";
 
 console.log(googleDocsUrl);
 

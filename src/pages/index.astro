@@ -20,8 +20,8 @@ import Layout from "../layouts/Layout.astro";
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>
-                  <a href="/2025LPCVC/introduction"
-                    ><u>2025 IEEE Low Power Computer Vision Challenge</u></a
+                  <a href="/2026LPCVC/introduction"
+                    ><u>2026 IEEE Low Power Computer Vision Challenge</u></a
                   >
                 </h2>
                 <h4 style="color:white;">Sponsored by</h4>
@@ -39,13 +39,12 @@ import Layout from "../layouts/Layout.astro";
                     style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));"
                   >
                     <h3 style=" color: #18d26e;">
-                      <a href="/2025LPCVC/image-classification">Track 1</a>
+                      <a href="/2026LPCVC/image-text-retrieval">Track 1</a>
                     </h3>
                     <h4 style="color: white;">
-                      Image classification under various lighting conditions and
-                      formats
+                      Image-to-Text Retrieval
                     </h4>
-                    <h5 style="color: white;">Winner: LabLVM</h5>
+                    
                   </div>
                   <div
                     class="col-md-4 m-3 wow fadeInUp track-card"
@@ -53,12 +52,12 @@ import Layout from "../layouts/Layout.astro";
                     style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));"
                   >
                     <h3 style=" color: #18d26e;">
-                      <a href="/2025LPCVC/open-vocabulary">Track 2</a>
+                      <a href="/2026LPCVC/video-action">Track 2</a>
                     </h3>
                     <h4 style="color: white;">
-                      Open-Vocabulary Segmentation with Text Prompt
+                      Video Action Recognition
                     </h4>
-                    <h5 style="color: white;">Winner: SICer</h5>
+                    
                   </div>
                   <div
                     class="col-md-4 m-3 wow fadeInUp track-card"
@@ -66,28 +65,31 @@ import Layout from "../layouts/Layout.astro";
                     style="background: linear-gradient(rgba(56, 56, 56, 0.5),rgba(56, 56, 56, 0.5));"
                   >
                     <h3 style=" color: #18d26e;">
-                      <a href="/2025LPCVC/monocular-depth">Track 3</a>
+                      <a href="/2026LPCVC/forgery-detection">Track 3</a>
                     </h3>
-                    <h4 style="color: white;">Monocular Depth Estimation</h4>
-                    <h5 style="color: white;">Winner: Sailor Moon</h5>
+                    <h4 style="color: white;">AI Generated Images Forgery Detection</h4>
+                    
                   </div>
                 </div>
 
-                <h4
-                  style="color: white; margin-top: 20px; text-align: center;"
+                <h3
+                  style="color: white; margin-top: 20px"
                   class="wow fadeInUp"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.4s"
                 >
-                  <a href="/2025LPCVC/winners"><u>View All Winners</u></a>
-                </h4>
+                  Awards:<br>
+                  First: <b>$6,000</b><br>
+                  Second: <b>$3,000</b><br>
+                  Third: <b>$1,000</b>
+                </h3>
 
                 <h3
                   style="margin-middlel; color: white; margin-top: 20px"
                   class="wow fadeInUp"
                   data-wow-delay="0.4s"
                 >
-                  Submission window (Closed): <b
-                    >March 1, 2025 - March 31, 2025</b
+                  Submission window: <b
+                    >March 1, 2026 - April 30, 2026</b
                   >
                 </h3>
                 <h4
@@ -177,7 +179,8 @@ import Layout from "../layouts/Layout.astro";
           </header>
           <div class="form-container">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeGumKUqNw6GGgwxbaOgFR8MvFHsND-A1JtlIV9nIZWGlX_bQ/viewform?embedded=true"
+              {/* src="https://docs.google.com/forms/d/e/1FAIpQLSeGumKUqNw6GGgwxbaOgFR8MvFHsND-A1JtlIV9nIZWGlX_bQ/viewform?embedded=true" 2025 */}
+              src="https://docs.google.com/forms/d/e/1FAIpQLSf-Zu4-6dCGm-SpS3HWaDwuqY_ahE21qe_t3Sw6GXosd7s1vg/viewform?embedded=true"
               width="100%"
               height="800"
               frameborder="0"
@@ -198,6 +201,14 @@ import Layout from "../layouts/Layout.astro";
 
           <center>
             <div class="sponsors-images">
+              {/* <a href="https://www.qualcomm.com/"
+                ><img
+                  class="img-responsive-80 img-fluid sponsors-logo"
+                  src="/img/sponsors/Qualcomm.png"
+                  alt="Qualcomm"
+                /></a
+              > */}
+
               <a href="https://www.nvidia.com/"
                 ><img
                   class="img-responsive-80 img-fluid sponsors-logo"
