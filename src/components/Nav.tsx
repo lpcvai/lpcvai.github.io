@@ -133,7 +133,7 @@ export default function Header() {
                   </li>
                   {/* <li>
                     <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
 
