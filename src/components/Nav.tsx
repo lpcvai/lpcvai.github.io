@@ -156,6 +156,9 @@ export default function Header() {
                   <li>
                     <a href="/competitions/c2025">Past Workshops</a>
                   </li>
+                  <li>
+                    <a href="/2025LPCVC/winners">2025 Winners</a>
+                  </li>
                   {/* <li>
                     <a href="/2025LPCVC/introduction">Past Competition</a>
                   </li> */}
@@ -224,7 +227,10 @@ export default function Header() {
               style={{ display: expandedMenus["history"] ? "block" : "none" }}
             >
               <li>
-                <a href="/competitions/c2023">Past Workshops</a>
+                <a href="/competitions/c2025">Past Workshops</a>
+              </li>
+              <li>
+                <a href="/2025LPCVC/winners">2025 Winners</a>
               </li>
             </ul>
           </li>
