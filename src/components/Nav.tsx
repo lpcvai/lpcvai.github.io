@@ -129,7 +129,7 @@ export default function Header() {
                     <a href="/2026LPCVC/video-action">Track 2</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/forgery-detection">Track 3</a>
+                    <a href="/2026LPCVC/ai-image-detection">Track 3</a>
                   </li>
                   {/* <li>
                     <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
@@ -207,7 +207,7 @@ export default function Header() {
                 <a href="/2026LPCVC/video-action">Track 2</a>
               </li>
               <li>
-                <a href="/2026LPCVC/forgery-detection">Track 3</a>
+                <a href="/2026LPCVC/ai-image-detection">Track 3</a>
               </li>
               {/* <li>
                 <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
