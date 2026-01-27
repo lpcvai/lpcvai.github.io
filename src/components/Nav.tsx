@@ -179,6 +179,9 @@ export default function Header() {
             <a href="/#newsletter">Newsletter</a>
           </li>
           <li>
+            <a href="">Register (open soon)</a>
+          </li>
+          <li>
             <a href="/">Home</a>
           </li>
 
