@@ -89,7 +89,7 @@ export default function Header() {
                 <a href="/#newsletter">Newsletter</a>
               </li>
               <li>
-                <a href="">Register (open soon)</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
               </li>
               <li>
                 <a href="/">Home</a>
@@ -179,7 +179,7 @@ export default function Header() {
             <a href="/#newsletter">Newsletter</a>
           </li>
           <li>
-            <a href="">Register (open soon)</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
           </li>
           <li>
             <a href="/">Home</a>
