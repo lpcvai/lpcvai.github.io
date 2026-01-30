@@ -1,7 +1,6 @@
 ---
 const { header, url } = Astro.props;
-
-const embeddedUrl = `${url}?embedded=true`;
+// We no longer use /api/gdoc_proxy/ because it's static and stuck
 ---
 
 <main>
@@ -14,35 +13,16 @@ const embeddedUrl = `${url}?embedded=true`;
 
       <div class="card">
         <div style="display: flex; justify-content: center;">
-          <!-- Center the iframe horizontally -->
           <iframe
-            src={`/api/gdoc_proxy/${url}`}
-            onload="AdjustIframeHeightOnLoad()"
-            style="border:none; width: 80%;"
+            src={`https://docs.google.com/document/d/e/${url}/pub?embedded=true&t=${Date.now()}`}
             id="content"
+            style="border:none; width: 80%; min-height: 800px;"
           >
           </iframe>
         </div>
-
-        <script type="text/javascript">
-          function AdjustIframeHeightOnLoad() {
-            document.getElementById("content").style.height =
-              50 +
-              document.getElementById("content").contentWindow.document.body
-                .scrollHeight +
-              "px";
-          }
-          function AdjustIframeHeight(i) {
-            document.getElementById("content").style.height =
-              50 + parseInt(i) + "px";
-          }
-          window.addEventListener("resize", AdjustIframeHeightOnLoad);
-        </script>
       </div>
 
       <div class="pb-4"></div>
-      <!-- add blank row -->
-      <!-- </div> -->
     </div>
   </section>
 </main>
