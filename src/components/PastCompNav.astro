@@ -1,0 +1,48 @@
+---
+const { basePath } = Astro.props; 
+const currentPath = Astro.url.pathname;
+---
+
+<div class="container">
+  <ul class="nav nav-tabs">
+    <!-- Home tab -->
+    <li class="nav-item">
+      <a
+        class:list={["nav-link", currentPath === basePath ? "active" : ""]}
+        href={basePath}
+      >
+        Home
+      </a>
+    </li>
+
+    <!-- Competition Overview -->
+    <li class="nav-item">
+      <a
+        class:list={["nav-link", currentPath === `${basePath}/overview` ? "active" : ""]}
+        href={`${basePath}/overview`}
+      >
+        Competition Overview
+      </a>
+    </li>
+
+    <!-- Track 1 Introduction -->
+    <li class="nav-item">
+      <a
+        class:list={["nav-link", currentPath === `${basePath}/tracks/track1` ? "active" : ""]}
+        href={`${basePath}/tracks/track1`}
+      >
+        Track 1 Introduction
+      </a>
+    </li>
+
+    <!-- Track 1 Leaderboard -->
+    <li class="nav-item">
+      <a
+        class:list={["nav-link", currentPath === `${basePath}/leaderboard/track1` ? "active" : ""]}
+        href={`${basePath}/leaderboard/track1`}
+      >
+        Track 1 Leaderboard
+      </a>
+    </li>
+  </ul>
+</div>

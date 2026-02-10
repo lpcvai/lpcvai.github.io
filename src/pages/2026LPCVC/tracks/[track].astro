@@ -1,0 +1,61 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import CompTrack from "../../../components/CompTrack.astro";
+
+export async function getStaticPaths() {
+  return [
+    { params: { track: "track1" } },
+    { params: { track: "track2" } },
+    { params: { track: "track3" } },
+  ];
+}
+
+const { track } = Astro.params;
+
+// Track titles
+const trackTitles = {
+  track1: "Image-to-Text Retrieval",
+  track2: "Action Recognition in Video",
+  track3: "AI Generated Image Detection",
+};
+
+// Track Google Doc URLs
+const trackUrls = {
+  track1: "2PACX-1vRrKUqDQ4uf9HO7QzoTlGQxpiJepiXYZoYbTVonjmQlct1Gmv4uaFtrOev11Fi7pwzQtHPWvPWj2WyV",
+  track2: "2PACX-1vTys2Wrvcc8PHzqq9vkSi4FnXg_0Yb4Nf0_3bQdpMtXJmvQo0r1-NGl7EZTc1RffXzyuQqS4s5hcAVM",
+  track3: "2PACX-1vSui3lN7JBCSnqVVWX0TrnbLfeVZASwZvndLJtOIgez-STWWDQ9_GnL25LF8WZCbDmWfkdhkYCZW49E",
+};
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <!-- Year-specific header -->
+          <h3>2026 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
+
+          <!-- Track dropdown -->
+          <h4 class="p-0">
+            <select
+              onchange={`location.replace("/2026LPCVC/tracks/"+this.value);`}
+            >
+              <option value="track1" selected={track === "track1"}>Track 1</option>
+              <option value="track2" selected={track === "track2"}>Track 2</option>
+              <option value="track3" selected={track === "track3"}>Track 3</option>
+            </select>
+            &nbsp;<strong>{trackTitles[track]}</strong>
+          </h4>
+        </header>
+
+        <!-- CompTrack handles only the iframe -->
+        <CompTrack
+          header={trackTitles[track]}
+          url={trackUrls[track]}
+        />
+
+        <div class="pb-4"></div>
+      </div>
+    </section>
+  </main>
+</Layout>

@@ -4,6 +4,16 @@ import PastCompLayout from "../../layouts/PastCompLayout.astro";
 
 <PastCompLayout year={2025}>
   <div>
+    <button onclick="window.open('/2025LPCVC/introduction', '_blank')">Competition Introduction</button>
+    <button onclick="window.open('/2025LPCVC/tracks/track1', '_blank')">Track Introductions</button>
+    <button onclick="window.open('/2025LPCVC/leaderboard/track1', '_blank')">Leaderboards</button>
+    <button onclick="window.open('/2025LPCVC/winners', '_blank')">Winners' Solutions</button>
+
+
+    <hr />
+
+
+
     <h2>2025 LPCVC Overview</h2>
 
       <p>
@@ -307,3 +317,29 @@ import PastCompLayout from "../../layouts/PastCompLayout.astro";
     </table>
   </div></PastCompLayout
 >
+
+
+<style>
+  /* Container spacing */
+  div > button {
+    margin-right: 10px;      /* space between buttons */
+    padding: 8px 16px;       /* nice click area */
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #18d26e; /* subtle border */
+    background-color: #18d26e;  /* primary color */
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  div > button:hover {
+    background-color: #18d26fdf; /* slightly darker on hover */
+    border-color: #18d26fdf;
+  }
+
+  div > button:active {
+    transform: translateY(1px); /* subtle click effect */
+  }
+</style>

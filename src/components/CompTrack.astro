@@ -1,28 +1,14 @@
 ---
 const { header, url } = Astro.props;
-// We no longer use /api/gdoc_proxy/ because it's static and stuck
----
+--- 
 
-<main>
-  <section id="facts">
-    <div class="container">
-      <header class="section-header text-center" id="data">
-        <h3>2026 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
-        <h4 class="p-0"><strong>{header}</strong></h4>
-      </header>
-
-      <div class="card">
-        <div style="display: flex; justify-content: center;">
-          <iframe
-            src={`https://docs.google.com/document/d/e/${url}/pub?embedded=true&t=${Date.now()}`}
-            id="content"
-            style="border:none; width: 80%; min-height: 800px;"
-          >
-          </iframe>
-        </div>
-      </div>
-
-      <div class="pb-4"></div>
-    </div>
-  </section>
-</main>
+<div class="card">
+  <div style="display: flex; justify-content: center;">
+    <iframe
+      src={`https://docs.google.com/document/d/e/${url}/pub?embedded=true&t=${Date.now()}`}
+      title={header}
+      id="content"
+      style="border:none; width: 80%; min-height: 100vh;"
+    ></iframe>
+  </div>
+</div>

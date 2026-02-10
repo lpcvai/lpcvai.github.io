@@ -1,11 +1,27 @@
 ---
-import CompTrack from "../../components/CompTrack.astro";
 import Layout from "../../layouts/Layout.astro";
+import CompTrack from "../../components/CompTrack.astro";
 ---
 
 <Layout>
-  <CompTrack
-    header="Introduction"
-    url="2PACX-1vQZj_s7_oK39qsDBHVOMGRMVxB7jmZYmc2zDn-tvCAh5uU0uwJxGdDNxJ2Xl9tSd4b4Og3IGX7zTIG2"
-  />
+  <main>
+    <section id="facts">
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <!-- Year-specific header -->
+          <h3>2025 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
+          <!-- Page title -->
+          <h4 class="p-0"><strong>Introduction</strong></h4>
+        </header>
+
+        <!-- CompTrack handles only the iframe -->
+        <CompTrack
+          header="Introduction"
+          url="2PACX-1vQZj_s7_oK39qsDBHVOMGRMVxB7jmZYmc2zDn-tvCAh5uU0uwJxGdDNxJ2Xl9tSd4b4Og3IGX7zTIG2"
+        />
+
+        <div class="pb-4"></div>
+      </div>
+    </section>
+  </main>
 </Layout>

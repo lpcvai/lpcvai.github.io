@@ -123,13 +123,13 @@ export default function Header() {
                     <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
                   </li> */}
                   <li>
-                    <a href="/2026LPCVC/image-text-retrieval">Track 1</a>
+                    <a href="/2026LPCVC/tracks/track1">Track 1</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/video-action">Track 2</a>
+                    <a href="/2026LPCVC/tracks/track2">Track 2</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/ai-image-detection">Track 3</a>
+                    <a href="/2026LPCVC/tracks/track3">Track 3</a>
                   </li>
                   {/* <li>
                     <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
@@ -155,9 +155,6 @@ export default function Header() {
                 >
                   <li>
                     <a href="/competitions/c2025">Past Workshops</a>
-                  </li>
-                  <li>
-                    <a href="/2025LPCVC/winners">2025 Winners</a>
                   </li>
                   {/* <li>
                     <a href="/2025LPCVC/introduction">Past Competition</a>
@@ -204,13 +201,13 @@ export default function Header() {
                 <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
               </li> */}
               <li>
-                <a href="/2026LPCVC/image-text-retrieval">Track 1</a>
+                <a href="/2026LPCVC/tracks/track1">Track 1</a>
               </li>
               <li>
-                <a href="/2026LPCVC/video-action">Track 2</a>
+                <a href="/2026LPCVC/tracks/track2">Track 2</a>
               </li>
               <li>
-                <a href="/2026LPCVC/ai-image-detection">Track 3</a>
+                <a href="/2026LPCVC/tracks/track3">Track 3</a>
               </li>
               {/* <li>
                 <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
@@ -231,9 +228,6 @@ export default function Header() {
             >
               <li>
                 <a href="/competitions/c2025">Past Workshops</a>
-              </li>
-              <li>
-                <a href="/2025LPCVC/winners">2025 Winners</a>
               </li>
             </ul>
           </li>
