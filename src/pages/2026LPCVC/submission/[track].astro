@@ -1,0 +1,71 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return [
+    { params: { track: "track1" } },
+    { params: { track: "track2" } },
+    { params: { track: "track3" } },
+  ];
+}
+
+const { track } = Astro.params;
+
+// Titles for the header
+const trackTitles = {
+  track1: "Track 1: Image-to-Text Retrieval",
+  track2: "Track 2: Action Recognition in Video",
+  track3: "Track 3: AI Generated Image Detection",
+};
+
+// Map each track to its specific Google Form ID
+// Replace these with your actual Form IDs
+const trackFormIds = {
+  track1: "1FAIpQLScDs5w3NJPGE27gYh7raN67jBKw4tQnjsZ0wydnybtVrWIvmg", 
+  track2: "1FAIpQLScxpwM-TYK7Ar_O9Z02azMe5AaGFQeRJ8a617miinJIgO2NRQ", // Replace with Track 2 Form ID
+  track3: "1FAIpQLSdOsIlbrEDhB3g_Q2vzb3D6Y9LdXaOfw_lbh9idDRZOUuwJTw", // Replace with Track 3 Form ID
+};
+
+const formId = trackFormIds[track];
+---
+
+<Layout>
+  <main>
+    <section id="facts">
+      <div class="container">
+        <header class="section-header text-center" id="data">
+          <h3>2026 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
+
+          <h4 class="p-0">
+            <select
+              onchange={`location.replace("/2026LPCVC/submission/"+this.value);`}
+            >
+              <option value="track1" selected={track === "track1"}>Track 1</option>
+              <option value="track2" selected={track === "track2"}>Track 2</option>
+              <option value="track3" selected={track === "track3"}>Track 3</option>
+            </select>
+            <br />
+            <span style="font-size: 0.9em; color: #000000; margin-top: 10px; display: inline-block;">
+              Currently submitting for: <strong>{trackTitles[track]}</strong>
+            </span>
+          </h4>
+        </header>
+
+        <div class="card" style="margin-top: 20px;">
+          <div style="display: flex; justify-content: center;">
+            <iframe
+              src={`https://docs.google.com/forms/d/e/${formId}/viewform?embedded=true`}
+              width="100%"
+              height="1000"
+              style="border:none; min-height: 80vh;"
+            >
+              Loading form…
+            </iframe>
+          </div>
+        </div>
+
+        <div class="pb-4"></div>
+      </div>
+    </section>
+  </main>
+</Layout>

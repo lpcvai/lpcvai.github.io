@@ -91,9 +91,59 @@ export default function Header() {
               <li>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
               </li>
-              <li>
-                <a href="/">Home</a>
+              <li
+                className="menu-has-children"
+                onMouseEnter={() => handleMouseEnter("submission")}
+                onMouseLeave={() => handleMouseLeave("submission")}
+              >
+                <a href="/2026LPCVC/submission/track1">
+                  Submission{" "}
+                  <i
+                    className={`fa ${expandedMenus["submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+                  ></i>
+                </a>
+                <ul
+                  style={{ display: expandedMenus["submission"] ? "block" : "none" }}
+                >
+                  <li>
+                    <a href="/2026LPCVC/submission/track1">Track 1</a>
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/submission/track2">Track 2</a>
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/submission/track3">Track 3</a>
+                  </li>
+                </ul>
               </li>
+              <li
+                className="menu-has-children"
+                onMouseEnter={() => handleMouseEnter("leaderboard")}
+                onMouseLeave={() => handleMouseLeave("leaderboard")}
+              >
+                <a href="/2026LPCVC/leaderboard/track1">
+                  Leaderboard{" "}
+                  <i
+                    className={`fa ${expandedMenus["leaderboard"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+                  ></i>
+                </a>
+                <ul
+                  style={{ display: expandedMenus["leaderboard"] ? "block" : "none" }}
+                >
+                  <li>
+                    <a href="/2026LPCVC/leaderboard/track1">Track 1</a>
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/leaderboard/track2">Track 2</a>
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/leaderboard/track3">Track 3</a>
+                  </li>
+                </ul>
+              </li>
+              {/* <li>
+                <a href="/">Home</a>
+              </li> */}
 
               <li
                 className="menu-has-children"
@@ -103,7 +153,7 @@ export default function Header() {
                 <a href="/2026LPCVC/introduction">
                   2026 LPCVC{" "}
                   <i
-                    className={`fa ${expandedMenus["lpcv"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+                    className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
                   ></i>
                 </a>
                 <ul
@@ -178,9 +228,59 @@ export default function Header() {
           <li>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
           </li>
-          <li>
-            <a href="/">Home</a>
+          <li
+            className="menu-has-children"
+            onMouseEnter={() => handleMouseEnter("submission")}
+            onMouseLeave={() => handleMouseLeave("submission")}
+          >
+            <a href="/2026LPCVC/submission/track1">
+              Submission{" "}
+              <i
+                className={`fa ${expandedMenus["submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+              ></i>
+            </a>
+            <ul
+              style={{ display: expandedMenus["submission"] ? "block" : "none" }}
+            >
+              <li>
+                <a href="/2026LPCVC/submission/track1">Track 1</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/submission/track2">Track 2</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/submission/track3">Track 3</a>
+              </li>
+            </ul>
           </li>
+          <li
+            className="menu-has-children"
+            onMouseEnter={() => handleMouseEnter("leaderboard")}
+            onMouseLeave={() => handleMouseLeave("leaderboard")}
+          >
+            <a href="/2026LPCVC/leaderboard/track1">
+              Leaderboard{" "}
+              <i
+                className={`fa ${expandedMenus["leaderboard"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+              ></i>
+            </a>
+            <ul
+              style={{ display: expandedMenus["leaderboard"] ? "block" : "none" }}
+            >
+              <li>
+                <a href="/2026LPCVC/leaderboard/track1">Track 1</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/leaderboard/track2">Track 2</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/leaderboard/track3">Track 3</a>
+              </li>
+            </ul>
+          </li>
+          {/* <li>
+            <a href="/">Home</a>
+          </li> */}
 
           <li
             className={`menu-has-children ${expandedMenus["lpcvc"] ? "menu-item-active" : ""}`}
