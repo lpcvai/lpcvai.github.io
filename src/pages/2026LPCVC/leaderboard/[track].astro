@@ -1,5 +1,4 @@
 ---
-// src/pages/2025LPCVC/leaderboard/[track].astro
 import Layout from "../../../layouts/Layout.astro";
 
 export async function getStaticPaths() {
@@ -12,28 +11,16 @@ export async function getStaticPaths() {
 
 const { track } = Astro.params;
 
-const qualifiedLeaderboardUrls = {
-  track1: "https://szz1-26-track1lb.hf.space",
-  track2: "https://szz1-26-track2lb.hf.space",
-  track3: "https://szz1-26-track3lb.hf.space",
+const qualifiedCsvUrls = {
+  track1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMFrDUJ6RHEVXpBPtXULj-GMpnklXMu-eueuqysxa4F5vLeBQyy4e52cBAghFTnDO0JUR8NjCy6YNE/pub?gid=0&single=true&output=csv",
+  track2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRS8ykHnrAv7VXaqKLkjVF_ltRx5s5JiL-U-0tZcd26dNnbIEPh9zrbAL2phZZAH0jBXu5Z-nrt-jcl/pub?gid=0&single=true&output=csv",
+  track3: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgXRdZ2e0E3epHwIzEXEwiLbG2hCwJT-VBJtqANN7ISojrSGN9R595hXLlBif0ZjXKjFyz6nr4hSap/pub?gid=0&single=true&output=csv",
 };
 
-const disqualifiedLeaderboardUrls = {
-  track1: "https://szz1-26-track1lb-invalid.hf.space",
-  track2: "https://szz1-26-track2lb-invalid.hf.space",
-  track3: "https://szz1-26-track3lb-invalid.hf.space",
-};
-
-const qualifiedIframeId = {
-  track1: "track1a",
-  track2: "track2a",
-  track3: "track3a",
-};
-
-const disqualifiedIframeId = {
-  track1: "track1b",
-  track2: "track2b",
-  track3: "track3b",
+const disqualifiedCsvUrls = {
+  track1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQpk4jA2Ll2NMCI41oymTDCJP5kR4PuZsBtslkVfkqxLQ1eTIaq5BKNYpGv-a2NFGEN_Sdep4PDhc7Y/pub?gid=0&single=true&output=csv",
+  track2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRD__QbJKQvCPYvxD5nSg9KwDz6K7mHGBfPfuJpPzXimyjfv2W06TqzbNxEkVaFS9NSBcVs72dhhagf/pub?gid=0&single=true&output=csv",
+  track3: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNejmA5IYqCs6GeQfJP8LpNdvNw-R8U3rzVj6qEo2bGYyFUGhNGe2z-N9cMxhgqeQrXtdAStI1eeG9/pub?gid=0&single=true&output=csv",
 };
 ---
 
@@ -46,17 +33,11 @@ const disqualifiedIframeId = {
             2026 IEEE LPCVC Leaderboard
             <select
               name="contest"
-              onchange={`location.replace("/2026LPCVC/leaderboard/"+this.value);`}
+              onchange={`location.replace("/2026LPCVC/leaderboard/" + this.value);`}
             >
-              <option value="track1" selected={track === "track1"}
-                >Track 1</option
-              >
-              <option value="track2" selected={track === "track2"}
-                >Track 2</option
-              >
-              <option value="track3" selected={track === "track3"}
-                >Track 3</option
-              >
+              <option value="track1" selected={track === "track1"}>Track 1</option>
+              <option value="track2" selected={track === "track2"}>Track 2</option>
+              <option value="track3" selected={track === "track3"}>Track 3</option>
             </select>
           </h3>
         </header>
@@ -64,51 +45,153 @@ const disqualifiedIframeId = {
         <div class="leaderboard-container">
           <div class="leaderboard-card">
             <h4>Track {track.slice(-1)} Qualified Leaderboard</h4>
-            <iframe
-              src={qualifiedLeaderboardUrls[track]}
-              style="border: none; height: 80vh; width: 100%;"
-              id={qualifiedIframeId[track]}
-            >
-              Loading…
-            </iframe>
+            <div id="qualified-status" class="status-text">Loading...</div>
+            <div class="table-wrapper">
+              <table id="qualified-table" class="leaderboard-table"></table>
+            </div>
           </div>
 
           <div class="leaderboard-card">
             <h4>Track {track.slice(-1)} Disqualified Leaderboard</h4>
-            <iframe
-              src={disqualifiedLeaderboardUrls[track]}
-              style="border: none; height: 80vh; width: 100%;"
-              id={disqualifiedIframeId[track]}
-            >
-              Loading…
-            </iframe>
+            <div id="disqualified-status" class="status-text">Loading...</div>
+            <div class="table-wrapper">
+              <table id="disqualified-table" class="leaderboard-table"></table>
+            </div>
           </div>
         </div>
 
-        <script define:vars={{ qualifiedIframeId, disqualifiedIframeId }}>
-          function AdjustIframeHeightOnLoad() {
-            const qualifiedId = qualifiedIframeId[Astro.params.track];
-            const disqualifiedId = disqualifiedIframeId[Astro.params.track];
-            let frames = [qualifiedId, disqualifiedId];
-            frames.forEach((id) => {
-              let iframe = document.getElementById(id);
-              if (iframe) {
-                try {
-                  iframe.style.height =
-                    iframe.contentWindow.document.body.scrollHeight + "px";
-                } catch (e) {
-                  console.error("Error adjusting iframe height:", e);
+        <script
+          define:vars={{
+            track,
+            qualifiedCsvUrls,
+            disqualifiedCsvUrls,
+          }}
+        >
+          function parseCSVLine(line) {
+            const result = [];
+            let current = "";
+            let inQuotes = false;
+
+            for (let i = 0; i < line.length; i++) {
+              const char = line[i];
+              const nextChar = line[i + 1];
+
+              if (char === '"') {
+                if (inQuotes && nextChar === '"') {
+                  current += '"';
+                  i++;
+                } else {
+                  inQuotes = !inQuotes;
                 }
+              } else if (char === "," && !inQuotes) {
+                result.push(current.trim());
+                current = "";
+              } else {
+                current += char;
               }
-            });
+            }
+
+            result.push(current.trim());
+            return result;
           }
 
-          function AdjustIframeHeight(i, id) {
-            document.getElementById(id).style.height = parseInt(i) + "px";
+          function parseCSV(text) {
+            const lines = text
+              .split(/\r?\n/)
+              .map((line) => line.trim())
+              .filter((line) => line.length > 0);
+
+            return lines.map(parseCSVLine);
           }
 
-          window.addEventListener("load", AdjustIframeHeightOnLoad); // Adjust on initial load
-          window.addEventListener("resize", AdjustIframeHeightOnLoad); // Adjust on resize
+          function escapeHtml(value) {
+            return String(value)
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;")
+              .replace(/"/g, "&quot;")
+              .replace(/'/g, "&#39;");
+          }
+
+          function renderTable(tableId, statusId, rows) {
+            const table = document.getElementById(tableId);
+            const status = document.getElementById(statusId);
+
+            if (!rows || rows.length === 0) {
+              table.innerHTML = "";
+              status.textContent = "No data available.";
+              return;
+            }
+
+            const headers = rows[0];
+            const bodyRows = rows.slice(1);
+
+            const thead = `
+              <thead>
+                <tr>
+                  ${headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
+                </tr>
+              </thead>
+            `;
+
+            const tbody = `
+              <tbody>
+                ${bodyRows
+                  .map(
+                    (row) => `
+                      <tr>
+                        ${headers
+                          .map((_, index) => `<td>${escapeHtml(row[index] ?? "")}</td>`)
+                          .join("")}
+                      </tr>
+                    `
+                  )
+                  .join("")}
+              </tbody>
+            `;
+
+            table.innerHTML = thead + tbody;
+            status.textContent = `Last updated: ${new Date().toLocaleString()}`;
+          }
+
+          async function loadTable(csvUrl, tableId, statusId) {
+            const status = document.getElementById(statusId);
+
+            try {
+              status.textContent = "Loading...";
+              const response = await fetch(csvUrl, { cache: "no-store" });
+
+              if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+              }
+
+              const text = await response.text();
+              const rows = parseCSV(text);
+              renderTable(tableId, statusId, rows);
+            } catch (error) {
+              console.error(`Failed to load ${tableId}:`, error);
+              document.getElementById(tableId).innerHTML = "";
+              status.textContent = "Failed to load leaderboard data.";
+            }
+          }
+
+          async function loadLeaderboards() {
+            await Promise.all([
+              loadTable(
+                qualifiedCsvUrls[track],
+                "qualified-table",
+                "qualified-status"
+              ),
+              loadTable(
+                disqualifiedCsvUrls[track],
+                "disqualified-table",
+                "disqualified-status"
+              ),
+            ]);
+          }
+
+          loadLeaderboards();
+          setInterval(loadLeaderboards, 10000);
         </script>
       </div>
     </section>
@@ -127,6 +210,7 @@ const disqualifiedIframeId = {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
   }
 
   #facts {
@@ -147,5 +231,38 @@ const disqualifiedIframeId = {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+  }
+
+  .status-text {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .leaderboard-table th {
+    background: #f5f5f5;
+    font-weight: 600;
+  }
+
+  .leaderboard-table tbody tr:nth-child(even) {
+    background: #fafafa;
   }
 </style>
