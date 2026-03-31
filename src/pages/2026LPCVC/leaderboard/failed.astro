@@ -1,27 +1,8 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 
-export async function getStaticPaths() {
-  return [
-    { params: { track: "track1" } },
-    { params: { track: "track2" } },
-    { params: { track: "track3" } },
-  ];
-}
-
-const { track } = Astro.params;
-
-const qualifiedCsvUrls = {
-  track1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMFrDUJ6RHEVXpBPtXULj-GMpnklXMu-eueuqysxa4F5vLeBQyy4e52cBAghFTnDO0JUR8NjCy6YNE/pub?gid=0&single=true&output=csv",
-  track2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRS8ykHnrAv7VXaqKLkjVF_ltRx5s5JiL-U-0tZcd26dNnbIEPh9zrbAL2phZZAH0jBXu5Z-nrt-jcl/pub?gid=0&single=true&output=csv",
-  track3: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgXRdZ2e0E3epHwIzEXEwiLbG2hCwJT-VBJtqANN7ISojrSGN9R595hXLlBif0ZjXKjFyz6nr4hSap/pub?gid=0&single=true&output=csv",
-};
-
-const disqualifiedCsvUrls = {
-  track1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQpk4jA2Ll2NMCI41oymTDCJP5kR4PuZsBtslkVfkqxLQ1eTIaq5BKNYpGv-a2NFGEN_Sdep4PDhc7Y/pub?gid=0&single=true&output=csv",
-  track2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRD__QbJKQvCPYvxD5nSg9KwDz6K7mHGBfPfuJpPzXimyjfv2W06TqzbNxEkVaFS9NSBcVs72dhhagf/pub?gid=0&single=true&output=csv",
-  track3: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNejmA5IYqCs6GeQfJP8LpNdvNw-R8U3rzVj6qEo2bGYyFUGhNGe2z-N9cMxhgqeQrXtdAStI1eeG9/pub?gid=0&single=true&output=csv",
-};
+const failedJobsCsvUrl =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQp6_wtdbRMDF6xwkBOSqJ9UvKRkk5WNKpxUD7ZYkejWXMf5ZQ0mnfxFXt1umuw0M3kHXQxY2oR0bOg/pub?output=csv";
 ---
 
 <Layout>
@@ -35,39 +16,25 @@ const disqualifiedCsvUrls = {
               name="contest"
               onchange={`location.replace("/2026LPCVC/leaderboard/" + this.value);`}
             >
-              <option value="track1" selected={track === "track1"}>Track 1</option>
-              <option value="track2" selected={track === "track2"}>Track 2</option>
-              <option value="track3" selected={track === "track3"}>Track 3</option>
-              <option value="failed">Failed Jobs</option>
+              <option value="track1">Track 1</option>
+              <option value="track2">Track 2</option>
+              <option value="track3">Track 3</option>
+              <option value="failed" selected>Failed Jobs</option>
             </select>
           </h3>
         </header>
 
         <div class="leaderboard-container">
           <div class="leaderboard-card">
-            <h4>Track {track.slice(-1)} Qualified Leaderboard</h4>
-            <div id="qualified-status" class="status-text">Loading...</div>
+            <h4>Failed Jobs</h4>
+            <div id="failed-status" class="status-text">Loading...</div>
             <div class="table-wrapper">
-              <table id="qualified-table" class="leaderboard-table"></table>
-            </div>
-          </div>
-
-          <div class="leaderboard-card">
-            <h4>Track {track.slice(-1)} Disqualified Leaderboard</h4>
-            <div id="disqualified-status" class="status-text">Loading...</div>
-            <div class="table-wrapper">
-              <table id="disqualified-table" class="leaderboard-table"></table>
+              <table id="failed-table" class="leaderboard-table"></table>
             </div>
           </div>
         </div>
 
-        <script
-          define:vars={{
-            track,
-            qualifiedCsvUrls,
-            disqualifiedCsvUrls,
-          }}
-        >
+        <script define:vars={{ failedJobsCsvUrl }}>
           function parseCSVLine(line) {
             const result = [];
             let current = "";
@@ -172,27 +139,16 @@ const disqualifiedCsvUrls = {
             } catch (error) {
               console.error(`Failed to load ${tableId}:`, error);
               document.getElementById(tableId).innerHTML = "";
-              status.textContent = "Failed to load leaderboard data.";
+              status.textContent = "Failed to load failed jobs data.";
             }
           }
 
-          async function loadLeaderboards() {
-            await Promise.all([
-              loadTable(
-                qualifiedCsvUrls[track],
-                "qualified-table",
-                "qualified-status"
-              ),
-              loadTable(
-                disqualifiedCsvUrls[track],
-                "disqualified-table",
-                "disqualified-status"
-              ),
-            ]);
+          function loadFailedJobs() {
+            loadTable(failedJobsCsvUrl, "failed-table", "failed-status");
           }
 
-          loadLeaderboards();
-          setInterval(loadLeaderboards, 10000);
+          loadFailedJobs();
+          setInterval(loadFailedJobs, 10000);
         </script>
       </div>
     </section>

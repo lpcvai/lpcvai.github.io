@@ -139,6 +139,9 @@ export default function Header() {
                   <li>
                     <a href="/2026LPCVC/leaderboard/track3">Track 3</a>
                   </li>
+                  <li>
+                    <a href="/2026LPCVC/leaderboard/failed">Failed Jobs</a>
+                  </li>
                 </ul>
               </li>
               {/* <li>
@@ -275,6 +278,9 @@ export default function Header() {
               </li>
               <li>
                 <a href="/2026LPCVC/leaderboard/track3">Track 3</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/leaderboard/failed">Failed Jobs</a>
               </li>
             </ul>
           </li>
