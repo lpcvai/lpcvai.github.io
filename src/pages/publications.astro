@@ -12,6 +12,28 @@ import Layout from "../layouts/Layout.astro";
 
         <div class="card" style="height: auto">
           <div class="card-body">
+            <div class="mb-4">
+              <h4>Citation</h4>
+              <p>
+                Please cite the general LPCVC challenge when referring to the
+                competition series. For year-specific tracks, datasets,
+                evaluation protocols, or results, please also cite the
+                corresponding LPCVC publication below.
+              </p>
+
+              <pre
+                class="p-3 rounded border"
+                style="background-color: #f8f9fa; white-space: pre-wrap;"
+              ><code>{`@misc{lpcvc,
+                author       = {{IEEE Low Power Computer Vision Challenge Organizing Committee}},
+                title        = {{IEEE Low Power Computer Vision Challenge}},
+                howpublished = {\\url{https://lpcv.ai/}},
+                note         = {Annual competition series on low power computer vision}
+              }`}</code></pre>
+            </div>
+
+            <h4>Related Publications</h4>
+
             <ul>
               <!-- {% for name, url, authors, info in pubs reversed %}
               <li class="mb-3">
