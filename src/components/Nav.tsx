@@ -88,10 +88,10 @@ export default function Header() {
               <li>
                 <a href="/#newsletter">Newsletter</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
-              </li>
-              <li
+              </li> */}
+              {/* <li
                 className="menu-has-children"
                 onMouseEnter={() => handleMouseEnter("submission")}
                 onMouseLeave={() => handleMouseLeave("submission")}
@@ -115,7 +115,7 @@ export default function Header() {
                     <a href="/2026LPCVC/submission/track3">Track 3</a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li
                 className="menu-has-children"
                 onMouseEnter={() => handleMouseEnter("leaderboard")}
@@ -228,10 +228,10 @@ export default function Header() {
           <li>
             <a href="/#newsletter">Newsletter</a>
           </li>
-          <li>
+          {/* <li>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
-          </li>
-          <li
+          </li> */}
+          {/* <li
             className="menu-has-children"
             onMouseEnter={() => handleMouseEnter("submission")}
             onMouseLeave={() => handleMouseLeave("submission")}
@@ -255,7 +255,7 @@ export default function Header() {
                 <a href="/2026LPCVC/submission/track3">Track 3</a>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li
             className="menu-has-children"
             onMouseEnter={() => handleMouseEnter("leaderboard")}
