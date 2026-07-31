@@ -91,31 +91,6 @@ export default function Header() {
               {/* <li>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
               </li> */}
-              {/* <li
-                className="menu-has-children"
-                onMouseEnter={() => handleMouseEnter("submission")}
-                onMouseLeave={() => handleMouseLeave("submission")}
-              >
-                <a href="/2026LPCVC/submission/track1">
-                  Submission{" "}
-                  <i
-                    className={`fa ${expandedMenus["submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
-                  ></i>
-                </a>
-                <ul
-                  style={{ display: expandedMenus["submission"] ? "block" : "none" }}
-                >
-                  <li>
-                    <a href="/2026LPCVC/submission/track1">Track 1</a>
-                  </li>
-                  <li>
-                    <a href="/2026LPCVC/submission/track2">Track 2</a>
-                  </li>
-                  <li>
-                    <a href="/2026LPCVC/submission/track3">Track 3</a>
-                  </li>
-                </ul>
-              </li> */}
               <li
                 className="menu-has-children"
                 onMouseEnter={() => handleMouseEnter("leaderboard")}
@@ -168,6 +143,9 @@ export default function Header() {
                   <li>
                     {" "}
                     <a href="/2026LPCVC/winners">Winners</a>{" "}
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/submission/track1">Open Submission</a>
                   </li>
                   {/* <li>
                     <a>Track info to be released</a>
@@ -231,31 +209,44 @@ export default function Header() {
           {/* <li>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
           </li> */}
-          {/* <li
-            className="menu-has-children"
-            onMouseEnter={() => handleMouseEnter("submission")}
-            onMouseLeave={() => handleMouseLeave("submission")}
+          
+          
+          <li
+            className={`menu-has-children ${expandedMenus["lpcvc"] ? "menu-item-active" : ""}`}
           >
-            <a href="/2026LPCVC/submission/track1">
-              Submission{" "}
-              <i
-                className={`fa ${expandedMenus["submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
-              ></i>
-            </a>
-            <ul
-              style={{ display: expandedMenus["submission"] ? "block" : "none" }}
-            >
+            <i
+              className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+              onClick={() => toggleSubmenu("lpcvc")}
+            ></i>
+            <a href="/2026LPCVC/introduction">2026 LPCVC</a>
+            <ul style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}>
               <li>
-                <a href="/2026LPCVC/submission/track1">Track 1</a>
+                <a href="/2026LPCVC/introduction">Introduction</a>
               </li>
               <li>
-                <a href="/2026LPCVC/submission/track2">Track 2</a>
+                <a href="/2026LPCVC/winners">Winners</a>
               </li>
               <li>
-                <a href="/2026LPCVC/submission/track3">Track 3</a>
+                <a href="/2026LPCVC/submission/track1">Open Submission</a>
               </li>
+              {/* <li>
+                <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
+              </li> */}
+              <li>
+                <a href="/2026LPCVC/tracks/track1">Track 1</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/tracks/track2">Track 2</a>
+              </li>
+              <li>
+                <a href="/2026LPCVC/tracks/track3">Track 3</a>
+              </li>
+              {/* <li>
+                <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
+              </li> */}
             </ul>
-          </li> */}
+          </li>
+          
           <li
             className="menu-has-children"
             onMouseEnter={() => handleMouseEnter("leaderboard")}
@@ -287,39 +278,6 @@ export default function Header() {
           {/* <li>
             <a href="/">Home</a>
           </li> */}
-
-          <li
-            className={`menu-has-children ${expandedMenus["lpcvc"] ? "menu-item-active" : ""}`}
-          >
-            <i
-              className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
-              onClick={() => toggleSubmenu("lpcvc")}
-            ></i>
-            <a href="/2026LPCVC/introduction">2026 LPCVC</a>
-            <ul style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}>
-              <li>
-                <a href="/2026LPCVC/introduction">Introduction</a>
-              </li>
-              <li>
-                <a href="/2026LPCVC/winners">Winners</a>
-              </li>
-              {/* <li>
-                <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
-              </li> */}
-              <li>
-                <a href="/2026LPCVC/tracks/track1">Track 1</a>
-              </li>
-              <li>
-                <a href="/2026LPCVC/tracks/track2">Track 2</a>
-              </li>
-              <li>
-                <a href="/2026LPCVC/tracks/track3">Track 3</a>
-              </li>
-              {/* <li>
-                <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
-              </li> */}
-            </ul>
-          </li>
 
           <li
             className={`menu-has-children ${expandedMenus["history"] ? "menu-item-active" : ""}`}

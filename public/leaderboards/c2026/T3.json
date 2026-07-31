@@ -1,0 +1,874 @@
+[
+  {
+    "Rank":1,
+    "Team":"OptimAI",
+    "Date":"4\/26\/2026 9:25:41",
+    "Drive ID":"****1EYNy",
+    "TPS":30.48,
+    "Score":0.827
+  },
+  {
+    "Rank":2,
+    "Team":"OptimAI",
+    "Date":"4\/21\/2026 3:39:42",
+    "Drive ID":"****mCRIA",
+    "TPS":21.4,
+    "Score":0.811
+  },
+  {
+    "Rank":3,
+    "Team":"OptimAI",
+    "Date":"4\/23\/2026 22:04:31",
+    "Drive ID":"****Zo3yj",
+    "TPS":34.88,
+    "Score":0.795
+  },
+  {
+    "Rank":4,
+    "Team":"OptimAI",
+    "Date":"4\/15\/2026 0:26:18",
+    "Drive ID":"****iTqSd",
+    "TPS":39.61,
+    "Score":0.791
+  },
+  {
+    "Rank":5,
+    "Team":"OptimAI",
+    "Date":"4\/19\/2026 21:49:53",
+    "Drive ID":"****hoCns",
+    "TPS":54.53,
+    "Score":0.769
+  },
+  {
+    "Rank":6,
+    "Team":"OptimAI",
+    "Date":"4\/17\/2026 21:40:35",
+    "Drive ID":"****Llx_B",
+    "TPS":29.06,
+    "Score":0.755
+  },
+  {
+    "Rank":7,
+    "Team":"OptimAI",
+    "Date":"4\/18\/2026 21:47:30",
+    "Drive ID":"****1XkXo",
+    "TPS":33.83,
+    "Score":0.747
+  },
+  {
+    "Rank":8,
+    "Team":"SSUPER_POWER",
+    "Date":"5\/1\/2026 9:18:08",
+    "Drive ID":"****JFbK1",
+    "TPS":31.21,
+    "Score":0.72
+  },
+  {
+    "Rank":9,
+    "Team":"OptimAI",
+    "Date":"4\/13\/2026 23:06:32",
+    "Drive ID":"****ap2Sz",
+    "TPS":35.29,
+    "Score":0.715
+  },
+  {
+    "Rank":10,
+    "Team":"MaXinLab",
+    "Date":"3\/21\/2026 4:23:14",
+    "Drive ID":"****Qw06P",
+    "TPS":17.22,
+    "Score":0.676
+  },
+  {
+    "Rank":11,
+    "Team":"MaXinLab",
+    "Date":"3\/23\/2026 15:38:06",
+    "Drive ID":"****Qw06P",
+    "TPS":33.34,
+    "Score":0.674
+  },
+  {
+    "Rank":12,
+    "Team":"MaXinLab",
+    "Date":"4\/16\/2026 3:33:40",
+    "Drive ID":"****JB2x3",
+    "TPS":18.89,
+    "Score":0.674
+  },
+  {
+    "Rank":13,
+    "Team":"MaXinLab",
+    "Date":"4\/21\/2026 2:27:17",
+    "Drive ID":"****EmPeU",
+    "TPS":17.5,
+    "Score":0.674
+  },
+  {
+    "Rank":14,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/22\/2026 23:32:26",
+    "Drive ID":"****UfZoN",
+    "TPS":27.76,
+    "Score":0.657
+  },
+  {
+    "Rank":15,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/27\/2026 23:47:53",
+    "Drive ID":"****8KZn8",
+    "TPS":30.66,
+    "Score":0.656
+  },
+  {
+    "Rank":16,
+    "Team":"amirsalar",
+    "Date":"4\/26\/2026 23:15:57",
+    "Drive ID":"****oo00P",
+    "TPS":24.14,
+    "Score":0.655
+  },
+  {
+    "Rank":17,
+    "Team":"amirsalar",
+    "Date":"4\/18\/2026 22:25:38",
+    "Drive ID":"****R7RcS",
+    "TPS":36.16,
+    "Score":0.651
+  },
+  {
+    "Rank":18,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/19\/2026 23:25:46",
+    "Drive ID":"****Lufo3",
+    "TPS":27.09,
+    "Score":0.65
+  },
+  {
+    "Rank":19,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/11\/2026 7:37:57",
+    "Drive ID":"****51sci",
+    "TPS":37.18,
+    "Score":0.649
+  },
+  {
+    "Rank":20,
+    "Team":"amirsalar",
+    "Date":"4\/27\/2026 11:19:36",
+    "Drive ID":"****N37QO",
+    "TPS":33.49,
+    "Score":0.637
+  },
+  {
+    "Rank":21,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/25\/2026 11:12:10",
+    "Drive ID":"****AyVAD",
+    "TPS":29.07,
+    "Score":0.625
+  },
+  {
+    "Rank":22,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/29\/2026 23:26:17",
+    "Drive ID":"****DeO1V",
+    "TPS":28.78,
+    "Score":0.625
+  },
+  {
+    "Rank":23,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/29\/2026 11:44:24",
+    "Drive ID":"****vAA5M",
+    "TPS":30.83,
+    "Score":0.617
+  },
+  {
+    "Rank":24,
+    "Team":"SSUPER_POWER",
+    "Date":"5\/1\/2026 18:35:12",
+    "Drive ID":"****3yVEN",
+    "TPS":23.1,
+    "Score":0.617
+  },
+  {
+    "Rank":25,
+    "Team":"MaXinLab",
+    "Date":"4\/22\/2026 14:35:34",
+    "Drive ID":"****m5u9m",
+    "TPS":33.9,
+    "Score":0.615
+  },
+  {
+    "Rank":26,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/13\/2026 19:44:21",
+    "Drive ID":"****-9fy5",
+    "TPS":34.89,
+    "Score":0.605
+  },
+  {
+    "Rank":27,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/20\/2026 23:50:35",
+    "Drive ID":"****YACEr",
+    "TPS":40.59,
+    "Score":0.603
+  },
+  {
+    "Rank":28,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/14\/2026 23:16:46",
+    "Drive ID":"****EXgYK",
+    "TPS":33.56,
+    "Score":0.591
+  },
+  {
+    "Rank":29,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/26\/2026 22:47:37",
+    "Drive ID":"****RsFXQ",
+    "TPS":30.95,
+    "Score":0.581
+  },
+  {
+    "Rank":30,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/25\/2026 23:44:53",
+    "Drive ID":"****vjcAy",
+    "TPS":37.8,
+    "Score":0.577
+  },
+  {
+    "Rank":31,
+    "Team":"amirsalar",
+    "Date":"4\/15\/2026 2:53:24",
+    "Drive ID":"****Bkjt_",
+    "TPS":23.26,
+    "Score":0.575
+  },
+  {
+    "Rank":32,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/17\/2026 1:19:07",
+    "Drive ID":"****b47qQ",
+    "TPS":43.35,
+    "Score":0.575
+  },
+  {
+    "Rank":33,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/15\/2026 23:39:25",
+    "Drive ID":"****0VJtp",
+    "TPS":23.86,
+    "Score":0.567
+  },
+  {
+    "Rank":34,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/2\/2026 2:09:25",
+    "Drive ID":"****CxCql",
+    "TPS":18.74,
+    "Score":0.567
+  },
+  {
+    "Rank":35,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/10\/2026 23:16:23",
+    "Drive ID":"****jZYy-",
+    "TPS":21.02,
+    "Score":0.556
+  },
+  {
+    "Rank":36,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/23\/2026 23:25:32",
+    "Drive ID":"****fJHee",
+    "TPS":22.4,
+    "Score":0.556
+  },
+  {
+    "Rank":37,
+    "Team":"amirsalar",
+    "Date":"4\/28\/2026 21:18:08",
+    "Drive ID":"****QDSQe",
+    "TPS":48.36,
+    "Score":0.555
+  },
+  {
+    "Rank":38,
+    "Team":"MaXinLab",
+    "Date":"4\/28\/2026 4:50:03",
+    "Drive ID":"****h7C6F",
+    "TPS":46.96,
+    "Score":0.553
+  },
+  {
+    "Rank":39,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/30\/2026 23:40:05",
+    "Drive ID":"****1aScb",
+    "TPS":22.47,
+    "Score":0.551
+  },
+  {
+    "Rank":40,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/30\/2026 5:40:22",
+    "Drive ID":"****djrMU",
+    "TPS":33.83,
+    "Score":0.526
+  },
+  {
+    "Rank":41,
+    "Team":"AIIU Lab",
+    "Date":"4\/11\/2026 6:34:12",
+    "Drive ID":"****hBgbV",
+    "TPS":39.17,
+    "Score":0.523
+  },
+  {
+    "Rank":42,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/28\/2026 8:52:59",
+    "Drive ID":"****aBBh5",
+    "TPS":39.57,
+    "Score":0.522
+  },
+  {
+    "Rank":43,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/30\/2026 23:01:23",
+    "Drive ID":"****qvaY4",
+    "TPS":20.57,
+    "Score":0.515
+  },
+  {
+    "Rank":44,
+    "Team":"CVLAB TrueVision",
+    "Date":"5\/1\/2026 23:43:23",
+    "Drive ID":"****Pn4ip",
+    "TPS":23.64,
+    "Score":0.51
+  },
+  {
+    "Rank":45,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/22\/2026 23:53:35",
+    "Drive ID":"****rcadK",
+    "TPS":27.48,
+    "Score":0.5
+  },
+  {
+    "Rank":46,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/27\/2026 11:48:06",
+    "Drive ID":"****ny6M1",
+    "TPS":27.34,
+    "Score":0.491
+  },
+  {
+    "Rank":47,
+    "Team":"AIIU Lab",
+    "Date":"4\/12\/2026 13:27:34",
+    "Drive ID":"****HLY0B",
+    "TPS":37.11,
+    "Score":0.486
+  },
+  {
+    "Rank":48,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/30\/2026 11:42:07",
+    "Drive ID":"****dZNLD",
+    "TPS":24.36,
+    "Score":0.473
+  },
+  {
+    "Rank":49,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/27\/2026 8:07:03",
+    "Drive ID":"****zhHb0",
+    "TPS":31.42,
+    "Score":0.47
+  },
+  {
+    "Rank":50,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/25\/2026 6:36:36",
+    "Drive ID":"****EvDot",
+    "TPS":30.01,
+    "Score":0.46
+  },
+  {
+    "Rank":51,
+    "Team":"SSUPER POWER",
+    "Date":"4\/1\/2026 2:08:33",
+    "Drive ID":"****hXTsK",
+    "TPS":40.6,
+    "Score":0.459
+  },
+  {
+    "Rank":52,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/29\/2026 21:57:18",
+    "Drive ID":"****-KE1H",
+    "TPS":28.22,
+    "Score":0.449
+  },
+  {
+    "Rank":53,
+    "Team":"amirsalar",
+    "Date":"4\/29\/2026 22:11:32",
+    "Drive ID":"****U0VWV",
+    "TPS":49.84,
+    "Score":0.441
+  },
+  {
+    "Rank":54,
+    "Team":"amirsalar",
+    "Date":"5\/1\/2026 21:59:35",
+    "Drive ID":"****RAypg",
+    "TPS":49.9,
+    "Score":0.441
+  },
+  {
+    "Rank":55,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/23\/2026 22:43:58",
+    "Drive ID":"****cy3AF",
+    "TPS":17.82,
+    "Score":0.44
+  },
+  {
+    "Rank":56,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/29\/2026 11:32:55",
+    "Drive ID":"****eWS1u",
+    "TPS":27.98,
+    "Score":0.438
+  },
+  {
+    "Rank":57,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/24\/2026 23:47:01",
+    "Drive ID":"****2xjef",
+    "TPS":37.06,
+    "Score":0.434
+  },
+  {
+    "Rank":58,
+    "Team":"amirsalar",
+    "Date":"4\/28\/2026 11:45:33",
+    "Drive ID":"****9Oy2T",
+    "TPS":49.71,
+    "Score":0.428
+  },
+  {
+    "Rank":59,
+    "Team":"AIIU Lab",
+    "Date":"4\/27\/2026 12:15:29",
+    "Drive ID":"****flrDU",
+    "TPS":30.69,
+    "Score":0.425
+  },
+  {
+    "Rank":60,
+    "Team":"OptimAI",
+    "Date":"4\/8\/2026 22:25:20",
+    "Drive ID":"****yALsk",
+    "TPS":26.5,
+    "Score":0.423
+  },
+  {
+    "Rank":61,
+    "Team":"OptimAI",
+    "Date":"4\/11\/2026 23:49:29",
+    "Drive ID":"****DaxkY",
+    "TPS":20.75,
+    "Score":0.423
+  },
+  {
+    "Rank":62,
+    "Team":"OptimAI",
+    "Date":"4\/7\/2026 10:01:18",
+    "Drive ID":"****B6hJ_",
+    "TPS":29.06,
+    "Score":0.42
+  },
+  {
+    "Rank":63,
+    "Team":"Acvlab",
+    "Date":"5\/1\/2026 13:38:12",
+    "Drive ID":"****_xymz",
+    "TPS":37.62,
+    "Score":0.417
+  },
+  {
+    "Rank":64,
+    "Team":"Acvlab",
+    "Date":"4\/23\/2026 23:15:48",
+    "Drive ID":"****FTNl3",
+    "TPS":35.18,
+    "Score":0.417
+  },
+  {
+    "Rank":65,
+    "Team":"Acvlab",
+    "Date":"4\/21\/2026 0:03:53",
+    "Drive ID":"****ATwYI",
+    "TPS":33.24,
+    "Score":0.417
+  },
+  {
+    "Rank":66,
+    "Team":"amirsalar",
+    "Date":"4\/21\/2026 21:26:34",
+    "Drive ID":"****KjPV-",
+    "TPS":20.44,
+    "Score":0.416
+  },
+  {
+    "Rank":67,
+    "Team":"amirsalar",
+    "Date":"4\/23\/2026 23:32:12",
+    "Drive ID":"****_Chum",
+    "TPS":28.19,
+    "Score":0.416
+  },
+  {
+    "Rank":68,
+    "Team":"amirsalar",
+    "Date":"4\/24\/2026 23:08:13",
+    "Drive ID":"****2o9Sf",
+    "TPS":15.27,
+    "Score":0.416
+  },
+  {
+    "Rank":69,
+    "Team":"ToCY",
+    "Date":"4\/15\/2026 14:35:33",
+    "Drive ID":"****XBc45",
+    "TPS":32.23,
+    "Score":0.415
+  },
+  {
+    "Rank":70,
+    "Team":"ToCY",
+    "Date":"4\/16\/2026 0:59:31",
+    "Drive ID":"****XBc45",
+    "TPS":26.26,
+    "Score":0.415
+  },
+  {
+    "Rank":71,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/26\/2026 12:41:14",
+    "Drive ID":"****KuNAF",
+    "TPS":19.82,
+    "Score":0.405
+  },
+  {
+    "Rank":72,
+    "Team":"AIIU Lab",
+    "Date":"4\/18\/2026 3:30:13",
+    "Drive ID":"****zpevD",
+    "TPS":22.32,
+    "Score":0.4
+  },
+  {
+    "Rank":73,
+    "Team":"Baseline",
+    "Date":null,
+    "Drive ID":null,
+    "TPS":21.74,
+    "Score":0.397
+  },
+  {
+    "Rank":74,
+    "Team":"lpcvc_participant",
+    "Date":"3\/1\/2026 14:41:13",
+    "Drive ID":"****2zi_K",
+    "TPS":20.33,
+    "Score":0.397
+  },
+  {
+    "Rank":75,
+    "Team":"lpcvc_participant",
+    "Date":"3\/2\/2026 23:55:36",
+    "Drive ID":"****2zi_K",
+    "TPS":20.33,
+    "Score":0.397
+  },
+  {
+    "Rank":76,
+    "Team":"Team-Cen",
+    "Date":"3\/15\/2026 1:50:24",
+    "Drive ID":"****q1wNB",
+    "TPS":18.28,
+    "Score":0.397
+  },
+  {
+    "Rank":77,
+    "Team":"Team-Cen",
+    "Date":"3\/16\/2026 12:43:55",
+    "Drive ID":"****0gkAP",
+    "TPS":19.98,
+    "Score":0.397
+  },
+  {
+    "Rank":78,
+    "Team":"amirsalar",
+    "Date":"3\/22\/2026 16:08:55",
+    "Drive ID":"****X34qR",
+    "TPS":19.15,
+    "Score":0.397
+  },
+  {
+    "Rank":79,
+    "Team":"SSUPER POWER",
+    "Date":"3\/24\/2026 9:14:29",
+    "Drive ID":"****qUqx9",
+    "TPS":22.1,
+    "Score":0.397
+  },
+  {
+    "Rank":80,
+    "Team":"Team-Cen",
+    "Date":"3\/26\/2026 11:39:46",
+    "Drive ID":"****busVU",
+    "TPS":21.79,
+    "Score":0.397
+  },
+  {
+    "Rank":81,
+    "Team":"SSUPER POWER",
+    "Date":"3\/31\/2026 5:00:09",
+    "Drive ID":"****LXzjx",
+    "TPS":25.1,
+    "Score":0.397
+  },
+  {
+    "Rank":82,
+    "Team":"amirsalar",
+    "Date":"4\/3\/2026 14:09:03",
+    "Drive ID":"****SsJDn",
+    "TPS":26.05,
+    "Score":0.397
+  },
+  {
+    "Rank":83,
+    "Team":"OptimAI",
+    "Date":"4\/5\/2026 20:56:49",
+    "Drive ID":"****6T4xp",
+    "TPS":19.62,
+    "Score":0.397
+  },
+  {
+    "Rank":84,
+    "Team":"amirsalar",
+    "Date":"4\/9\/2026 10:32:57",
+    "Drive ID":"****3t6SH",
+    "TPS":27.73,
+    "Score":0.397
+  },
+  {
+    "Rank":85,
+    "Team":"amirsalar",
+    "Date":"4\/10\/2026 11:50:04",
+    "Drive ID":"****PTV8I",
+    "TPS":21.82,
+    "Score":0.397
+  },
+  {
+    "Rank":86,
+    "Team":"Edge_Vision",
+    "Date":"4\/14\/2026 13:28:58",
+    "Drive ID":"****CAqbj",
+    "TPS":28.37,
+    "Score":0.397
+  },
+  {
+    "Rank":87,
+    "Team":"Cowboy Bebop",
+    "Date":"4\/21\/2026 22:51:06",
+    "Drive ID":"****WCMd6",
+    "TPS":20.33,
+    "Score":0.397
+  },
+  {
+    "Rank":88,
+    "Team":"Team12",
+    "Date":"4\/28\/2026 16:54:49",
+    "Drive ID":"****8wm68",
+    "TPS":21.72,
+    "Score":0.397
+  },
+  {
+    "Rank":89,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/12\/2026 18:58:34",
+    "Drive ID":"****2tZ-c",
+    "TPS":19.77,
+    "Score":0.384
+  },
+  {
+    "Rank":90,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/28\/2026 11:27:32",
+    "Drive ID":"****rCWhg",
+    "TPS":27.81,
+    "Score":0.383
+  },
+  {
+    "Rank":91,
+    "Team":"CVLAB TrueVision",
+    "Date":"4\/24\/2026 11:04:26",
+    "Drive ID":"****ymsio",
+    "TPS":24.23,
+    "Score":0.382
+  },
+  {
+    "Rank":92,
+    "Team":"Kojrey",
+    "Date":"3\/4\/2026 23:34:54",
+    "Drive ID":"****ONi4a",
+    "TPS":23.91,
+    "Score":0.377
+  },
+  {
+    "Rank":93,
+    "Team":"Kojrey",
+    "Date":"3\/5\/2026 3:29:32",
+    "Drive ID":"****LuLVV",
+    "TPS":18.77,
+    "Score":0.377
+  },
+  {
+    "Rank":94,
+    "Team":"AIIU Lab",
+    "Date":"4\/8\/2026 4:13:47",
+    "Drive ID":"****tGZil",
+    "TPS":23.52,
+    "Score":0.377
+  },
+  {
+    "Rank":95,
+    "Team":"team-alpha",
+    "Date":"3\/17\/2026 23:48:01",
+    "Drive ID":"****jmT6f",
+    "TPS":23.76,
+    "Score":0.33
+  },
+  {
+    "Rank":96,
+    "Team":"AIIU Lab",
+    "Date":"4\/30\/2026 11:02:45",
+    "Drive ID":"****zh8tS",
+    "TPS":44.72,
+    "Score":0.322
+  },
+  {
+    "Rank":97,
+    "Team":"ToCY",
+    "Date":"4\/24\/2026 12:56:02",
+    "Drive ID":"****7Uf07",
+    "TPS":27.25,
+    "Score":0.286
+  },
+  {
+    "Rank":98,
+    "Team":"Edge_Vision",
+    "Date":"4\/24\/2026 6:42:31",
+    "Drive ID":"****3Q3le",
+    "TPS":46.8,
+    "Score":0.286
+  },
+  {
+    "Rank":99,
+    "Team":"OptimAI",
+    "Date":"4\/2\/2026 1:36:04",
+    "Drive ID":"****edmP5",
+    "TPS":27.44,
+    "Score":0.253
+  },
+  {
+    "Rank":100,
+    "Team":"amirsalar",
+    "Date":"4\/4\/2026 2:26:05",
+    "Drive ID":"****Z34y5",
+    "TPS":21.99,
+    "Score":0.25
+  },
+  {
+    "Rank":101,
+    "Team":"amirsalar",
+    "Date":"4\/11\/2026 22:08:49",
+    "Drive ID":"****N1xZ2",
+    "TPS":29.04,
+    "Score":0.25
+  },
+  {
+    "Rank":102,
+    "Team":"team-alpha",
+    "Date":"3\/15\/2026 19:59:08",
+    "Drive ID":"****uG9pY",
+    "TPS":18.69,
+    "Score":0.232
+  },
+  {
+    "Rank":103,
+    "Team":"Edge_Vision",
+    "Date":"4\/22\/2026 9:53:07",
+    "Drive ID":"****eQ7Ya",
+    "TPS":39.33,
+    "Score":0.174
+  },
+  {
+    "Rank":104,
+    "Team":"SSUPER_POWER",
+    "Date":"4\/28\/2026 23:07:08",
+    "Drive ID":"****bq7oD",
+    "TPS":29.11,
+    "Score":0.128
+  },
+  {
+    "Rank":105,
+    "Team":"OptimAI",
+    "Date":"4\/29\/2026 9:41:37",
+    "Drive ID":"****hZnOw",
+    "TPS":19.67,
+    "Score":0.121
+  },
+  {
+    "Rank":106,
+    "Team":"Edge_Vision",
+    "Date":"4\/24\/2026 14:35:25",
+    "Drive ID":"****DTVW-",
+    "TPS":47.47,
+    "Score":0.111
+  },
+  {
+    "Rank":107,
+    "Team":"Edge_Vision",
+    "Date":"4\/29\/2026 8:18:20",
+    "Drive ID":"****1l9Ff",
+    "TPS":49.68,
+    "Score":0.109
+  },
+  {
+    "Rank":108,
+    "Team":"Edge_Vision",
+    "Date":"4\/30\/2026 12:35:23",
+    "Drive ID":"****B5iOE",
+    "TPS":49.54,
+    "Score":0.013
+  },
+  {
+    "Rank":109,
+    "Team":"OptimAI",
+    "Date":"4\/29\/2026 20:35:22",
+    "Drive ID":"****W_UjQ",
+    "TPS":22.78,
+    "Score":0.0
+  }
+]

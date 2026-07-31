@@ -1,0 +1,2594 @@
+[
+  {
+    "Rank":1,
+    "Team":"EfficientAI",
+    "Date and Time":"5\/1\/2026 23:11:17",
+    "Compile job ID":"****lknqp",
+    "Accuracy":97.14817047,
+    "Execution time (ms)":3.82
+  },
+  {
+    "Rank":2,
+    "Team":"EfficientAI",
+    "Date and Time":"5\/1\/2026 11:30:43",
+    "Compile job ID":"****d164p",
+    "Accuracy":97.02417755,
+    "Execution time (ms)":20.398
+  },
+  {
+    "Rank":3,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/30\/2026 23:39:39",
+    "Compile job ID":"****zo7ng",
+    "Accuracy":96.96218109,
+    "Execution time (ms)":20.847
+  },
+  {
+    "Rank":4,
+    "Team":"team-alpha",
+    "Date and Time":"5\/1\/2026 21:44:32",
+    "Compile job ID":"****kxdrg",
+    "Accuracy":96.77619171,
+    "Execution time (ms)":19.322
+  },
+  {
+    "Rank":5,
+    "Team":"team-alpha",
+    "Date and Time":"4\/29\/2026 3:51:55",
+    "Compile job ID":"****xj7np",
+    "Accuracy":96.77619171,
+    "Execution time (ms)":22.993
+  },
+  {
+    "Rank":6,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/30\/2026 11:02:17",
+    "Compile job ID":"****1r8lg",
+    "Accuracy":96.52820587,
+    "Execution time (ms)":20.951
+  },
+  {
+    "Rank":7,
+    "Team":"team-alpha",
+    "Date and Time":"4\/29\/2026 21:06:52",
+    "Compile job ID":"****397vg",
+    "Accuracy":96.46621704,
+    "Execution time (ms)":22.397
+  },
+  {
+    "Rank":8,
+    "Team":"team-alpha",
+    "Date and Time":"5\/1\/2026 11:41:48",
+    "Compile job ID":"****rqon5",
+    "Accuracy":96.40422058,
+    "Execution time (ms)":19.69
+  },
+  {
+    "Rank":9,
+    "Team":"team-alpha",
+    "Date and Time":"4\/28\/2026 23:28:17",
+    "Compile job ID":"****4kmvp",
+    "Accuracy":96.40422058,
+    "Execution time (ms)":22.267
+  },
+  {
+    "Rank":10,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/29\/2026 21:44:18",
+    "Compile job ID":"****kkdz5",
+    "Accuracy":96.34221649,
+    "Execution time (ms)":21.095
+  },
+  {
+    "Rank":11,
+    "Team":"team-alpha",
+    "Date and Time":"4\/28\/2026 5:14:52",
+    "Compile job ID":"****0qk45",
+    "Accuracy":95.59825897,
+    "Execution time (ms)":22.425
+  },
+  {
+    "Rank":12,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/30\/2026 23:14:03",
+    "Compile job ID":"****qljmp",
+    "Accuracy":95.47427368,
+    "Execution time (ms)":21.673
+  },
+  {
+    "Rank":13,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"5\/1\/2026 5:59:57",
+    "Compile job ID":"****n9ov5",
+    "Accuracy":95.47427368,
+    "Execution time (ms)":22.02
+  },
+  {
+    "Rank":14,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"5\/1\/2026 15:30:05",
+    "Compile job ID":"****ko715",
+    "Accuracy":95.41227722,
+    "Execution time (ms)":4.444
+  },
+  {
+    "Rank":15,
+    "Team":"team-alpha",
+    "Date and Time":"4\/30\/2026 5:58:42",
+    "Compile job ID":"****04wn5",
+    "Accuracy":95.2882843,
+    "Execution time (ms)":11.104
+  },
+  {
+    "Rank":16,
+    "Team":"team-alpha",
+    "Date and Time":"4\/30\/2026 23:37:31",
+    "Compile job ID":"****1dmkg",
+    "Accuracy":95.2882843,
+    "Execution time (ms)":19.071
+  },
+  {
+    "Rank":17,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/28\/2026 11:58:09",
+    "Compile job ID":"****m7jn5",
+    "Accuracy":95.2882843,
+    "Execution time (ms)":21.045
+  },
+  {
+    "Rank":18,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/28\/2026 22:25:38",
+    "Compile job ID":"****re32g",
+    "Accuracy":95.2882843,
+    "Execution time (ms)":21.215
+  },
+  {
+    "Rank":19,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/29\/2026 11:45:53",
+    "Compile job ID":"****yl49p",
+    "Accuracy":95.04029846,
+    "Execution time (ms)":21.598
+  },
+  {
+    "Rank":20,
+    "Team":"team-alpha",
+    "Date and Time":"4\/27\/2026 23:09:53",
+    "Compile job ID":"****9edz5",
+    "Accuracy":95.04029846,
+    "Execution time (ms)":22.604
+  },
+  {
+    "Rank":21,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/27\/2026 22:31:19",
+    "Compile job ID":"****oz725",
+    "Accuracy":94.91630554,
+    "Execution time (ms)":21.141
+  },
+  {
+    "Rank":22,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/27\/2026 10:27:13",
+    "Compile job ID":"****l6rlp",
+    "Accuracy":94.85430908,
+    "Execution time (ms)":21.6
+  },
+  {
+    "Rank":23,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/28\/2026 13:55:08",
+    "Compile job ID":"****lqvkp",
+    "Accuracy":94.85430908,
+    "Execution time (ms)":21.82
+  },
+  {
+    "Rank":24,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/18\/2026 11:59:18",
+    "Compile job ID":"****0kj4g",
+    "Accuracy":94.73031616,
+    "Execution time (ms)":21.77
+  },
+  {
+    "Rank":25,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/26\/2026 22:40:39",
+    "Compile job ID":"****0n6k5",
+    "Accuracy":94.54432678,
+    "Execution time (ms)":20.861
+  },
+  {
+    "Rank":26,
+    "Team":"Z6",
+    "Date and Time":"4\/30\/2026 7:29:27",
+    "Compile job ID":"****y288p",
+    "Accuracy":94.54432678,
+    "Execution time (ms)":29.753
+  },
+  {
+    "Rank":27,
+    "Team":"Z6",
+    "Date and Time":"4\/28\/2026 9:51:55",
+    "Compile job ID":"****4vjep",
+    "Accuracy":94.48233032,
+    "Execution time (ms)":21.549
+  },
+  {
+    "Rank":28,
+    "Team":"Z6",
+    "Date and Time":"4\/28\/2026 22:28:32",
+    "Compile job ID":"****2eq1g",
+    "Accuracy":94.29634094,
+    "Execution time (ms)":21.879
+  },
+  {
+    "Rank":29,
+    "Team":"Z6",
+    "Date and Time":"4\/29\/2026 21:53:08",
+    "Compile job ID":"****3198g",
+    "Accuracy":94.23434448,
+    "Execution time (ms)":29.65
+  },
+  {
+    "Rank":30,
+    "Team":"Z6",
+    "Date and Time":"4\/29\/2026 10:08:23",
+    "Compile job ID":"****jd69g",
+    "Accuracy":94.23434448,
+    "Execution time (ms)":29.981
+  },
+  {
+    "Rank":31,
+    "Team":"LY",
+    "Date and Time":"4\/26\/2026 22:19:56",
+    "Compile job ID":"****n7jw5",
+    "Accuracy":94.23434448,
+    "Execution time (ms)":31.764
+  },
+  {
+    "Rank":32,
+    "Team":"LY",
+    "Date and Time":"4\/29\/2026 23:42:18",
+    "Compile job ID":"****ee3lg",
+    "Accuracy":94.23434448,
+    "Execution time (ms)":31.772
+  },
+  {
+    "Rank":33,
+    "Team":"LY",
+    "Date and Time":"4\/29\/2026 6:53:02",
+    "Compile job ID":"****nlz45",
+    "Accuracy":94.17235565,
+    "Execution time (ms)":31.756
+  },
+  {
+    "Rank":34,
+    "Team":"LY",
+    "Date and Time":"4\/30\/2026 11:00:55",
+    "Compile job ID":"****rx9lp",
+    "Accuracy":94.11035156,
+    "Execution time (ms)":31.787
+  },
+  {
+    "Rank":35,
+    "Team":"Z6",
+    "Date and Time":"4\/25\/2026 8:29:22",
+    "Compile job ID":"****zmqn5",
+    "Accuracy":94.11035156,
+    "Execution time (ms)":31.845
+  },
+  {
+    "Rank":36,
+    "Team":"Z6",
+    "Date and Time":"4\/26\/2026 4:24:02",
+    "Compile job ID":"****wy8v5",
+    "Accuracy":94.11035156,
+    "Execution time (ms)":31.897
+  },
+  {
+    "Rank":37,
+    "Team":"LY",
+    "Date and Time":"4\/30\/2026 23:07:09",
+    "Compile job ID":"****3xw7p",
+    "Accuracy":94.11035156,
+    "Execution time (ms)":32.491
+  },
+  {
+    "Rank":38,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/29\/2026 11:55:48",
+    "Compile job ID":"****8w7q5",
+    "Accuracy":93.98635864,
+    "Execution time (ms)":21.179
+  },
+  {
+    "Rank":39,
+    "Team":"team-alpha",
+    "Date and Time":"4\/20\/2026 19:27:38",
+    "Compile job ID":"****9wvkp",
+    "Accuracy":93.98635864,
+    "Execution time (ms)":28.727
+  },
+  {
+    "Rank":40,
+    "Team":"Z6",
+    "Date and Time":"4\/24\/2026 21:00:18",
+    "Compile job ID":"****jy1vp",
+    "Accuracy":93.92436981,
+    "Execution time (ms)":21.688
+  },
+  {
+    "Rank":41,
+    "Team":"team-alpha",
+    "Date and Time":"4\/27\/2026 3:59:22",
+    "Compile job ID":"****9w8qg",
+    "Accuracy":93.92436981,
+    "Execution time (ms)":28.904
+  },
+  {
+    "Rank":42,
+    "Team":"Z6",
+    "Date and Time":"4\/30\/2026 21:42:37",
+    "Compile job ID":"****3mn0p",
+    "Accuracy":93.92436981,
+    "Execution time (ms)":29.38
+  },
+  {
+    "Rank":43,
+    "Team":"Z6",
+    "Date and Time":"4\/25\/2026 19:46:34",
+    "Compile job ID":"****q0wng",
+    "Accuracy":93.86236572,
+    "Execution time (ms)":31.811
+  },
+  {
+    "Rank":44,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/26\/2026 10:42:58",
+    "Compile job ID":"****nvoo5",
+    "Accuracy":93.73838043,
+    "Execution time (ms)":21.654
+  },
+  {
+    "Rank":45,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/25\/2026 22:48:23",
+    "Compile job ID":"****1lnmg",
+    "Accuracy":93.67638397,
+    "Execution time (ms)":21.339
+  },
+  {
+    "Rank":46,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/27\/2026 10:58:50",
+    "Compile job ID":"****j4o1g",
+    "Accuracy":93.67638397,
+    "Execution time (ms)":21.738
+  },
+  {
+    "Rank":47,
+    "Team":"team-alpha",
+    "Date and Time":"4\/26\/2026 4:20:14",
+    "Compile job ID":"****02wq5",
+    "Accuracy":93.67638397,
+    "Execution time (ms)":28.985
+  },
+  {
+    "Rank":48,
+    "Team":"team-alpha",
+    "Date and Time":"4\/5\/2026 23:20:55",
+    "Compile job ID":"****9kv85",
+    "Accuracy":93.61437988,
+    "Execution time (ms)":21.219
+  },
+  {
+    "Rank":49,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/10\/2026 10:17:52",
+    "Compile job ID":"****k6oj5",
+    "Accuracy":93.61437988,
+    "Execution time (ms)":21.647
+  },
+  {
+    "Rank":50,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/23\/2026 22:00:36",
+    "Compile job ID":"****jd4y5",
+    "Accuracy":93.61437988,
+    "Execution time (ms)":26.529
+  },
+  {
+    "Rank":51,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/24\/2026 21:11:44",
+    "Compile job ID":"****qzdr5",
+    "Accuracy":93.55238342,
+    "Execution time (ms)":25.948
+  },
+  {
+    "Rank":52,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/19\/2026 21:30:44",
+    "Compile job ID":"****712wg",
+    "Accuracy":93.49039459,
+    "Execution time (ms)":20.892
+  },
+  {
+    "Rank":53,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/24\/2026 4:16:45",
+    "Compile job ID":"****wdrjg",
+    "Accuracy":93.49039459,
+    "Execution time (ms)":21.749
+  },
+  {
+    "Rank":54,
+    "Team":"Z6",
+    "Date and Time":"4\/24\/2026 2:06:13",
+    "Compile job ID":"****jo6y5",
+    "Accuracy":93.49039459,
+    "Execution time (ms)":31.968
+  },
+  {
+    "Rank":55,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/25\/2026 9:27:32",
+    "Compile job ID":"****vnjqg",
+    "Accuracy":93.36639404,
+    "Execution time (ms)":21.235
+  },
+  {
+    "Rank":56,
+    "Team":"Z6",
+    "Date and Time":"4\/26\/2026 22:13:19",
+    "Compile job ID":"****0kqk5",
+    "Accuracy":93.36639404,
+    "Execution time (ms)":31.887
+  },
+  {
+    "Rank":57,
+    "Team":"JAWB",
+    "Date and Time":"4\/28\/2026 11:57:02",
+    "Compile job ID":"****q81vg",
+    "Accuracy":93.30440521,
+    "Execution time (ms)":8.929
+  },
+  {
+    "Rank":58,
+    "Team":"JAWB",
+    "Date and Time":"4\/26\/2026 19:45:07",
+    "Compile job ID":"****q81vg",
+    "Accuracy":93.30440521,
+    "Execution time (ms)":8.935
+  },
+  {
+    "Rank":59,
+    "Team":"Z6",
+    "Date and Time":"4\/22\/2026 22:11:10",
+    "Compile job ID":"****jevmg",
+    "Accuracy":93.30440521,
+    "Execution time (ms)":22.02
+  },
+  {
+    "Rank":60,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/21\/2026 18:39:38",
+    "Compile job ID":"****9o71p",
+    "Accuracy":93.30440521,
+    "Execution time (ms)":26.358
+  },
+  {
+    "Rank":61,
+    "Team":"Clown28",
+    "Date and Time":"5\/1\/2026 23:56:23",
+    "Compile job ID":"****vd3v5",
+    "Accuracy":93.24240875,
+    "Execution time (ms)":21.773
+  },
+  {
+    "Rank":62,
+    "Team":"Z6",
+    "Date and Time":"4\/10\/2026 21:29:22",
+    "Compile job ID":"****wzry5",
+    "Accuracy":93.24240875,
+    "Execution time (ms)":26.333
+  },
+  {
+    "Rank":63,
+    "Team":"team-alpha",
+    "Date and Time":"4\/23\/2026 11:49:45",
+    "Compile job ID":"****zwk15",
+    "Accuracy":93.24240875,
+    "Execution time (ms)":31.393
+  },
+  {
+    "Rank":64,
+    "Team":"Z6",
+    "Date and Time":"4\/7\/2026 22:05:48",
+    "Compile job ID":"****4nyo5",
+    "Accuracy":93.1184082,
+    "Execution time (ms)":25.901
+  },
+  {
+    "Rank":65,
+    "Team":"team-alpha",
+    "Date and Time":"4\/25\/2026 16:45:29",
+    "Compile job ID":"****w9rlp",
+    "Accuracy":93.1184082,
+    "Execution time (ms)":28.544
+  },
+  {
+    "Rank":66,
+    "Team":"LY",
+    "Date and Time":"4\/25\/2026 11:37:38",
+    "Compile job ID":"****vv9lg",
+    "Accuracy":93.1184082,
+    "Execution time (ms)":31.756
+  },
+  {
+    "Rank":67,
+    "Team":"LY",
+    "Date and Time":"4\/25\/2026 21:06:23",
+    "Compile job ID":"****302mg",
+    "Accuracy":93.1184082,
+    "Execution time (ms)":32.193
+  },
+  {
+    "Rank":68,
+    "Team":"team-alpha",
+    "Date and Time":"4\/12\/2026 9:14:31",
+    "Compile job ID":"****x32jg",
+    "Accuracy":92.99442291,
+    "Execution time (ms)":24.803
+  },
+  {
+    "Rank":69,
+    "Team":"team-alpha",
+    "Date and Time":"4\/7\/2026 23:21:29",
+    "Compile job ID":"****7k4q5",
+    "Accuracy":92.99442291,
+    "Execution time (ms)":26.696
+  },
+  {
+    "Rank":70,
+    "Team":"Z6",
+    "Date and Time":"4\/23\/2026 7:36:42",
+    "Compile job ID":"****jw1og",
+    "Accuracy":92.99442291,
+    "Execution time (ms)":31.971
+  },
+  {
+    "Rank":71,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/18\/2026 20:49:21",
+    "Compile job ID":"****8nxng",
+    "Accuracy":92.93242645,
+    "Execution time (ms)":21.378
+  },
+  {
+    "Rank":72,
+    "Team":"team-alpha",
+    "Date and Time":"4\/9\/2026 23:44:39",
+    "Compile job ID":"****90j25",
+    "Accuracy":92.87042236,
+    "Execution time (ms)":24.565
+  },
+  {
+    "Rank":73,
+    "Team":"Z6",
+    "Date and Time":"4\/13\/2026 20:42:13",
+    "Compile job ID":"****41vr5",
+    "Accuracy":92.87042236,
+    "Execution time (ms)":26.228
+  },
+  {
+    "Rank":74,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/8\/2026 10:07:35",
+    "Compile job ID":"****vm70g",
+    "Accuracy":92.87042236,
+    "Execution time (ms)":28.649
+  },
+  {
+    "Rank":75,
+    "Team":"team-alpha",
+    "Date and Time":"4\/15\/2026 9:38:31",
+    "Compile job ID":"****ov795",
+    "Accuracy":92.87042236,
+    "Execution time (ms)":28.906
+  },
+  {
+    "Rank":76,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/9\/2026 8:21:59",
+    "Compile job ID":"****m8w7g",
+    "Accuracy":92.80843353,
+    "Execution time (ms)":9.4
+  },
+  {
+    "Rank":77,
+    "Team":"team-alpha",
+    "Date and Time":"4\/4\/2026 23:32:38",
+    "Compile job ID":"****zxz6p",
+    "Accuracy":92.80843353,
+    "Execution time (ms)":24.151
+  },
+  {
+    "Rank":78,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/29\/2026 21:56:24",
+    "Compile job ID":"****ll1kp",
+    "Accuracy":92.80843353,
+    "Execution time (ms)":26.16
+  },
+  {
+    "Rank":79,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/26\/2026 22:23:42",
+    "Compile job ID":"****kenng",
+    "Accuracy":92.74643707,
+    "Execution time (ms)":25.713
+  },
+  {
+    "Rank":80,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/25\/2026 9:15:01",
+    "Compile job ID":"****9097g",
+    "Accuracy":92.74643707,
+    "Execution time (ms)":26.151
+  },
+  {
+    "Rank":81,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/27\/2026 21:46:43",
+    "Compile job ID":"****0jdk5",
+    "Accuracy":92.74643707,
+    "Execution time (ms)":26.169
+  },
+  {
+    "Rank":82,
+    "Team":"LY",
+    "Date and Time":"4\/24\/2026 23:32:49",
+    "Compile job ID":"****6e2wg",
+    "Accuracy":92.74643707,
+    "Execution time (ms)":31.961
+  },
+  {
+    "Rank":83,
+    "Team":"JAWB",
+    "Date and Time":"4\/27\/2026 7:10:54",
+    "Compile job ID":"****wv1lp",
+    "Accuracy":92.68444061,
+    "Execution time (ms)":16.664
+  },
+  {
+    "Rank":84,
+    "Team":"Z6",
+    "Date and Time":"4\/9\/2026 4:40:31",
+    "Compile job ID":"****1ko3g",
+    "Accuracy":92.68444061,
+    "Execution time (ms)":27.192
+  },
+  {
+    "Rank":85,
+    "Team":"Z6",
+    "Date and Time":"4\/3\/2026 23:57:09",
+    "Compile job ID":"****6vvl5",
+    "Accuracy":92.62244415,
+    "Execution time (ms)":25.688
+  },
+  {
+    "Rank":86,
+    "Team":"LY",
+    "Date and Time":"4\/28\/2026 9:32:42",
+    "Compile job ID":"****7zx9g",
+    "Accuracy":92.62244415,
+    "Execution time (ms)":32.228
+  },
+  {
+    "Rank":87,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/28\/2026 3:41:50",
+    "Compile job ID":"****nnd25",
+    "Accuracy":92.56044769,
+    "Execution time (ms)":21.443
+  },
+  {
+    "Rank":88,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/17\/2026 22:04:49",
+    "Compile job ID":"****ryd6g",
+    "Accuracy":92.56044769,
+    "Execution time (ms)":21.543
+  },
+  {
+    "Rank":89,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/29\/2026 7:17:04",
+    "Compile job ID":"****nnd25",
+    "Accuracy":92.56044769,
+    "Execution time (ms)":21.839
+  },
+  {
+    "Rank":90,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/26\/2026 10:17:46",
+    "Compile job ID":"****oqzmp",
+    "Accuracy":92.56044769,
+    "Execution time (ms)":26.019
+  },
+  {
+    "Rank":91,
+    "Team":"AIDL Lab",
+    "Date and Time":"5\/1\/2026 22:01:43",
+    "Compile job ID":"****do405",
+    "Accuracy":92.56044769,
+    "Execution time (ms)":26.343
+  },
+  {
+    "Rank":92,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/16\/2026 21:29:09",
+    "Compile job ID":"****rw2mg",
+    "Accuracy":92.49845123,
+    "Execution time (ms)":21.696
+  },
+  {
+    "Rank":93,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/24\/2026 10:20:45",
+    "Compile job ID":"****wre3g",
+    "Accuracy":92.49845123,
+    "Execution time (ms)":26.477
+  },
+  {
+    "Rank":94,
+    "Team":"JAWB",
+    "Date and Time":"4\/26\/2026 11:01:26",
+    "Compile job ID":"****3nwzg",
+    "Accuracy":92.43645477,
+    "Execution time (ms)":21.442
+  },
+  {
+    "Rank":95,
+    "Team":"Z6",
+    "Date and Time":"4\/2\/2026 21:00:47",
+    "Compile job ID":"****rndv5",
+    "Accuracy":92.43645477,
+    "Execution time (ms)":26.295
+  },
+  {
+    "Rank":96,
+    "Team":"Z6",
+    "Date and Time":"4\/17\/2026 23:01:37",
+    "Compile job ID":"****n27kp",
+    "Accuracy":92.37445831,
+    "Execution time (ms)":25.885
+  },
+  {
+    "Rank":97,
+    "Team":"team-alpha",
+    "Date and Time":"4\/24\/2026 16:25:41",
+    "Compile job ID":"****678lg",
+    "Accuracy":92.31246185,
+    "Execution time (ms)":28.804
+  },
+  {
+    "Rank":98,
+    "Team":"LY",
+    "Date and Time":"4\/27\/2026 11:19:28",
+    "Compile job ID":"****m7vxp",
+    "Accuracy":92.31246185,
+    "Execution time (ms)":31.76
+  },
+  {
+    "Rank":99,
+    "Team":"Z6",
+    "Date and Time":"4\/8\/2026 21:38:49",
+    "Compile job ID":"****92ml5",
+    "Accuracy":92.25046539,
+    "Execution time (ms)":26.973
+  },
+  {
+    "Rank":100,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/29\/2026 19:36:56",
+    "Compile job ID":"****voq8g",
+    "Accuracy":92.18846893,
+    "Execution time (ms)":21.368
+  },
+  {
+    "Rank":101,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/14\/2026 21:54:13",
+    "Compile job ID":"****lzomg",
+    "Accuracy":92.12647247,
+    "Execution time (ms)":21.123
+  },
+  {
+    "Rank":102,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/27\/2026 18:53:55",
+    "Compile job ID":"****q880g",
+    "Accuracy":92.06447601,
+    "Execution time (ms)":21.447
+  },
+  {
+    "Rank":103,
+    "Team":"EfficientAI",
+    "Date and Time":"3\/18\/2026 11:39:04",
+    "Compile job ID":"****x73m5",
+    "Accuracy":92.00247955,
+    "Execution time (ms)":21.756
+  },
+  {
+    "Rank":104,
+    "Team":"Clown28",
+    "Date and Time":"5\/1\/2026 11:58:08",
+    "Compile job ID":"****z02lg",
+    "Accuracy":92.00247955,
+    "Execution time (ms)":21.8
+  },
+  {
+    "Rank":105,
+    "Team":"Z6",
+    "Date and Time":"4\/4\/2026 20:05:36",
+    "Compile job ID":"****wjv3g",
+    "Accuracy":92.00247955,
+    "Execution time (ms)":25.987
+  },
+  {
+    "Rank":106,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/28\/2026 11:10:28",
+    "Compile job ID":"****m73y5",
+    "Accuracy":92.00247955,
+    "Execution time (ms)":26.103
+  },
+  {
+    "Rank":107,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/30\/2026 7:15:10",
+    "Compile job ID":"****3209g",
+    "Accuracy":92.00247955,
+    "Execution time (ms)":26.381
+  },
+  {
+    "Rank":108,
+    "Team":"AIDL Lab",
+    "Date and Time":"5\/1\/2026 10:12:30",
+    "Compile job ID":"****xjeq5",
+    "Accuracy":92.00247955,
+    "Execution time (ms)":26.47
+  },
+  {
+    "Rank":109,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/30\/2026 22:27:45",
+    "Compile job ID":"****09mn5",
+    "Accuracy":91.94048309,
+    "Execution time (ms)":25.905
+  },
+  {
+    "Rank":110,
+    "Team":"LY",
+    "Date and Time":"4\/27\/2026 23:10:09",
+    "Compile job ID":"****19m7g",
+    "Accuracy":91.94048309,
+    "Execution time (ms)":31.761
+  },
+  {
+    "Rank":111,
+    "Team":"EfficientAI",
+    "Date and Time":"3\/19\/2026 8:02:19",
+    "Compile job ID":"****z2dlp",
+    "Accuracy":91.87848663,
+    "Execution time (ms)":4.489
+  },
+  {
+    "Rank":112,
+    "Team":"team-alpha",
+    "Date and Time":"4\/3\/2026 0:46:57",
+    "Compile job ID":"****74v8g",
+    "Accuracy":91.87848663,
+    "Execution time (ms)":24.222
+  },
+  {
+    "Rank":113,
+    "Team":"team-alpha",
+    "Date and Time":"4\/6\/2026 23:56:12",
+    "Compile job ID":"****m974g",
+    "Accuracy":91.87848663,
+    "Execution time (ms)":24.554
+  },
+  {
+    "Rank":114,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/15\/2026 22:18:18",
+    "Compile job ID":"****6drw5",
+    "Accuracy":91.81649017,
+    "Execution time (ms)":21.257
+  },
+  {
+    "Rank":115,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/23\/2026 22:30:26",
+    "Compile job ID":"****nkxeg",
+    "Accuracy":91.81649017,
+    "Execution time (ms)":21.656
+  },
+  {
+    "Rank":116,
+    "Team":"EfficientAI",
+    "Date and Time":"3\/22\/2026 12:47:35",
+    "Compile job ID":"****n7vlg",
+    "Accuracy":91.81649017,
+    "Execution time (ms)":21.731
+  },
+  {
+    "Rank":117,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/30\/2026 8:22:14",
+    "Compile job ID":"****mky8p",
+    "Accuracy":91.69250488,
+    "Execution time (ms)":21.683
+  },
+  {
+    "Rank":118,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/25\/2026 21:59:25",
+    "Compile job ID":"****91l6p",
+    "Accuracy":91.69250488,
+    "Execution time (ms)":26.149
+  },
+  {
+    "Rank":119,
+    "Team":"Z6",
+    "Date and Time":"4\/18\/2026 10:35:02",
+    "Compile job ID":"****8w8ng",
+    "Accuracy":91.69250488,
+    "Execution time (ms)":31.731
+  },
+  {
+    "Rank":120,
+    "Team":"team-alpha",
+    "Date and Time":"4\/8\/2026 21:59:52",
+    "Compile job ID":"****7y10p",
+    "Accuracy":91.63050079,
+    "Execution time (ms)":23.747
+  },
+  {
+    "Rank":121,
+    "Team":"Z6",
+    "Date and Time":"4\/5\/2026 20:52:01",
+    "Compile job ID":"****vyy8p",
+    "Accuracy":91.63050079,
+    "Execution time (ms)":26.368
+  },
+  {
+    "Rank":122,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/16\/2026 23:30:18",
+    "Compile job ID":"****nr4zp",
+    "Accuracy":91.56850433,
+    "Execution time (ms)":22.175
+  },
+  {
+    "Rank":123,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/29\/2026 11:31:34",
+    "Compile job ID":"****nrq6g",
+    "Accuracy":91.50650787,
+    "Execution time (ms)":26.134
+  },
+  {
+    "Rank":124,
+    "Team":"Clown28",
+    "Date and Time":"3\/27\/2026 16:05:29",
+    "Compile job ID":"****3q17p",
+    "Accuracy":91.44451904,
+    "Execution time (ms)":21.595
+  },
+  {
+    "Rank":125,
+    "Team":"Clown28",
+    "Date and Time":"3\/29\/2026 14:33:15",
+    "Compile job ID":"****wlmjp",
+    "Accuracy":91.44451904,
+    "Execution time (ms)":21.75
+  },
+  {
+    "Rank":126,
+    "Team":"Clown28",
+    "Date and Time":"3\/31\/2026 8:15:00",
+    "Compile job ID":"****3xnmg",
+    "Accuracy":91.44451904,
+    "Execution time (ms)":22.021
+  },
+  {
+    "Rank":127,
+    "Team":"Z6",
+    "Date and Time":"3\/30\/2026 21:51:02",
+    "Compile job ID":"****77745",
+    "Accuracy":91.44451904,
+    "Execution time (ms)":25.837
+  },
+  {
+    "Rank":128,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/12\/2026 22:22:58",
+    "Compile job ID":"****mwo9p",
+    "Accuracy":91.38251495,
+    "Execution time (ms)":21.055
+  },
+  {
+    "Rank":129,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/23\/2026 20:53:42",
+    "Compile job ID":"****jrko5",
+    "Accuracy":91.38251495,
+    "Execution time (ms)":21.754
+  },
+  {
+    "Rank":130,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/13\/2026 17:11:03",
+    "Compile job ID":"****xexkg",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":20.983
+  },
+  {
+    "Rank":131,
+    "Team":"Clown28",
+    "Date and Time":"3\/28\/2026 15:42:23",
+    "Compile job ID":"****86vlp",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":21.855
+  },
+  {
+    "Rank":132,
+    "Team":"Z6",
+    "Date and Time":"3\/26\/2026 20:42:07",
+    "Compile job ID":"****z91y5",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":25.705
+  },
+  {
+    "Rank":133,
+    "Team":"Z6",
+    "Date and Time":"3\/29\/2026 22:12:01",
+    "Compile job ID":"****roe2g",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":26.053
+  },
+  {
+    "Rank":134,
+    "Team":"Z6",
+    "Date and Time":"3\/27\/2026 21:33:36",
+    "Compile job ID":"****q83zg",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":26.154
+  },
+  {
+    "Rank":135,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/28\/2026 23:03:30",
+    "Compile job ID":"****e308g",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":26.235
+  },
+  {
+    "Rank":136,
+    "Team":"LY",
+    "Date and Time":"4\/23\/2026 12:11:12",
+    "Compile job ID":"****jyyv5",
+    "Accuracy":91.25852966,
+    "Execution time (ms)":31.747
+  },
+  {
+    "Rank":137,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/21\/2026 2:00:21",
+    "Compile job ID":"****ldrlp",
+    "Accuracy":91.13452911,
+    "Execution time (ms)":21.992
+  },
+  {
+    "Rank":138,
+    "Team":"Novel Edge AI",
+    "Date and Time":"4\/11\/2026 5:37:30",
+    "Compile job ID":"****yn1vg",
+    "Accuracy":91.07253265,
+    "Execution time (ms)":24.778
+  },
+  {
+    "Rank":139,
+    "Team":"Clown28",
+    "Date and Time":"3\/25\/2026 16:05:59",
+    "Compile job ID":"****6xzwp",
+    "Accuracy":91.01054382,
+    "Execution time (ms)":21.604
+  },
+  {
+    "Rank":140,
+    "Team":"EfficientAI",
+    "Date and Time":"3\/17\/2026 1:25:38",
+    "Compile job ID":"****e0ln5\t",
+    "Accuracy":90.76255798,
+    "Execution time (ms)":21.873
+  },
+  {
+    "Rank":141,
+    "Team":"Z6",
+    "Date and Time":"4\/21\/2026 21:16:29",
+    "Compile job ID":"****k7vjg",
+    "Accuracy":90.76255798,
+    "Execution time (ms)":21.956
+  },
+  {
+    "Rank":142,
+    "Team":"Z6",
+    "Date and Time":"3\/24\/2026 22:08:43",
+    "Compile job ID":"****y9vnp",
+    "Accuracy":90.70056152,
+    "Execution time (ms)":26.268
+  },
+  {
+    "Rank":143,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/22\/2026 1:00:33",
+    "Compile job ID":"****1ovq5",
+    "Accuracy":90.63855743,
+    "Execution time (ms)":21.51
+  },
+  {
+    "Rank":144,
+    "Team":"Z6",
+    "Date and Time":"3\/23\/2026 22:05:35",
+    "Compile job ID":"****e2mep",
+    "Accuracy":90.51457214,
+    "Execution time (ms)":26.039
+  },
+  {
+    "Rank":145,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/12\/2026 20:57:43",
+    "Compile job ID":"****1xx85",
+    "Accuracy":90.45257568,
+    "Execution time (ms)":21.511
+  },
+  {
+    "Rank":146,
+    "Team":"Novel Edge AI",
+    "Date and Time":"4\/12\/2026 17:23:40",
+    "Compile job ID":"****r1kx5",
+    "Accuracy":90.45257568,
+    "Execution time (ms)":29.342
+  },
+  {
+    "Rank":147,
+    "Team":"LY",
+    "Date and Time":"4\/21\/2026 5:06:55",
+    "Compile job ID":"****q467g",
+    "Accuracy":90.45257568,
+    "Execution time (ms)":31.769
+  },
+  {
+    "Rank":148,
+    "Team":"Novel Edge AI",
+    "Date and Time":"4\/7\/2026 12:31:49",
+    "Compile job ID":"****nn99g",
+    "Accuracy":90.2665863,
+    "Execution time (ms)":24.15
+  },
+  {
+    "Rank":149,
+    "Team":"LY",
+    "Date and Time":"4\/22\/2026 13:09:16",
+    "Compile job ID":"****7r8wp",
+    "Accuracy":90.2665863,
+    "Execution time (ms)":32.097
+  },
+  {
+    "Rank":150,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/7\/2026 3:47:35",
+    "Compile job ID":"****98nl5",
+    "Accuracy":90.20458984,
+    "Execution time (ms)":28.042
+  },
+  {
+    "Rank":151,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/25\/2026 5:09:54",
+    "Compile job ID":"****eqn0p",
+    "Accuracy":90.14259338,
+    "Execution time (ms)":21.174
+  },
+  {
+    "Rank":152,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/24\/2026 11:44:03",
+    "Compile job ID":"****z4e25",
+    "Accuracy":90.08059692,
+    "Execution time (ms)":22.317
+  },
+  {
+    "Rank":153,
+    "Team":"YALA",
+    "Date and Time":"4\/23\/2026 23:40:46",
+    "Compile job ID":"****18dk5",
+    "Accuracy":90.08059692,
+    "Execution time (ms)":32.039
+  },
+  {
+    "Rank":154,
+    "Team":"Z6",
+    "Date and Time":"3\/22\/2026 21:15:43",
+    "Compile job ID":"****e9eeg",
+    "Accuracy":89.956604,
+    "Execution time (ms)":17.202
+  },
+  {
+    "Rank":155,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/20\/2026 1:27:00",
+    "Compile job ID":"****w030g",
+    "Accuracy":89.89460754,
+    "Execution time (ms)":21.7
+  },
+  {
+    "Rank":156,
+    "Team":"Novel Edge AI",
+    "Date and Time":"4\/9\/2026 6:09:58",
+    "Compile job ID":"****dk3n5",
+    "Accuracy":89.89460754,
+    "Execution time (ms)":24.482
+  },
+  {
+    "Rank":157,
+    "Team":"JAWB",
+    "Date and Time":"4\/27\/2026 21:37:09",
+    "Compile job ID":"****vkr4g",
+    "Accuracy":89.89460754,
+    "Execution time (ms)":28.558
+  },
+  {
+    "Rank":158,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/11\/2026 23:04:28",
+    "Compile job ID":"****x6vlp",
+    "Accuracy":89.83261108,
+    "Execution time (ms)":21.083
+  },
+  {
+    "Rank":159,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/24\/2026 18:35:06",
+    "Compile job ID":"****n4v3g",
+    "Accuracy":89.70861816,
+    "Execution time (ms)":21.544
+  },
+  {
+    "Rank":160,
+    "Team":"team-alpha",
+    "Date and Time":"4\/1\/2026 6:04:34",
+    "Compile job ID":"****emjlg",
+    "Accuracy":89.6466217,
+    "Execution time (ms)":24.446
+  },
+  {
+    "Rank":161,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/22\/2026 22:07:31",
+    "Compile job ID":"****j68og",
+    "Accuracy":89.58462524,
+    "Execution time (ms)":21.867
+  },
+  {
+    "Rank":162,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/6\/2026 14:55:06",
+    "Compile job ID":"****1kzeg",
+    "Accuracy":89.46063232,
+    "Execution time (ms)":27.005
+  },
+  {
+    "Rank":163,
+    "Team":"JAWB",
+    "Date and Time":"4\/25\/2026 3:39:06",
+    "Compile job ID":"****jj8mg",
+    "Accuracy":89.39863586,
+    "Execution time (ms)":21.565
+  },
+  {
+    "Rank":164,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/5\/2026 13:32:40",
+    "Compile job ID":"****70qv5",
+    "Accuracy":89.27464294,
+    "Execution time (ms)":21.86
+  },
+  {
+    "Rank":165,
+    "Team":"team-alpha",
+    "Date and Time":"3\/8\/2026 7:40:30",
+    "Compile job ID":"****0mkk5",
+    "Accuracy":89.21264648,
+    "Execution time (ms)":21.163
+  },
+  {
+    "Rank":166,
+    "Team":"team-alpha",
+    "Date and Time":"3\/9\/2026 4:58:14",
+    "Compile job ID":"****n9ynp",
+    "Accuracy":89.15065002,
+    "Execution time (ms)":4.478
+  },
+  {
+    "Rank":167,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/20\/2026 20:21:03",
+    "Compile job ID":"****d3oeg",
+    "Accuracy":89.15065002,
+    "Execution time (ms)":21.817
+  },
+  {
+    "Rank":168,
+    "Team":"team-alpha",
+    "Date and Time":"4\/26\/2026 21:47:13",
+    "Compile job ID":"****z622g",
+    "Accuracy":89.0266571,
+    "Execution time (ms)":28.683
+  },
+  {
+    "Rank":169,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/19\/2026 11:07:21",
+    "Compile job ID":"****6dj9g",
+    "Accuracy":88.59268188,
+    "Execution time (ms)":4.504
+  },
+  {
+    "Rank":170,
+    "Team":"JAWB",
+    "Date and Time":"4\/24\/2026 9:38:18",
+    "Compile job ID":"****wrk9g",
+    "Accuracy":88.53069305,
+    "Execution time (ms)":21.664
+  },
+  {
+    "Rank":171,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/10\/2026 12:41:10",
+    "Compile job ID":"****n3mz5",
+    "Accuracy":88.46869659,
+    "Execution time (ms)":21.18
+  },
+  {
+    "Rank":172,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/7\/2026 19:54:46",
+    "Compile job ID":"****1446g",
+    "Accuracy":88.34469604,
+    "Execution time (ms)":22.005
+  },
+  {
+    "Rank":173,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/3\/2026 14:34:11",
+    "Compile job ID":"****xm2v5",
+    "Accuracy":88.22071075,
+    "Execution time (ms)":21.831
+  },
+  {
+    "Rank":174,
+    "Team":"JAWB",
+    "Date and Time":"4\/25\/2026 23:44:57",
+    "Compile job ID":"****1l0qg",
+    "Accuracy":88.15870667,
+    "Execution time (ms)":21.724
+  },
+  {
+    "Rank":175,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/19\/2026 22:18:05",
+    "Compile job ID":"****kx7lp",
+    "Accuracy":88.09671021,
+    "Execution time (ms)":22.089
+  },
+  {
+    "Rank":176,
+    "Team":"team-alpha",
+    "Date and Time":"3\/4\/2026 20:37:06",
+    "Compile job ID":"****rq48g",
+    "Accuracy":87.91072083,
+    "Execution time (ms)":4.492
+  },
+  {
+    "Rank":177,
+    "Team":"YALA",
+    "Date and Time":"4\/4\/2026 15:27:29",
+    "Compile job ID":"****rx2y5",
+    "Accuracy":87.72473907,
+    "Execution time (ms)":32.255
+  },
+  {
+    "Rank":178,
+    "Team":"Brainchip",
+    "Date and Time":"4\/7\/2026 3:11:29",
+    "Compile job ID":"****9j0q5",
+    "Accuracy":87.66273499,
+    "Execution time (ms)":7.864
+  },
+  {
+    "Rank":179,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/22\/2026 20:02:50",
+    "Compile job ID":"****lr0j5",
+    "Accuracy":87.53874969,
+    "Execution time (ms)":4.482
+  },
+  {
+    "Rank":180,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/12\/2026 14:26:33",
+    "Compile job ID":"****7lx9p",
+    "Accuracy":87.53874969,
+    "Execution time (ms)":4.486
+  },
+  {
+    "Rank":181,
+    "Team":"YALA",
+    "Date and Time":"3\/30\/2026 22:46:58",
+    "Compile job ID":"****4vo8p",
+    "Accuracy":87.53874969,
+    "Execution time (ms)":32.551
+  },
+  {
+    "Rank":182,
+    "Team":"team-alpha",
+    "Date and Time":"3\/2\/2026 23:07:06",
+    "Compile job ID":"****89mnp",
+    "Accuracy":87.35276031,
+    "Execution time (ms)":9.253
+  },
+  {
+    "Rank":183,
+    "Team":"Z6",
+    "Date and Time":"3\/15\/2026 23:02:53",
+    "Compile job ID":"****jmd3g",
+    "Accuracy":87.16677094,
+    "Execution time (ms)":15.648
+  },
+  {
+    "Rank":184,
+    "Team":"LY",
+    "Date and Time":"4\/19\/2026 22:34:45",
+    "Compile job ID":"****9jv75",
+    "Accuracy":87.10477448,
+    "Execution time (ms)":28.331
+  },
+  {
+    "Rank":185,
+    "Team":"SSUPER POWER",
+    "Date and Time":"4\/9\/2026 5:51:12",
+    "Compile job ID":"****wje1p",
+    "Accuracy":87.04277802,
+    "Execution time (ms)":21.162
+  },
+  {
+    "Rank":186,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/17\/2026 22:50:14",
+    "Compile job ID":"****qw1jg",
+    "Accuracy":86.98078156,
+    "Execution time (ms)":21.606
+  },
+  {
+    "Rank":187,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/14\/2026 19:13:27",
+    "Compile job ID":"****z14qg",
+    "Accuracy":86.9187851,
+    "Execution time (ms)":21.834
+  },
+  {
+    "Rank":188,
+    "Team":"Novel Edge AI",
+    "Date and Time":"3\/25\/2026 14:59:50",
+    "Compile job ID":"****l88m5",
+    "Accuracy":86.85678864,
+    "Execution time (ms)":26.915
+  },
+  {
+    "Rank":189,
+    "Team":"JAWB",
+    "Date and Time":"4\/23\/2026 23:22:28",
+    "Compile job ID":"****j46kp",
+    "Accuracy":86.73279572,
+    "Execution time (ms)":21.615
+  },
+  {
+    "Rank":190,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/8\/2026 1:38:11",
+    "Compile job ID":"****173zg",
+    "Accuracy":86.67079926,
+    "Execution time (ms)":22.399
+  },
+  {
+    "Rank":191,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/1\/2026 21:44:11",
+    "Compile job ID":"****jmz15",
+    "Accuracy":86.6088028,
+    "Execution time (ms)":27.406
+  },
+  {
+    "Rank":192,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/10\/2026 2:14:00",
+    "Compile job ID":"****8xvw5",
+    "Accuracy":86.6088028,
+    "Execution time (ms)":27.722
+  },
+  {
+    "Rank":193,
+    "Team":"SSUPER POWER",
+    "Date and Time":"4\/12\/2026 4:59:45",
+    "Compile job ID":"****1vql5",
+    "Accuracy":86.36081696,
+    "Execution time (ms)":20.74
+  },
+  {
+    "Rank":194,
+    "Team":"Novel Edge AI",
+    "Date and Time":"3\/21\/2026 6:53:15",
+    "Compile job ID":"****3r42g",
+    "Accuracy":86.11283112,
+    "Execution time (ms)":27.143
+  },
+  {
+    "Rank":195,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/23\/2026 20:58:10",
+    "Compile job ID":"****k38q5",
+    "Accuracy":85.92684174,
+    "Execution time (ms)":27.283
+  },
+  {
+    "Rank":196,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/16\/2026 22:30:27",
+    "Compile job ID":"****76r9g",
+    "Accuracy":85.61685944,
+    "Execution time (ms)":21.727
+  },
+  {
+    "Rank":197,
+    "Team":"MaXinLab",
+    "Date and Time":"3\/31\/2026 19:41:30",
+    "Compile job ID":"****78dx5",
+    "Accuracy":85.49287415,
+    "Execution time (ms)":21.483
+  },
+  {
+    "Rank":198,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/1\/2026 2:59:39",
+    "Compile job ID":"****78dx5",
+    "Accuracy":85.49287415,
+    "Execution time (ms)":21.564
+  },
+  {
+    "Rank":199,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/17\/2026 3:06:46",
+    "Compile job ID":"****qkqxg",
+    "Accuracy":85.43087006,
+    "Execution time (ms)":4.488
+  },
+  {
+    "Rank":200,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/18\/2026 2:33:25",
+    "Compile job ID":"****qkqxg",
+    "Accuracy":85.43087006,
+    "Execution time (ms)":4.488
+  },
+  {
+    "Rank":201,
+    "Team":"Z6",
+    "Date and Time":"4\/1\/2026 4:00:52",
+    "Compile job ID":"****q838p",
+    "Accuracy":84.00495911,
+    "Execution time (ms)":26.046
+  },
+  {
+    "Rank":202,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/27\/2026 23:11:42",
+    "Compile job ID":"****qkvvg",
+    "Accuracy":83.57098389,
+    "Execution time (ms)":21.47
+  },
+  {
+    "Rank":203,
+    "Team":"Brainchip",
+    "Date and Time":"4\/28\/2026 16:05:07",
+    "Compile job ID":"****2yyjg",
+    "Accuracy":83.38499451,
+    "Execution time (ms)":5.543
+  },
+  {
+    "Rank":204,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/23\/2026 23:26:05",
+    "Compile job ID":"****z9j9g",
+    "Accuracy":83.26100922,
+    "Execution time (ms)":21.393
+  },
+  {
+    "Rank":205,
+    "Team":"YALA",
+    "Date and Time":"3\/29\/2026 17:58:22",
+    "Compile job ID":"****9lo3g",
+    "Accuracy":83.19900513,
+    "Execution time (ms)":14.554
+  },
+  {
+    "Rank":206,
+    "Team":"Z6",
+    "Date and Time":"3\/31\/2026 21:33:57",
+    "Compile job ID":"****17weg",
+    "Accuracy":83.19900513,
+    "Execution time (ms)":26.117
+  },
+  {
+    "Rank":207,
+    "Team":"Clown28",
+    "Date and Time":"3\/16\/2026 23:27:18",
+    "Compile job ID":"****623jp",
+    "Accuracy":83.13700867,
+    "Execution time (ms)":4.935
+  },
+  {
+    "Rank":208,
+    "Team":"Brainchip",
+    "Date and Time":"4\/24\/2026 11:18:44",
+    "Compile job ID":"****n9mng",
+    "Accuracy":82.88902283,
+    "Execution time (ms)":5.548
+  },
+  {
+    "Rank":209,
+    "Team":"Z6",
+    "Date and Time":"4\/6\/2026 23:57:08",
+    "Compile job ID":"****l4r1g",
+    "Accuracy":82.88902283,
+    "Execution time (ms)":26.098
+  },
+  {
+    "Rank":210,
+    "Team":"Team-Cen",
+    "Date and Time":"3\/18\/2026 3:10:57",
+    "Compile job ID":"****wwd6g",
+    "Accuracy":82.76503754,
+    "Execution time (ms)":21.575
+  },
+  {
+    "Rank":211,
+    "Team":"[@nu_datasci] team name",
+    "Date and Time":"3\/8\/2026 4:20:10",
+    "Compile job ID":"****ozjjg",
+    "Accuracy":82.26906586,
+    "Execution time (ms)":21.65
+  },
+  {
+    "Rank":212,
+    "Team":"Team-Cen",
+    "Date and Time":"3\/19\/2026 5:08:41",
+    "Compile job ID":"****0zelg",
+    "Accuracy":82.26906586,
+    "Execution time (ms)":21.814
+  },
+  {
+    "Rank":213,
+    "Team":"SHEN",
+    "Date and Time":"3\/25\/2026 9:47:32",
+    "Compile job ID":"****e3k1g",
+    "Accuracy":82.02108002,
+    "Execution time (ms)":21.463
+  },
+  {
+    "Rank":214,
+    "Team":"[@nu_datasci] team name",
+    "Date and Time":"3\/11\/2026 1:07:27",
+    "Compile job ID":"****1xel5",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":4.459
+  },
+  {
+    "Rank":215,
+    "Team":"HNU-VPAI",
+    "Date and Time":"3\/12\/2026 22:37:52",
+    "Compile job ID":"****617r5",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.383
+  },
+  {
+    "Rank":216,
+    "Team":"JAWB",
+    "Date and Time":"3\/7\/2026 16:01:02",
+    "Compile job ID":"****wv1lp",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.454
+  },
+  {
+    "Rank":217,
+    "Team":"JARVIS",
+    "Date and Time":"3\/15\/2026 18:56:04",
+    "Compile job ID":"****kl6q5",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.467
+  },
+  {
+    "Rank":218,
+    "Team":"SHEN",
+    "Date and Time":"3\/24\/2026 10:19:16",
+    "Compile job ID":"****e63kp",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.527
+  },
+  {
+    "Rank":219,
+    "Team":"Baseline",
+    "Date and Time":null,
+    "Compile job ID":null,
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.535
+  },
+  {
+    "Rank":220,
+    "Team":"ActionFinders",
+    "Date and Time":"4\/9\/2026 1:02:51",
+    "Compile job ID":"****99wl5",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.639
+  },
+  {
+    "Rank":221,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/13\/2026 1:52:51",
+    "Compile job ID":"****vyyzp",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.68
+  },
+  {
+    "Rank":222,
+    "Team":"Kojrey",
+    "Date and Time":"3\/5\/2026 5:12:33",
+    "Compile job ID":"****jy7rg",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":21.868
+  },
+  {
+    "Rank":223,
+    "Team":"RRTeam",
+    "Date and Time":"4\/15\/2026 0:18:58",
+    "Compile job ID":"****rqlxp",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":23.043
+  },
+  {
+    "Rank":224,
+    "Team":"unhappy1030",
+    "Date and Time":"3\/31\/2026 10:34:59",
+    "Compile job ID":"****0w6vp",
+    "Accuracy":81.95908356,
+    "Execution time (ms)":23.102
+  },
+  {
+    "Rank":225,
+    "Team":"Clown28",
+    "Date and Time":"3\/11\/2026 22:46:17",
+    "Compile job ID":"****w3zn5",
+    "Accuracy":81.8970871,
+    "Execution time (ms)":4.897
+  },
+  {
+    "Rank":226,
+    "Team":"Clown28",
+    "Date and Time":"3\/10\/2026 0:35:39",
+    "Compile job ID":"****20jqp",
+    "Accuracy":81.83509064,
+    "Execution time (ms)":4.937
+  },
+  {
+    "Rank":227,
+    "Team":"[@nu_datasci] team name",
+    "Date and Time":"3\/19\/2026 12:27:17",
+    "Compile job ID":"****2dz95",
+    "Accuracy":81.64910126,
+    "Execution time (ms)":21.969
+  },
+  {
+    "Rank":228,
+    "Team":"[@nu_datasci] team name",
+    "Date and Time":"3\/18\/2026 14:27:18",
+    "Compile job ID":"****x79x5",
+    "Accuracy":81.52510834,
+    "Execution time (ms)":4.476
+  },
+  {
+    "Rank":229,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/2\/2026 22:27:08",
+    "Compile job ID":"****1jql5",
+    "Accuracy":81.40111542,
+    "Execution time (ms)":21.709
+  },
+  {
+    "Rank":230,
+    "Team":"SVTU",
+    "Date and Time":"3\/8\/2026 8:54:04",
+    "Compile job ID":"****977kg",
+    "Accuracy":81.2771225,
+    "Execution time (ms)":4.449
+  },
+  {
+    "Rank":231,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/25\/2026 21:19:04",
+    "Compile job ID":"****okxzp",
+    "Accuracy":81.2771225,
+    "Execution time (ms)":21.853
+  },
+  {
+    "Rank":232,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/19\/2026 22:22:38",
+    "Compile job ID":"****d8om5",
+    "Accuracy":80.53317261,
+    "Execution time (ms)":21.907
+  },
+  {
+    "Rank":233,
+    "Team":"Clown28",
+    "Date and Time":"3\/12\/2026 13:33:23",
+    "Compile job ID":"****lo3eg",
+    "Accuracy":80.40917206,
+    "Execution time (ms)":4.92
+  },
+  {
+    "Rank":234,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/8\/2026 4:35:05",
+    "Compile job ID":"****988w5",
+    "Accuracy":80.28518677,
+    "Execution time (ms)":21.674
+  },
+  {
+    "Rank":235,
+    "Team":"JAWB",
+    "Date and Time":"4\/24\/2026 23:42:24",
+    "Compile job ID":"****j8nr5",
+    "Accuracy":80.09919739,
+    "Execution time (ms)":21.817
+  },
+  {
+    "Rank":236,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/24\/2026 23:59:40",
+    "Compile job ID":"****zjm7g",
+    "Accuracy":79.78921509,
+    "Execution time (ms)":21.632
+  },
+  {
+    "Rank":237,
+    "Team":"[@nu_datasci] team name",
+    "Date and Time":"3\/22\/2026 14:25:20",
+    "Compile job ID":"****n7wlg",
+    "Accuracy":79.47923279,
+    "Execution time (ms)":4.48
+  },
+  {
+    "Rank":238,
+    "Team":"MaXinLab",
+    "Date and Time":"4\/26\/2026 23:24:12",
+    "Compile job ID":"****26zyp",
+    "Accuracy":79.47923279,
+    "Execution time (ms)":21.482
+  },
+  {
+    "Rank":239,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/20\/2026 22:40:38",
+    "Compile job ID":"****l6w8p",
+    "Accuracy":79.23124695,
+    "Execution time (ms)":21.868
+  },
+  {
+    "Rank":240,
+    "Team":"Luevano",
+    "Date and Time":"4\/29\/2026 17:19:27",
+    "Compile job ID":"****jz29g",
+    "Accuracy":79.04525757,
+    "Execution time (ms)":23.375
+  },
+  {
+    "Rank":241,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/14\/2026 4:02:01",
+    "Compile job ID":"****x44kg",
+    "Accuracy":78.73527527,
+    "Execution time (ms)":4.494
+  },
+  {
+    "Rank":242,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/5\/2026 19:36:02",
+    "Compile job ID":"****6enm5",
+    "Accuracy":78.61128235,
+    "Execution time (ms)":4.48
+  },
+  {
+    "Rank":243,
+    "Team":"Team Cen",
+    "Date and Time":"3\/11\/2026 1:06:59",
+    "Compile job ID":"****o82rg",
+    "Accuracy":78.30130768,
+    "Execution time (ms)":21.237
+  },
+  {
+    "Rank":244,
+    "Team":"nyoriworks",
+    "Date and Time":"3\/22\/2026 3:25:07",
+    "Compile job ID":"****31z0g",
+    "Accuracy":78.05332184,
+    "Execution time (ms)":11.011
+  },
+  {
+    "Rank":245,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/12\/2026 2:50:26",
+    "Compile job ID":"****lxvlg",
+    "Accuracy":76.00743866,
+    "Execution time (ms)":21.8
+  },
+  {
+    "Rank":246,
+    "Team":"LY",
+    "Date and Time":"4\/17\/2026 4:44:31",
+    "Compile job ID":"****q9zqg",
+    "Accuracy":75.75945282,
+    "Execution time (ms)":32.105
+  },
+  {
+    "Rank":247,
+    "Team":"LY",
+    "Date and Time":"4\/18\/2026 10:40:36",
+    "Compile job ID":"****xn1og",
+    "Accuracy":75.6354599,
+    "Execution time (ms)":31.776
+  },
+  {
+    "Rank":248,
+    "Team":"CDA-IITGoa",
+    "Date and Time":"4\/2\/2026 12:31:17",
+    "Compile job ID":"****em89g",
+    "Accuracy":75.13949585,
+    "Execution time (ms)":21.908
+  },
+  {
+    "Rank":249,
+    "Team":"SHEN",
+    "Date and Time":"3\/23\/2026 9:38:47",
+    "Compile job ID":"****e8z0g",
+    "Accuracy":73.52758789,
+    "Execution time (ms)":21.914
+  },
+  {
+    "Rank":250,
+    "Team":"MaXinLab",
+    "Date and Time":"3\/17\/2026 20:36:34",
+    "Compile job ID":"****le2mg",
+    "Accuracy":72.41165924,
+    "Execution time (ms)":22.274
+  },
+  {
+    "Rank":251,
+    "Team":"VTS-AI",
+    "Date and Time":"3\/31\/2026 12:58:49",
+    "Compile job ID":"****4mjrp",
+    "Accuracy":72.34966278,
+    "Execution time (ms)":21.614
+  },
+  {
+    "Rank":252,
+    "Team":"EfficientAI",
+    "Date and Time":"3\/9\/2026 10:10:20",
+    "Compile job ID":"****lvx2g",
+    "Accuracy":71.5437088,
+    "Execution time (ms)":21.33
+  },
+  {
+    "Rank":253,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/28\/2026 9:26:08",
+    "Compile job ID":"****276ng",
+    "Accuracy":70.98574066,
+    "Execution time (ms)":21.962
+  },
+  {
+    "Rank":254,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/16\/2026 1:43:33",
+    "Compile job ID":"****q3wzg",
+    "Accuracy":70.9237442,
+    "Execution time (ms)":22.091
+  },
+  {
+    "Rank":255,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/6\/2026 10:45:32",
+    "Compile job ID":"****71vx5",
+    "Accuracy":70.86174774,
+    "Execution time (ms)":22.734
+  },
+  {
+    "Rank":256,
+    "Team":"Fantastic 3",
+    "Date and Time":"3\/4\/2026 0:55:08",
+    "Compile job ID":"****lk90p",
+    "Accuracy":70.36578369,
+    "Execution time (ms)":21.491
+  },
+  {
+    "Rank":257,
+    "Team":"Fantastic 3",
+    "Date and Time":"3\/4\/2026 0:55:08",
+    "Compile job ID":"****lk90p",
+    "Accuracy":70.36578369,
+    "Execution time (ms)":21.96
+  },
+  {
+    "Rank":258,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/2\/2026 19:53:49",
+    "Compile job ID":"****4yv7g",
+    "Accuracy":67.51394653,
+    "Execution time (ms)":18.027
+  },
+  {
+    "Rank":259,
+    "Team":"VTS-AI",
+    "Date and Time":"3\/30\/2026 13:31:46",
+    "Compile job ID":"****vx3k5",
+    "Accuracy":67.26596069,
+    "Execution time (ms)":21.282
+  },
+  {
+    "Rank":260,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/29\/2026 19:33:45",
+    "Compile job ID":"****7jqog",
+    "Accuracy":65.22008514,
+    "Execution time (ms)":27.474
+  },
+  {
+    "Rank":261,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/30\/2026 1:49:01",
+    "Compile job ID":"****v6mvg",
+    "Accuracy":64.78610992,
+    "Execution time (ms)":15.235
+  },
+  {
+    "Rank":262,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/15\/2026 7:12:06",
+    "Compile job ID":"****n6zmp",
+    "Accuracy":64.16615295,
+    "Execution time (ms)":6.603
+  },
+  {
+    "Rank":263,
+    "Team":"EfficientAI",
+    "Date and Time":"4\/7\/2026 10:37:19",
+    "Compile job ID":"****l818g",
+    "Accuracy":64.16615295,
+    "Execution time (ms)":21.999
+  },
+  {
+    "Rank":264,
+    "Team":"Brainchip",
+    "Date and Time":"3\/31\/2026 9:33:07",
+    "Compile job ID":"****mdom5",
+    "Accuracy":63.54618835,
+    "Execution time (ms)":2.57
+  },
+  {
+    "Rank":265,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/17\/2026 2:28:42",
+    "Compile job ID":"****ym975",
+    "Accuracy":57.16056824,
+    "Execution time (ms)":21.526
+  },
+  {
+    "Rank":266,
+    "Team":"nyoriworks",
+    "Date and Time":"4\/7\/2026 22:31:28",
+    "Compile job ID":"****44nd5",
+    "Accuracy":38.87166595,
+    "Execution time (ms)":4.195
+  },
+  {
+    "Rank":267,
+    "Team":"nyoriworks",
+    "Date and Time":"4\/4\/2026 22:49:51",
+    "Compile job ID":"****1e9mg",
+    "Accuracy":38.25170517,
+    "Execution time (ms)":4.589
+  },
+  {
+    "Rank":268,
+    "Team":"nyoriworks",
+    "Date and Time":"4\/5\/2026 21:15:38",
+    "Compile job ID":"****7y9n5",
+    "Accuracy":37.25976181,
+    "Execution time (ms)":2.394
+  },
+  {
+    "Rank":269,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/20\/2026 14:53:09",
+    "Compile job ID":"****z7r15",
+    "Accuracy":23.06261635,
+    "Execution time (ms)":21.472
+  },
+  {
+    "Rank":270,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/19\/2026 18:02:06",
+    "Compile job ID":"****z7r15",
+    "Accuracy":23.06261635,
+    "Execution time (ms)":21.769
+  },
+  {
+    "Rank":271,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/18\/2026 18:29:28",
+    "Compile job ID":"****27jlp",
+    "Accuracy":22.3806572,
+    "Execution time (ms)":20.946
+  },
+  {
+    "Rank":272,
+    "Team":"AIDL Lab",
+    "Date and Time":"4\/5\/2026 17:21:29",
+    "Compile job ID":"****znklp",
+    "Accuracy":18.53688812,
+    "Execution time (ms)":20.731
+  },
+  {
+    "Rank":273,
+    "Team":"HDCLABS",
+    "Date and Time":"4\/9\/2026 1:13:47",
+    "Compile job ID":"****dl8qp",
+    "Accuracy":15.99504089,
+    "Execution time (ms)":29.08
+  },
+  {
+    "Rank":274,
+    "Team":"nyoriworks",
+    "Date and Time":"3\/19\/2026 12:06:56",
+    "Compile job ID":"****z9ek5",
+    "Accuracy":12.64724159,
+    "Execution time (ms)":10.27
+  },
+  {
+    "Rank":275,
+    "Team":"LY",
+    "Date and Time":"5\/1\/2026 11:46:36",
+    "Compile job ID":"****y26xg",
+    "Accuracy":12.21326733,
+    "Execution time (ms)":21.704
+  },
+  {
+    "Rank":276,
+    "Team":"nyoriworks",
+    "Date and Time":"3\/18\/2026 11:47:58",
+    "Compile job ID":"****vloo5",
+    "Accuracy":10.84934902,
+    "Execution time (ms)":10.265
+  },
+  {
+    "Rank":277,
+    "Team":"JARVIS",
+    "Date and Time":"3\/14\/2026 1:40:37",
+    "Compile job ID":"****xne8g",
+    "Accuracy":5.765654087,
+    "Execution time (ms)":27.722
+  },
+  {
+    "Rank":278,
+    "Team":"JARVIS",
+    "Date and Time":"3\/11\/2026 23:21:34",
+    "Compile job ID":"****20vxg",
+    "Accuracy":5.207687378,
+    "Execution time (ms)":20.373
+  },
+  {
+    "Rank":279,
+    "Team":"JARVIS",
+    "Date and Time":"3\/10\/2026 1:17:54",
+    "Compile job ID":"****qo39p",
+    "Accuracy":4.897706032,
+    "Execution time (ms)":20.265
+  },
+  {
+    "Rank":280,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/13\/2026 12:08:41",
+    "Compile job ID":"****e4lm5",
+    "Accuracy":4.029758453,
+    "Execution time (ms)":27.305
+  },
+  {
+    "Rank":281,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/12\/2026 21:49:38",
+    "Compile job ID":"****e4lm5",
+    "Accuracy":4.029758453,
+    "Execution time (ms)":27.716
+  },
+  {
+    "Rank":282,
+    "Team":"JARVIS",
+    "Date and Time":"3\/8\/2026 22:11:29",
+    "Compile job ID":"****96mo5",
+    "Accuracy":3.78177309,
+    "Execution time (ms)":20.139
+  },
+  {
+    "Rank":283,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/19\/2026 18:59:16",
+    "Compile job ID":"****049q5",
+    "Accuracy":3.595784187,
+    "Execution time (ms)":1.869
+  },
+  {
+    "Rank":284,
+    "Team":"Neural Nomads",
+    "Date and Time":"4\/28\/2026 20:43:46",
+    "Compile job ID":"****0wr15",
+    "Accuracy":2.913825274,
+    "Execution time (ms)":24.377
+  },
+  {
+    "Rank":285,
+    "Team":"Yala",
+    "Date and Time":"3\/26\/2026 12:12:21",
+    "Compile job ID":"****068x5",
+    "Accuracy":2.541847467,
+    "Execution time (ms)":14.352
+  },
+  {
+    "Rank":286,
+    "Team":"YALA",
+    "Date and Time":"3\/27\/2026 14:04:23",
+    "Compile job ID":"****068x5",
+    "Accuracy":2.541847467,
+    "Execution time (ms)":14.703
+  },
+  {
+    "Rank":287,
+    "Team":"Clown28",
+    "Date and Time":"3\/3\/2026 4:12:38",
+    "Compile job ID":"****lyyng",
+    "Accuracy":1.735895872,
+    "Execution time (ms)":10.529
+  },
+  {
+    "Rank":288,
+    "Team":"Neural Nomads",
+    "Date and Time":"4\/26\/2026 14:34:29",
+    "Compile job ID":"****lyz7p",
+    "Accuracy":1.735895872,
+    "Execution time (ms)":24.232
+  },
+  {
+    "Rank":289,
+    "Team":"Invidia",
+    "Date and Time":"4\/14\/2026 5:17:08",
+    "Compile job ID":"****l49rp",
+    "Accuracy":1.425914526,
+    "Execution time (ms)":22.37
+  },
+  {
+    "Rank":290,
+    "Team":"EffinityAI",
+    "Date and Time":"4\/22\/2026 22:11:49",
+    "Compile job ID":"****r407p",
+    "Accuracy":1.425914526,
+    "Execution time (ms)":28.553
+  },
+  {
+    "Rank":291,
+    "Team":"EffinityAI",
+    "Date and Time":"4\/22\/2026 22:12:29",
+    "Compile job ID":"****r407p",
+    "Accuracy":1.425914526,
+    "Execution time (ms)":28.816
+  },
+  {
+    "Rank":292,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/25\/2026 22:03:52",
+    "Compile job ID":"****kx025",
+    "Accuracy":1.301921844,
+    "Execution time (ms)":21.243
+  },
+  {
+    "Rank":293,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/22\/2026 14:31:17",
+    "Compile job ID":"****kx025",
+    "Accuracy":1.301921844,
+    "Execution time (ms)":21.245
+  },
+  {
+    "Rank":294,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/24\/2026 9:15:01",
+    "Compile job ID":"****kx025",
+    "Accuracy":1.301921844,
+    "Execution time (ms)":21.246
+  },
+  {
+    "Rank":295,
+    "Team":"ostfalia",
+    "Date and Time":"3\/12\/2026 13:55:23",
+    "Compile job ID":"****xvmjg",
+    "Accuracy":1.301921844,
+    "Execution time (ms)":21.699
+  },
+  {
+    "Rank":296,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/18\/2026 18:17:31",
+    "Compile job ID":"****003mg",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":2.19
+  },
+  {
+    "Rank":297,
+    "Team":"Kinetic-Edge Lab",
+    "Date and Time":"3\/26\/2026 23:03:30",
+    "Compile job ID":"****je04p",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":4.476
+  },
+  {
+    "Rank":298,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/29\/2026 21:14:52",
+    "Compile job ID":"****l3zep",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":4.783
+  },
+  {
+    "Rank":299,
+    "Team":"AcuityDynamics",
+    "Date and Time":"3\/25\/2026 1:40:18",
+    "Compile job ID":"****e1m0g",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":7.557
+  },
+  {
+    "Rank":300,
+    "Team":"Clown28",
+    "Date and Time":"3\/2\/2026 18:29:13",
+    "Compile job ID":"****k642g",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":10.363
+  },
+  {
+    "Rank":301,
+    "Team":"Z6",
+    "Date and Time":"3\/12\/2026 1:43:47",
+    "Compile job ID":"****xknrg",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":15.514
+  },
+  {
+    "Rank":302,
+    "Team":"AIDL Lab",
+    "Date and Time":"3\/30\/2026 10:01:35",
+    "Compile job ID":"****l6o1p",
+    "Accuracy":1.239925623,
+    "Execution time (ms)":22.758
+  },
+  {
+    "Rank":303,
+    "Team":"ostfalia",
+    "Date and Time":"3\/11\/2026 10:31:47",
+    "Compile job ID":"****qy80p",
+    "Accuracy":1.177929401,
+    "Execution time (ms)":1.945
+  },
+  {
+    "Rank":304,
+    "Team":"Z6",
+    "Date and Time":"3\/19\/2026 8:57:30",
+    "Compile job ID":"****202o5",
+    "Accuracy":1.177929401,
+    "Execution time (ms)":15.45
+  },
+  {
+    "Rank":305,
+    "Team":"Z6",
+    "Date and Time":"3\/18\/2026 22:12:20",
+    "Compile job ID":"****xwm65",
+    "Accuracy":1.177929401,
+    "Execution time (ms)":17.157
+  },
+  {
+    "Rank":306,
+    "Team":"Invidia",
+    "Date and Time":"4\/15\/2026 11:40:04",
+    "Compile job ID":"****oqv7p",
+    "Accuracy":1.177929401,
+    "Execution time (ms)":26.754
+  },
+  {
+    "Rank":307,
+    "Team":"EffinityAI",
+    "Date and Time":"4\/25\/2026 11:37:29",
+    "Compile job ID":"****q7z25",
+    "Accuracy":1.177929401,
+    "Execution time (ms)":27.147
+  },
+  {
+    "Rank":308,
+    "Team":"Invidia",
+    "Date and Time":"4\/19\/2026 13:46:03",
+    "Compile job ID":"****708x5",
+    "Accuracy":1.177929401,
+    "Execution time (ms)":28.313
+  },
+  {
+    "Rank":309,
+    "Team":"AcuityDynamics",
+    "Date and Time":"3\/26\/2026 10:03:54",
+    "Compile job ID":"****w880g",
+    "Accuracy":1.115933061,
+    "Execution time (ms)":7.845
+  },
+  {
+    "Rank":310,
+    "Team":"nyoriworks",
+    "Date and Time":"3\/16\/2026 0:48:13",
+    "Compile job ID":"****y31v5",
+    "Accuracy":1.115933061,
+    "Execution time (ms)":10.989
+  },
+  {
+    "Rank":311,
+    "Team":"nyoriworks",
+    "Date and Time":"3\/11\/2026 7:56:55",
+    "Compile job ID":"****qy16p",
+    "Accuracy":1.115933061,
+    "Execution time (ms)":11.308
+  },
+  {
+    "Rank":312,
+    "Team":"HDCLABS",
+    "Date and Time":"3\/22\/2026 20:38:53",
+    "Compile job ID":"****rvz0p",
+    "Accuracy":1.115933061,
+    "Execution time (ms)":27.575
+  },
+  {
+    "Rank":313,
+    "Team":"Z6",
+    "Date and Time":"3\/20\/2026 21:34:45",
+    "Compile job ID":"****0v4jp",
+    "Accuracy":1.05393672,
+    "Execution time (ms)":21.028
+  },
+  {
+    "Rank":314,
+    "Team":"ostfalia",
+    "Date and Time":"3\/9\/2026 5:33:13",
+    "Compile job ID":"****94v4p",
+    "Accuracy":0.9919404984,
+    "Execution time (ms)":21.515
+  },
+  {
+    "Rank":315,
+    "Team":"nyoriworks",
+    "Date and Time":"3\/5\/2026 8:38:12",
+    "Compile job ID":"****jn4o5",
+    "Accuracy":0.9299442172,
+    "Execution time (ms)":2.767
+  },
+  {
+    "Rank":316,
+    "Team":"RTX 5090",
+    "Date and Time":"4\/18\/2026 12:09:07",
+    "Compile job ID":"****9xky5",
+    "Accuracy":0.8679479361,
+    "Execution time (ms)":8.637
+  },
+  {
+    "Rank":317,
+    "Team":"RTX 5090",
+    "Date and Time":"4\/21\/2026 10:17:58",
+    "Compile job ID":"****q348g",
+    "Accuracy":0.8059516549,
+    "Execution time (ms)":9.124
+  },
+  {
+    "Rank":318,
+    "Team":"ostfalia",
+    "Date and Time":"3\/5\/2026 19:29:05",
+    "Compile job ID":"****kl4np",
+    "Accuracy":0.8059516549,
+    "Execution time (ms)":21.46
+  },
+  {
+    "Rank":319,
+    "Team":"ostfalia",
+    "Date and Time":"3\/6\/2026 11:13:34",
+    "Compile job ID":"****kl4np",
+    "Accuracy":0.8059516549,
+    "Execution time (ms)":21.587
+  },
+  {
+    "Rank":320,
+    "Team":"VTS-AI",
+    "Date and Time":"3\/11\/2026 22:40:42",
+    "Compile job ID":"****9kreg",
+    "Accuracy":0.7439553738,
+    "Execution time (ms)":21.635
+  },
+  {
+    "Rank":321,
+    "Team":"Novel Edge AI",
+    "Date and Time":"4\/25\/2026 16:31:55",
+    "Compile job ID":"****ewd4p",
+    "Accuracy":0.6819590926,
+    "Execution time (ms)":30.132
+  },
+  {
+    "Rank":322,
+    "Team":"VTS-AI",
+    "Date and Time":"3\/24\/2026 13:37:57",
+    "Compile job ID":"****0j3n5",
+    "Accuracy":0.6199628115,
+    "Execution time (ms)":21.763
+  },
+  {
+    "Rank":323,
+    "Team":"VTS-AI",
+    "Date and Time":"3\/23\/2026 4:30:31",
+    "Compile job ID":"****0j3n5",
+    "Accuracy":0.6199628115,
+    "Execution time (ms)":21.788
+  },
+  {
+    "Rank":324,
+    "Team":"EffinityAI",
+    "Date and Time":"4\/12\/2026 6:22:38",
+    "Compile job ID":"****l39eg",
+    "Accuracy":0.0,
+    "Execution time (ms)":11.774
+  }
+]
