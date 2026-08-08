@@ -93,6 +93,31 @@ export default function Header() {
               </li> */}
               <li
                 className="menu-has-children"
+                onMouseEnter={() => handleMouseEnter("Open Submission")}
+                onMouseLeave={() => handleMouseLeave("Open Submission")}
+              >
+                <a href="/2026LPCVC/submission/track1">
+                  Open Submission{" "}
+                  <i
+                    className={`fa ${expandedMenus["Open Submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
+                  ></i>
+                </a>
+                <ul
+                  style={{ display: expandedMenus["Open Submission"] ? "block" : "none" }}
+                >
+                  <li>
+                    <a href="/2026LPCVC/submission/track1">Track 1</a>
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/submission/track2">Track 2</a>
+                  </li>
+                  <li>
+                    <a href="/2026LPCVC/submission/track3">Track 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                className="menu-has-children"
                 onMouseEnter={() => handleMouseEnter("leaderboard")}
                 onMouseLeave={() => handleMouseLeave("leaderboard")}
               >
@@ -225,9 +250,6 @@ export default function Header() {
               </li>
               <li>
                 <a href="/2026LPCVC/winners">Winners</a>
-              </li>
-              <li>
-                <a href="/2026LPCVC/submission/track1">Open Submission</a>
               </li>
               {/* <li>
                 <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
