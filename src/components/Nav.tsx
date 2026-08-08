@@ -169,9 +169,9 @@ export default function Header() {
                     {" "}
                     <a href="/2026LPCVC/winners">Winners</a>{" "}
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/2026LPCVC/submission/track1">Open Submission</a>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <a>Track info to be released</a>
                   </li> */}
