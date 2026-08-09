@@ -9,11 +9,10 @@ export async function getStaticPaths() {
   ];
 }
 
-type TrackKey = "track1" | "track2" | "track3";
-const track = Astro.params.track as TrackKey;
+const { track } = Astro.params as { track: "track1" | "track2" | "track3" };
 
 // Titles for the header
-const trackTitles: Record<TrackKey, string> = {
+const trackTitles = {
   track1: "Track 1: Image-to-Text Retrieval",
   track2: "Track 2: Action Recognition in Video",
   track3: "Track 3: AI Generated Image Detection",
@@ -52,23 +51,20 @@ const formId = trackFormIds[track];
           </h4>
         </header>
 
-        <div
-  class="card mx-auto"
-  style="margin-top: 20px; max-width: 900px;"
->
-  <iframe
-    src={`https://docs.google.com/forms/d/e/${formId}/viewform?embedded=true`}
-    style="
-      display: block;
-      width: 100%;
-      height: 1000px;
-      border: none;
-    "
-    title={trackTitles[track]}
-  >
-    Loading form…
-  </iframe>
-</div>
+        <div class="track-form" style="margin-top: 20px;">
+          <div style="display: flex; justify-content: center;">
+            <iframe
+              src={`https://docs.google.com/forms/d/e/${formId}/viewform?embedded=true`}
+              width="100%"
+              height="1000"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Loading form…
+            </iframe>
+          </div>
+        </div>
 
         <div class="pb-4"></div>
       </div>

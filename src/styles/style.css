@@ -280,7 +280,7 @@ main {
 
 #intro p {
   width: 80%;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 0 auto;
   color: #fff;
 }
 
@@ -1009,12 +1009,11 @@ Scoreboard
 }
 
 #newsletter .container .section-header {
-  padding: 20px 0 !important;
+  padding: 20px 0 0 0 !important;
 }
 
 #newsletter .form-container {
   text-align: center;
-  margin-top: 20px;
 }
 
 #newsletter .form-container iframe {
