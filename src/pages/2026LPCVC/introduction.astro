@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import CompTrack from "../../components/CompTrack.astro";
+import rawHtml from '../../content/2026_tracks/introduction.html?raw';
 ---
 
 <Layout>
@@ -14,11 +14,11 @@ import CompTrack from "../../components/CompTrack.astro";
           <h4 class="p-0"><strong>Introduction</strong></h4>
         </header>
 
-        <!-- CompTrack handles only the iframe -->
-        <CompTrack
-          header="Introduction"
-          url="2PACX-1vTL2lAqDdNVlPAfH2zJY--nfMVTEwXCEQcv_zp0b1AZXYLSxPc5QxdclLkYi4LMHGwA2UbxMM2nakyR"
-        />
+        <div class="card mx-auto" style="max-width: 900px;">
+          <div class="card-body">
+            <div class="track-content" set:html={rawHtml}></div>
+          </div>
+        </div>
 
         <div class="pb-4"></div>
       </div>

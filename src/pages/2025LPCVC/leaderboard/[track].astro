@@ -10,7 +10,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const { track } = Astro.params;
+const { track } = Astro.params as { track: "track1" | "track2" | "track3" };
 
 const qualifiedLeaderboardUrls = {
   track1: "https://szz1-track1lb.hf.space",

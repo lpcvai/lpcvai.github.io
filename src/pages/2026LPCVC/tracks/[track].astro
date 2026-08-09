@@ -1,6 +1,5 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
-import CompTrack from "../../../components/CompTrack.astro";
 
 export async function getStaticPaths() {
   return [
@@ -10,7 +9,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const { track } = Astro.params;
+const { track } = Astro.params as { track: "track1" | "track2" | "track3" };
 
 // Track titles
 const trackTitles = {
@@ -19,12 +18,13 @@ const trackTitles = {
   track3: "AI Generated Image Detection",
 };
 
-// Track Google Doc URLs
-const trackUrls = {
-  track1: "2PACX-1vRHFlB59dTbGg92lP8tIdEj7LDh9GYHjR5B64gIvazzjyM7Y6yBMyhQAt2CrZFr-ReaVk_7KeyKW-cF",
-  track2: "2PACX-1vSRIkfvXjLejHk1KO__UgHNax9r-ctUmE3_XaDBxplJmfAzykxfGBJhbVpNiMHUVW211M3rDacUm6OJ",
-  track3: "2PACX-1vTAoI8Bifg_8E2bEtsiK-Gqi6rHsYjXgESHl2UJ0WWjAzNe403QQ9mgWEdNRkyIEoR6-_IHe3fMP6C_",
-};
+const trackFiles = import.meta.glob('../../../content/2026_tracks/*.html', {
+  as: 'raw',
+  eager: true,
+});
+
+const htmlPath = `../../../content/2026_tracks/${track}.html`;
+const htmlContent = trackFiles[htmlPath] ?? `<p>Track content not available.</p>`;
 ---
 
 <Layout>
@@ -36,7 +36,7 @@ const trackUrls = {
           <h3>2026 IEEE LOW-POWER COMPUTER VISION CHALLENGE</h3>
 
           <!-- Track dropdown -->
-          <h4 class="p-0">
+          <h4 class="track-title">
             <select
               onchange={`location.replace("/2026LPCVC/tracks/"+this.value);`}
             >
@@ -48,11 +48,11 @@ const trackUrls = {
           </h4>
         </header>
 
-        <!-- CompTrack handles only the iframe -->
-        <CompTrack
-          header={trackTitles[track]}
-          url={trackUrls[track]}
-        />
+        <div class="card mx-auto" style="max-width: 900px;">
+          <div class="card-body">
+            <div class="track-content" set:html={htmlContent}></div>
+          </div>
+        </div>
 
         <div class="pb-4"></div>
       </div>

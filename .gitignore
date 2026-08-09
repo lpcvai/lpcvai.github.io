@@ -3,3 +3,11 @@ dist/
 
 .DS_Store
 node_modules
+
+# Ignore pngs generated from Google Docs on build
+public/img/25track_info
+public/img/26track_info
+
+# Ignore html files generated from Google Docs on build
+src/content/2025_tracks
+src/content/2026_tracks
