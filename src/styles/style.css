@@ -852,7 +852,7 @@ Scoreboard
 /* 2021 CVPR Section
 --------------------------------*/
 #cvpr2021 {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("/img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -885,7 +885,7 @@ Scoreboard
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("/img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -1150,7 +1150,7 @@ Scoreboard
 --------------------------------*/
 
 #accounts-tag {
-  background: url("../img/purdue-bg2.jpg") center top no-repeat fixed;
+  background: url("/img/purdue-bg2.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 60px 0;
   position: relative;
@@ -1508,7 +1508,7 @@ Scoreboard
 --------------------------------*/
 
 #team {
-  background: url("../img/purdue-bg4.jpg") center top no-repeat fixed;
+  background: url("/img/purdue-bg4.jpg") center top no-repeat fixed;
   background-size: cover;
   position: relative;
   /* background: #fff; */
