@@ -16,8 +16,8 @@ import Footer from "../components/Footer.astro";
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSF8E51JX3"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      function gtag(...args: any[]){ (window as any).dataLayer.push(arguments); }
       gtag('js', new Date());
 
       gtag('config', 'G-LSF8E51JX3');
