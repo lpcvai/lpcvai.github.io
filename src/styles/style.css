@@ -981,7 +981,7 @@ Scoreboard
 /* Newsletter
 --------------------------------*/
 #newsletter {
-  background: url("/img/purdue-bg1.jpg") center top no-repeat;
+  background: url("/img/about-bg.jpg") center top no-repeat;
   background-size: cover;
   padding: 80px 0;
   position: relative;
@@ -1078,7 +1078,7 @@ Scoreboard
 #call-to-action {
   background:
     linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/img/purdue-bg1.jpg") fixed center center;
+    url("/img/about-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1196,7 +1196,7 @@ Scoreboard
 --------------------------------*/
 
 #facts {
-  background: url("/img/purdue-bg1.jpg") center top no-repeat fixed;
+  background: url("/img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
